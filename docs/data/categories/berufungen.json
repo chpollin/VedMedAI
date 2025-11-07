@@ -1,0 +1,290 @@
+{
+  "gesamt": {
+    "UA": {
+      "Gesamt": {
+        "Frauen": 11.0,
+        "Männer": 17.0,
+        "Gesamt": 28.0,
+        "Frauen.1": 11.0,
+        "Männer.1": 13.0,
+        "Gesamt.1": 24.0,
+        "Frauen.2": 24.0,
+        "Männer.2": 28.0,
+        "Gesamt.2": 52.0
+      }
+    },
+    "UB": {
+      "Gesamt": {
+        "Frauen": 14.0,
+        "Männer": 16.0,
+        "Gesamt": 30.0,
+        "Frauen.1": 10.0,
+        "Männer.1": 9.0,
+        "Gesamt.1": 19.0,
+        "Frauen.2": 11.0,
+        "Männer.2": 9.0,
+        "Gesamt.2": 20.0
+      }
+    },
+    "UC": {
+      "Gesamt": {
+        "Frauen": 9.0,
+        "Männer": 7.0,
+        "Gesamt": 16.0,
+        "Frauen.1": 9.0,
+        "Männer.1": 9.0,
+        "Gesamt.1": 18.0,
+        "Frauen.2": 12.0,
+        "Männer.2": 13.0,
+        "Gesamt.2": 25.0
+      }
+    },
+    "UN": {
+      "Gesamt": {
+        "Frauen": 4.0,
+        "Männer": 14.0,
+        "Gesamt": 18.0,
+        "Frauen.1": 5.0,
+        "Männer.1": 12.0,
+        "Gesamt.1": 17.0,
+        "Frauen.2": 6.0,
+        "Männer.2": 3.0,
+        "Gesamt.2": 9.0
+      }
+    },
+    "UO": {
+      "Gesamt": {
+        "Frauen": 3.0,
+        "Männer": 8.0,
+        "Gesamt": 10.999999999999998,
+        "Frauen.1": 5.0,
+        "Männer.1": 4.0,
+        "Gesamt.1": 9.0,
+        "Frauen.2": 3.0,
+        "Männer.2": 4.0,
+        "Gesamt.2": 7.0
+      }
+    },
+    "UQ": {
+      "Gesamt": {
+        "Frauen": 6.0,
+        "Männer": 6.0,
+        "Gesamt": 12.0,
+        "Frauen.1": 5.0,
+        "Männer.1": 9.0,
+        "Gesamt.1": 14.0,
+        "Frauen.2": 4.0,
+        "Männer.2": 6.0,
+        "Gesamt.2": 10.0
+      }
+    },
+    "UD": {
+      "Gesamt": {
+        "Frauen": 7.0,
+        "Männer": 8.0,
+        "Gesamt": 15.0,
+        "Frauen.1": 4.0,
+        "Männer.1": 8.0,
+        "Gesamt.1": 12.0,
+        "Frauen.2": 3.0,
+        "Männer.2": 2.0,
+        "Gesamt.2": 5.0
+      }
+    },
+    "UE": {
+      "Gesamt": {
+        "Frauen": 3.0,
+        "Männer": 11.999999999999998,
+        "Gesamt": 14.999999999999998,
+        "Frauen.1": 3.0,
+        "Männer.1": 19.000000000000004,
+        "Gesamt.1": 22.0,
+        "Frauen.2": 3.9999999999999996,
+        "Männer.2": 14.000000000000002,
+        "Gesamt.2": 18.0
+      }
+    },
+    "UF": {
+      "Gesamt": {
+        "Frauen": 1.0,
+        "Männer": 9.999999999999998,
+        "Gesamt": 10.999999999999998,
+        "Frauen.1": 2.0,
+        "Männer.1": 12.000000000000002,
+        "Gesamt.1": 14.000000000000002,
+        "Frauen.2": 1.0,
+        "Männer.2": 4.0,
+        "Gesamt.2": 5.0
+      }
+    },
+    "UG": {
+      "Gesamt": {
+        "Frauen": 0.0,
+        "Männer": 2.0,
+        "Gesamt": 2.0,
+        "Frauen.1": 1.0,
+        "Männer.1": 5.0,
+        "Gesamt.1": 5.999999999999999,
+        "Frauen.2": 0.0,
+        "Männer.2": 7.0,
+        "Gesamt.2": 7.0
+      }
+    },
+    "UH": {
+      "Gesamt": {
+        "Frauen": 0.9999999999999999,
+        "Männer": 2.0,
+        "Gesamt": 3.0,
+        "Frauen.1": 0.0,
+        "Männer.1": 1.0,
+        "Gesamt.1": 1.0,
+        "Frauen.2": 1.0,
+        "Männer.2": 6.0,
+        "Gesamt.2": 7.0
+      }
+    },
+    "UI": {
+      "Gesamt": {
+        "Frauen": 4.0,
+        "Männer": 1.0,
+        "Gesamt": 5.0,
+        "Frauen.1": 3.0000000000000004,
+        "Männer.1": 1.0,
+        "Gesamt.1": 4.0,
+        "Frauen.2": 2.0,
+        "Männer.2": 2.0,
+        "Gesamt.2": 4.0
+      }
+    },
+    "UJ": {
+      "Gesamt": {
+        "Frauen": 1.0,
+        "Männer": 1.0,
+        "Gesamt": 2.0,
+        "Frauen.1": 5.0,
+        "Männer.1": 7.0,
+        "Gesamt.1": 12.0,
+        "Frauen.2": 3.0,
+        "Männer.2": 4.0,
+        "Gesamt.2": 7.0
+      }
+    },
+    "UK": {
+      "Gesamt": {
+        "Frauen": 6.0,
+        "Männer": 9.0,
+        "Gesamt": 15.0,
+        "Frauen.1": 3.0,
+        "Männer.1": 12.0,
+        "Gesamt.1": 15.0,
+        "Frauen.2": 3.0,
+        "Männer.2": 8.0,
+        "Gesamt.2": 11.0
+      }
+    },
+    "UL": {
+      "Gesamt": {
+        "Frauen": 4.0,
+        "Männer": 4.0,
+        "Gesamt": 8.0,
+        "Frauen.1": 1.0,
+        "Männer.1": 3.0,
+        "Gesamt.1": 4.0,
+        "Frauen.2": 2.0,
+        "Männer.2": 4.0,
+        "Gesamt.2": 6.0
+      }
+    },
+    "US": {
+      "Gesamt": {
+        "Frauen": 3.5,
+        "Männer": 1.5,
+        "Gesamt": 5.0,
+        "Frauen.1": 5.5,
+        "Männer.1": 3.5,
+        "Gesamt.1": 9.0,
+        "Frauen.2": 1.0,
+        "Männer.2": 0.0,
+        "Gesamt.2": 1.0
+      }
+    },
+    "UT": {
+      "Gesamt": {
+        "Frauen": 7.999999999999999,
+        "Männer": 8.999999999999998,
+        "Gesamt": 17.0,
+        "Frauen.1": 12.999999999999996,
+        "Männer.1": 9.0,
+        "Gesamt.1": 22.000000000000007,
+        "Frauen.2": 9.0,
+        "Männer.2": 13.0,
+        "Gesamt.2": 22.000000000000004
+      }
+    },
+    "UU": {
+      "Gesamt": {
+        "Frauen": 9.0,
+        "Männer": 5.0,
+        "Gesamt": 14.0,
+        "Frauen.1": 3.0,
+        "Männer.1": 3.0,
+        "Gesamt.1": 6.0,
+        "Frauen.2": 3.0,
+        "Männer.2": 3.0,
+        "Gesamt.2": 6.0
+      }
+    },
+    "UV": {
+      "Gesamt": {
+        "Frauen": 1.0,
+        "Männer": 12.0,
+        "Gesamt": 13.0,
+        "Frauen.1": 6.0,
+        "Männer.1": 6.0,
+        "Gesamt.1": 12.0,
+        "Frauen.2": 5.0,
+        "Männer.2": 6.0,
+        "Gesamt.2": 11.0
+      }
+    },
+    "UW": {
+      "Gesamt": {
+        "Frauen": 4.0,
+        "Männer": 1.0,
+        "Gesamt": 5.0,
+        "Frauen.1": 3.5,
+        "Männer.1": 1.5,
+        "Gesamt.1": 5.0,
+        "Frauen.2": 2.0,
+        "Männer.2": 6.0,
+        "Gesamt.2": 8.0
+      }
+    },
+    "UR": {
+      "Gesamt": {
+        "Frauen": 2.5,
+        "Männer": 3.5,
+        "Gesamt": 6.0,
+        "Frauen.1": 3.0,
+        "Männer.1": 5.0,
+        "Gesamt.1": 8.0,
+        "Frauen.2": 5.0,
+        "Männer.2": 2.0,
+        "Gesamt.2": 7.0
+      }
+    },
+    "UM": {
+      "Gesamt": {
+        "Frauen": 0.0,
+        "Männer": 1.0,
+        "Gesamt": 1.0,
+        "Frauen.1": 2.0,
+        "Männer.1": 1.0,
+        "Gesamt.1": 3.0,
+        "Frauen.2": 0.0,
+        "Männer.2": 3.0,
+        "Gesamt.2": 3.0
+      }
+    }
+  }
+}

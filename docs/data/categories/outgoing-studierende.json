@@ -1,0 +1,277 @@
+{
+  "gesamt": {
+    "UA": {
+      "Gesamt": {
+        "EU": 1191.0,
+        "Drittstaaten": 398.0,
+        "Gesamt": 1589.0,
+        "EU.1": 1290.0,
+        "Drittstaaten.1": 445.0,
+        "Gesamt.1": 1735.0,
+        "EU.2": 2396.0,
+        "Drittstaaten.2": 770.0,
+        "Gesamt.2": 3166.0
+      }
+    },
+    "UB": {
+      "Gesamt": {
+        "EU": 364.0,
+        "Drittstaaten": 180.0,
+        "Gesamt": 544.0,
+        "EU.1": 374.0,
+        "Drittstaaten.1": 223.0,
+        "Gesamt.1": 597.0,
+        "EU.2": 346.0,
+        "Drittstaaten.2": 190.0,
+        "Gesamt.2": 536.0
+      }
+    },
+    "UC": {
+      "Gesamt": {
+        "EU": 352.0,
+        "Drittstaaten": 197.0,
+        "Gesamt": 549.0,
+        "EU.1": 411.0,
+        "Drittstaaten.1": 198.0,
+        "Gesamt.1": 609.0,
+        "EU.2": 366.0,
+        "Drittstaaten.2": 126.0,
+        "Gesamt.2": 492.0
+      }
+    },
+    "UN": {
+      "Gesamt": {
+        "EU": 403.0,
+        "Drittstaaten": 250.0,
+        "Gesamt": 653.0,
+        "EU.1": 449.0,
+        "Drittstaaten.1": 235.0,
+        "Gesamt.1": 684.0,
+        "EU.2": 432.0,
+        "Drittstaaten.2": 208.0,
+        "Gesamt.2": 640.0
+      }
+    },
+    "UO": {
+      "Gesamt": {
+        "EU": 247.0,
+        "Drittstaaten": 220.0,
+        "Gesamt": 467.0,
+        "EU.1": 146.0,
+        "Drittstaaten.1": 169.0,
+        "Gesamt.1": 315.0,
+        "EU.2": 102.0,
+        "Drittstaaten.2": 70.0,
+        "Gesamt.2": 172.0
+      }
+    },
+    "UQ": {
+      "Gesamt": {
+        "EU": 89.0,
+        "Drittstaaten": 54.0,
+        "Gesamt": 143.0,
+        "EU.1": 70.0,
+        "Drittstaaten.1": 72.0,
+        "Gesamt.1": 142.0,
+        "EU.2": 106.0,
+        "Drittstaaten.2": 11.0,
+        "Gesamt.2": 117.0
+      }
+    },
+    "UD": {
+      "Gesamt": {
+        "EU": 185.0,
+        "Drittstaaten": 81.0,
+        "Gesamt": 266.0,
+        "EU.1": 245.0,
+        "Drittstaaten.1": 111.0,
+        "Gesamt.1": 356.0,
+        "EU.2": 305.0,
+        "Drittstaaten.2": 98.0,
+        "Gesamt.2": 403.0
+      }
+    },
+    "UE": {
+      "Gesamt": {
+        "EU": 310.0,
+        "Drittstaaten": 113.0,
+        "Gesamt": 423.0,
+        "EU.1": 262.0,
+        "Drittstaaten.1": 108.0,
+        "Gesamt.1": 370.0,
+        "EU.2": 235.0,
+        "Drittstaaten.2": 89.0,
+        "Gesamt.2": 324.0
+      }
+    },
+    "UF": {
+      "Gesamt": {
+        "EU": 174.0,
+        "Drittstaaten": 153.0,
+        "Gesamt": 327.0,
+        "EU.1": 125.0,
+        "Drittstaaten.1": 120.0,
+        "Gesamt.1": 245.0,
+        "EU.2": 124.0,
+        "Drittstaaten.2": 86.0,
+        "Gesamt.2": 210.0
+      }
+    },
+    "UG": {
+      "Gesamt": {
+        "EU": 156.0,
+        "Drittstaaten": 25.0,
+        "Gesamt": 181.0,
+        "EU.1": 103.0,
+        "Drittstaaten.1": 58.0,
+        "Gesamt.1": 161.0,
+        "EU.2": 119.0,
+        "Drittstaaten.2": 77.0,
+        "Gesamt.2": 196.0
+      }
+    },
+    "UH": {
+      "Gesamt": {
+        "EU": 156.0,
+        "Drittstaaten": 38.0,
+        "Gesamt": 194.0,
+        "EU.1": 152.0,
+        "Drittstaaten.1": 45.0,
+        "Gesamt.1": 197.0,
+        "EU.2": 154.0,
+        "Drittstaaten.2": 46.0,
+        "Gesamt.2": 200.0
+      }
+    },
+    "UI": {
+      "Gesamt": {
+        "EU": 140.0,
+        "Drittstaaten": 94.0,
+        "Gesamt": 234.0,
+        "EU.1": 134.0,
+        "Drittstaaten.1": 84.0,
+        "Gesamt.1": 218.0,
+        "EU.2": 128.0,
+        "Drittstaaten.2": 74.0,
+        "Gesamt.2": 202.0
+      }
+    },
+    "UJ": {
+      "Gesamt": {
+        "EU": 512.0,
+        "Drittstaaten": 545.0,
+        "Gesamt": 1057.0,
+        "EU.1": 457.0,
+        "Drittstaaten.1": 578.0,
+        "Gesamt.1": 1035.0,
+        "EU.2": 449.0,
+        "Drittstaaten.2": 468.0,
+        "Gesamt.2": 917.0
+      }
+    },
+    "UK": {
+      "Gesamt": {
+        "EU": 388.0,
+        "Drittstaaten": 242.0,
+        "Gesamt": 630.0,
+        "EU.1": 311.0,
+        "Drittstaaten.1": 237.0,
+        "Gesamt.1": 548.0,
+        "EU.2": 288.0,
+        "Drittstaaten.2": 205.0,
+        "Gesamt.2": 493.0
+      }
+    },
+    "UL": {
+      "Gesamt": {
+        "EU": 108.0,
+        "Drittstaaten": 51.0,
+        "Gesamt": 159.0,
+        "EU.1": 111.0,
+        "Drittstaaten.1": 59.0,
+        "Gesamt.1": 170.0,
+        "EU.2": 126.0,
+        "Drittstaaten.2": 50.0,
+        "Gesamt.2": 176.0
+      }
+    },
+    "US": {
+      "Gesamt": {
+        "EU": 75.0,
+        "Drittstaaten": 43.0,
+        "Gesamt": 118.0,
+        "EU.1": 85.0,
+        "Drittstaaten.1": 66.0,
+        "Gesamt.1": 151.0,
+        "EU.2": 80.0,
+        "Drittstaaten.2": 31.0,
+        "Gesamt.2": 111.0
+      }
+    },
+    "UT": {
+      "Gesamt": {
+        "EU": 44.0,
+        "Drittstaaten": 8.0,
+        "Gesamt": 52.0,
+        "EU.1": 30.0,
+        "Drittstaaten.1": 8.0,
+        "Gesamt.1": 38.0,
+        "EU.2": 31.0,
+        "Drittstaaten.2": 0.0,
+        "Gesamt.2": 31.0
+      }
+    },
+    "UU": {
+      "Gesamt": {
+        "EU": 28.0,
+        "Drittstaaten": 7.0,
+        "Gesamt": 35.0,
+        "EU.1": 27.0,
+        "Drittstaaten.1": 9.0,
+        "Gesamt.1": 36.0,
+        "EU.2": 26.0,
+        "Drittstaaten.2": 5.0,
+        "Gesamt.2": 31.0
+      }
+    },
+    "UV": {
+      "Gesamt": {
+        "EU": 37.0,
+        "Drittstaaten": 2.0,
+        "Gesamt": 39.0,
+        "EU.1": 24.0,
+        "Drittstaaten.1": 4.0,
+        "Gesamt.1": 28.0,
+        "EU.2": 27.0,
+        "Drittstaaten.2": 5.0,
+        "Gesamt.2": 32.0
+      }
+    },
+    "UW": {
+      "Gesamt": {
+        "EU": 54.0,
+        "Drittstaaten": 8.0,
+        "Gesamt": 62.0,
+        "EU.1": 50.0,
+        "Drittstaaten.1": 21.0,
+        "Gesamt.1": 71.0,
+        "EU.2": 48.0,
+        "Drittstaaten.2": 9.0,
+        "Gesamt.2": 57.0
+      }
+    },
+    "UR": {
+      "Gesamt": {
+        "EU": 76.0,
+        "Drittstaaten": 24.0,
+        "Gesamt": 100.0,
+        "EU.1": 110.0,
+        "Drittstaaten.1": 19.0,
+        "Gesamt.1": 129.0,
+        "EU.2": 74.0,
+        "Drittstaaten.2": 13.0,
+        "Gesamt.2": 87.0
+      }
+    }
+  }
+}

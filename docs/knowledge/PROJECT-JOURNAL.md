@@ -362,3 +362,65 @@ Status:
 - Category Switch: Lazy Load + Sparkline-Neuberechnung
 
 Commit: 5 Dateien, 675 Zeilen hinzugefügt, 34 Zeilen gelöscht
+
+## 2025-11-07 Session 10
+
+Neue Wissensbilanz-Kennzahlen Phase 1: 12 Standard-Dateien implementiert
+
+Aufgabe:
+- 15 neue Excel-Dateien analysiert (Session 9)
+- Parsing-Strategie definiert: 12 Standard, 2 Spezial, 3 Komplex
+- Phase 1: 12 Standard-Dateien mit read_wissensbilanz_file implementieren
+
+Implementierung:
+- Neue Parsing-Funktion read_wissensbilanz_file erstellt
+- Header-Detection: "Universität" in Spalte 0 + "Codex" in Spalte 1 (Zeile 17-30)
+- Struktur: Universitätscode in Spalte 1, Daten ab Spalte 3
+- Kategorie: Alle Werte unter "Gesamt" zusammengefasst
+- extract_university_code: Bestehende Funktion wiederverwendet
+
+12 extract_* Funktionen hinzugefügt:
+- extract_berufungen (1-A-2)
+- extract_frauenquote_kollegialorgane (1-A-3)
+- extract_gender_pay_gap (1-A-4)
+- extract_professorinnen_aequivalente (2-A-1)
+- extract_eingerichtete_studien (2-A-2)
+- extract_besondere_zulassungsbedingungen (2-A-4)
+- extract_belegte_ordentliche_studien (2-A-7)
+- extract_outgoing_studierende (2-A-8)
+- extract_incoming_studierende (2-A-9)
+- extract_doktoratsstudierende (2-B-1)
+- extract_ausserordentliche_abschluesse (3-A-1)
+- extract_ordentliche_abschluesse (3-A-1)
+
+JSON-Dateien generiert:
+- berufungen.json (6,0 KB: Frauen/Männer/Gesamt 2022-2024)
+- frauenquote-kollegialorgane.json (14 KB: 2024)
+- gender-pay-gap.json (16 KB: 2022-2024)
+- professorinnen-aequivalente.json (3,7 KB: 2022-2024)
+- eingerichtete-studien.json (2,3 KB: 2022-2024)
+- besondere-zulassungsbedingungen.json (6,0 KB: 2022-2024)
+- belegte-ordentliche-studien.json (4,6 KB: 2022-2024)
+- outgoing-studierende.json (5,6 KB: 2022-2023)
+- incoming-studierende.json (5,7 KB: 2022-2023)
+- doktoratsstudierende.json (6,0 KB: 2022-2024)
+- ausserordentliche-abschluesse.json (2 B: leer)
+- ordentliche-abschluesse.json (3,2 KB: 2022-2024)
+
+Dokumentation aktualisiert:
+- DATA.md: Parsing-Strategien erweitert (Standard/Spezial/Komplex)
+- DATA.md: Implementierungsstrategie mit Zeitschätzungen
+- pre-processing/README.md: 12 neue JSON-Dateien dokumentiert
+
+Dateien:
+- pre-processing/extract_to_json.py (895 Zeilen, +311 Zeilen)
+- docs/data/categories/ (+12 Dateien, 54 KB Gesamt)
+- docs/knowledge/DATA.md (689 Zeilen, +45 Zeilen)
+- pre-processing/README.md (122 Zeilen, +14 Zeilen)
+
+Status:
+- Phase 1 abgeschlossen: 12 Standard-Dateien funktional
+- 19 JSON-Kategorien gesamt (7 Basis + 12 neu)
+- Phase 2 offen: 2 Spezial-Dateien (1-A-5, 2-A-7 Lehrgänge)
+- Phase 3 offen: 3 Komplexe Dateien (2-A-3, 2-A-5, 2-A-6)
+- Nicht analysiert: 2 Dateien (3-A-2, 3-A-3)

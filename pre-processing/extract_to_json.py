@@ -303,6 +303,50 @@ def extract_studierende():
     print("categories/studierende.json erstellt")
 
 
+def read_wissensbilanz_file(file_path):
+    """Liest neue Wissensbilanz-Excel-Dateien (Format: Universität in Spalte 0, Code in Spalte 1)"""
+    try:
+        df_raw = pd.read_excel(file_path, sheet_name="Tab", header=None)
+
+        header_row = None
+        for i in range(min(30, len(df_raw))):
+            cell0 = str(df_raw.iloc[i, 0]) if pd.notna(df_raw.iloc[i, 0]) else ""
+            cell1 = str(df_raw.iloc[i, 1]) if pd.notna(df_raw.iloc[i, 1]) else ""
+            if "Universität" in cell0 and "Codex" in cell1:
+                header_row = i
+                break
+
+        if header_row is None:
+            return {}
+
+        df = pd.read_excel(file_path, sheet_name="Tab", header=header_row)
+
+        result = {}
+
+        for idx, row in df.iterrows():
+            uni_code = extract_university_code(row.iloc[1] if len(row) > 1 else None)
+
+            if uni_code:
+                if uni_code not in result:
+                    result[uni_code] = {}
+
+                for col_idx in range(3, len(row)):
+                    val = row.iloc[col_idx]
+                    col_name = str(df.columns[col_idx])
+
+                    if pd.notna(val) and isinstance(val, (int, float)):
+                        if "Gesamt" not in result[uni_code]:
+                            result[uni_code]["Gesamt"] = {}
+                        result[uni_code]["Gesamt"][col_name] = float(val)
+
+        return result
+    except Exception as e:
+        print(f"Fehler bei {file_path.name}: {e}")
+        import traceback
+        traceback.print_exc()
+        return {}
+
+
 def read_infrastruktur_file(file_path):
     """Liest Nutzfläche-Excel mit Universitätsnamen und Jahr-Spalten"""
     try:
@@ -632,6 +676,234 @@ def extract_infrastruktur():
     print("categories/infrastruktur.json erstellt")
 
 
+def extract_berufungen():
+    """Extrahiert Berufungen-Daten"""
+    data = {}
+
+    berufungen = data_folder / "1-A-2 Berufungen an die Universität.xlsx"
+    if berufungen.exists():
+        berufungen_data = read_wissensbilanz_file(berufungen)
+        if berufungen_data:
+            data["gesamt"] = berufungen_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "berufungen.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/berufungen.json erstellt")
+
+
+def extract_frauenquote_kollegialorgane():
+    """Extrahiert Frauenquote in Kollegialorganen"""
+    data = {}
+
+    frauenquote = data_folder / "1-A-3 Frauenquote in Kollegialorganen.xlsx"
+    if frauenquote.exists():
+        frauenquote_data = read_wissensbilanz_file(frauenquote)
+        if frauenquote_data:
+            data["gesamt"] = frauenquote_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "frauenquote-kollegialorgane.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/frauenquote-kollegialorgane.json erstellt")
+
+
+def extract_gender_pay_gap():
+    """Extrahiert Gender pay gap Daten"""
+    data = {}
+
+    gpg = data_folder / "1-A-4 Gender pay gap.xlsx"
+    if gpg.exists():
+        gpg_data = read_wissensbilanz_file(gpg)
+        if gpg_data:
+            data["gesamt"] = gpg_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "gender-pay-gap.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/gender-pay-gap.json erstellt")
+
+
+def extract_professorinnen_aequivalente():
+    """Extrahiert ProfessorInnen und Äquivalente"""
+    data = {}
+
+    prof = data_folder / "2-A-1 ProfessorInnen und Äquivalente.xlsx"
+    if prof.exists():
+        prof_data = read_wissensbilanz_file(prof)
+        if prof_data:
+            data["gesamt"] = prof_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "professorinnen-aequivalente.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/professorinnen-aequivalente.json erstellt")
+
+
+def extract_eingerichtete_studien():
+    """Extrahiert Eingerichtete Studien"""
+    data = {}
+
+    studien = data_folder / "2-A-2 Eingerichtete Studien.xlsx"
+    if studien.exists():
+        studien_data = read_wissensbilanz_file(studien)
+        if studien_data:
+            data["gesamt"] = studien_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "eingerichtete-studien.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/eingerichtete-studien.json erstellt")
+
+
+def extract_besondere_zulassungsbedingungen():
+    """Extrahiert Besondere Zulassungsbedingungen"""
+    data = {}
+
+    zulassung = data_folder / "2-A-4 Besondere Zulassungsbedingungen.xlsx"
+    if zulassung.exists():
+        zulassung_data = read_wissensbilanz_file(zulassung)
+        if zulassung_data:
+            data["gesamt"] = zulassung_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "besondere-zulassungsbedingungen.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/besondere-zulassungsbedingungen.json erstellt")
+
+
+def extract_belegte_ordentliche_studien():
+    """Extrahiert Belegte ordentliche Studien"""
+    data = {}
+
+    studien = data_folder / "2-A-7 Anzahl belegte ordentliche Studien.xlsx"
+    if studien.exists():
+        studien_data = read_wissensbilanz_file(studien)
+        if studien_data:
+            data["gesamt"] = studien_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "belegte-ordentliche-studien.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/belegte-ordentliche-studien.json erstellt")
+
+
+def extract_outgoing_studierende():
+    """Extrahiert Ordentliche Studierende (outgoing)"""
+    data = {}
+
+    outgoing = data_folder / "2-A-8 Ordentliche Studierende (outgoing).xlsx"
+    if outgoing.exists():
+        outgoing_data = read_wissensbilanz_file(outgoing)
+        if outgoing_data:
+            data["gesamt"] = outgoing_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "outgoing-studierende.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/outgoing-studierende.json erstellt")
+
+
+def extract_incoming_studierende():
+    """Extrahiert Ordentliche Studierende (incoming)"""
+    data = {}
+
+    incoming = data_folder / "2-A-9 Ordentliche Studierende (incoming).xlsx"
+    if incoming.exists():
+        incoming_data = read_wissensbilanz_file(incoming)
+        if incoming_data:
+            data["gesamt"] = incoming_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "incoming-studierende.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/incoming-studierende.json erstellt")
+
+
+def extract_doktoratsstudierende():
+    """Extrahiert Doktoratsstudierende mit BV"""
+    data = {}
+
+    doktorat = data_folder / "2-B-1 Doktoratsstudierende mit BV zur Universität.xlsx"
+    if doktorat.exists():
+        doktorat_data = read_wissensbilanz_file(doktorat)
+        if doktorat_data:
+            data["gesamt"] = doktorat_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "doktoratsstudierende.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/doktoratsstudierende.json erstellt")
+
+
+def extract_ausserordentliche_abschluesse():
+    """Extrahiert Außerordentliche Studienabschlüsse"""
+    data = {}
+
+    abschluesse = data_folder / "3-A-1 Außerordentliche Studienabschlüsse.xlsx"
+    if abschluesse.exists():
+        abschluesse_data = read_wissensbilanz_file(abschluesse)
+        if abschluesse_data:
+            data["gesamt"] = abschluesse_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "ausserordentliche-abschluesse.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/ausserordentliche-abschluesse.json erstellt")
+
+
+def extract_ordentliche_abschluesse():
+    """Extrahiert Ordentliche Studienabschlüsse"""
+    data = {}
+
+    abschluesse = data_folder / "3-A-1 Ordentliche Studienabschlüsse.xlsx"
+    if abschluesse.exists():
+        abschluesse_data = read_wissensbilanz_file(abschluesse)
+        if abschluesse_data:
+            data["gesamt"] = abschluesse_data
+
+    categories_folder = output_folder / "categories"
+    categories_folder.mkdir(exist_ok=True)
+
+    with open(categories_folder / "ordentliche-abschluesse.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("categories/ordentliche-abschluesse.json erstellt")
+
+
 def main():
     print("Starte JSON-Extraktion...\n")
 
@@ -644,6 +916,20 @@ def main():
     extract_abschluesse()
     extract_mobilitaet()
     extract_infrastruktur()
+
+    print("\n--- Neue Wissensbilanz-Kennzahlen ---")
+    extract_berufungen()
+    extract_frauenquote_kollegialorgane()
+    extract_gender_pay_gap()
+    extract_professorinnen_aequivalente()
+    extract_eingerichtete_studien()
+    extract_besondere_zulassungsbedingungen()
+    extract_belegte_ordentliche_studien()
+    extract_outgoing_studierende()
+    extract_incoming_studierende()
+    extract_doktoratsstudierende()
+    extract_ausserordentliche_abschluesse()
+    extract_ordentliche_abschluesse()
 
     print("\nExtraktion abgeschlossen")
     print(f"Ausgabe: {output_folder}/")

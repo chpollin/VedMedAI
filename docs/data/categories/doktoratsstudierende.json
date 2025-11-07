@@ -1,0 +1,290 @@
+{
+  "gesamt": {
+    "UA": {
+      "Gesamt": {
+        "Frauen": 929.0,
+        "Männer": 839.0,
+        "Gesamt": 1768.0,
+        "Frauen.1": 933.0,
+        "Männer.1": 857.0,
+        "Gesamt.1": 1790.0,
+        "Frauen.2": 913.0,
+        "Männer.2": 843.0,
+        "Gesamt.2": 1756.0
+      }
+    },
+    "UB": {
+      "Gesamt": {
+        "Frauen": 309.0,
+        "Männer": 272.0,
+        "Gesamt": 581.0,
+        "Frauen.1": 297.0,
+        "Männer.1": 275.0,
+        "Gesamt.1": 572.0,
+        "Frauen.2": 322.0,
+        "Männer.2": 262.0,
+        "Gesamt.2": 584.0
+      }
+    },
+    "UC": {
+      "Gesamt": {
+        "Frauen": 389.0,
+        "Männer": 536.0,
+        "Gesamt": 925.0,
+        "Frauen.1": 382.0,
+        "Männer.1": 516.0,
+        "Gesamt.1": 898.0,
+        "Frauen.2": 379.0,
+        "Männer.2": 539.0,
+        "Gesamt.2": 918.0
+      }
+    },
+    "UN": {
+      "Gesamt": {
+        "Frauen": 551.0,
+        "Männer": 441.0,
+        "Gesamt": 992.0,
+        "Frauen.1": 459.0,
+        "Männer.1": 381.0,
+        "Gesamt.1": 840.0,
+        "Frauen.2": 447.0,
+        "Männer.2": 375.0,
+        "Gesamt.2": 822.0
+      }
+    },
+    "UO": {
+      "Gesamt": {
+        "Frauen": 197.0,
+        "Männer": 139.0,
+        "Gesamt": 336.0,
+        "Frauen.1": 197.0,
+        "Männer.1": 146.0,
+        "Gesamt.1": 343.0,
+        "Frauen.2": 168.0,
+        "Männer.2": 129.0,
+        "Gesamt.2": 297.0
+      }
+    },
+    "UQ": {
+      "Gesamt": {
+        "Frauen": 171.0,
+        "Männer": 149.0,
+        "Gesamt": 320.0,
+        "Frauen.1": 163.0,
+        "Männer.1": 138.0,
+        "Gesamt.1": 301.0,
+        "Frauen.2": 91.0,
+        "Männer.2": 58.0,
+        "Gesamt.2": 149.0
+      }
+    },
+    "UD": {
+      "Gesamt": {
+        "Frauen": 197.0,
+        "Männer": 136.0,
+        "Gesamt": 333.0,
+        "Frauen.1": 192.0,
+        "Männer.1": 150.0,
+        "Gesamt.1": 342.0,
+        "Frauen.2": 199.0,
+        "Männer.2": 161.0,
+        "Gesamt.2": 360.0
+      }
+    },
+    "UE": {
+      "Gesamt": {
+        "Frauen": 406.0,
+        "Männer": 912.0,
+        "Gesamt": 1318.0,
+        "Frauen.1": 370.0,
+        "Männer.1": 880.0,
+        "Gesamt.1": 1250.0,
+        "Frauen.2": 346.0,
+        "Männer.2": 861.0,
+        "Gesamt.2": 1207.0
+      }
+    },
+    "UF": {
+      "Gesamt": {
+        "Frauen": 189.0,
+        "Männer": 647.0,
+        "Gesamt": 836.0,
+        "Frauen.1": 196.0,
+        "Männer.1": 689.0,
+        "Gesamt.1": 885.0,
+        "Frauen.2": 187.0,
+        "Männer.2": 715.0,
+        "Gesamt.2": 902.0
+      }
+    },
+    "UG": {
+      "Gesamt": {
+        "Frauen": 80.0,
+        "Männer": 195.0,
+        "Gesamt": 275.0,
+        "Frauen.1": 90.0,
+        "Männer.1": 203.0,
+        "Gesamt.1": 293.0,
+        "Frauen.2": 83.0,
+        "Männer.2": 207.0,
+        "Gesamt.2": 290.0
+      }
+    },
+    "UH": {
+      "Gesamt": {
+        "Frauen": 224.0,
+        "Männer": 246.0,
+        "Gesamt": 470.0,
+        "Frauen.1": 217.0,
+        "Männer.1": 222.0,
+        "Gesamt.1": 439.0,
+        "Frauen.2": 214.0,
+        "Männer.2": 233.0,
+        "Gesamt.2": 447.0
+      }
+    },
+    "UI": {
+      "Gesamt": {
+        "Frauen": 134.0,
+        "Männer": 47.0,
+        "Gesamt": 181.0,
+        "Frauen.1": 130.0,
+        "Männer.1": 46.0,
+        "Gesamt.1": 176.0,
+        "Frauen.2": 125.0,
+        "Männer.2": 51.0,
+        "Gesamt.2": 176.0
+      }
+    },
+    "UJ": {
+      "Gesamt": {
+        "Frauen": 185.0,
+        "Männer": 197.0,
+        "Gesamt": 382.0,
+        "Frauen.1": 178.0,
+        "Männer.1": 190.0,
+        "Gesamt.1": 368.0,
+        "Frauen.2": 183.0,
+        "Männer.2": 200.0,
+        "Gesamt.2": 383.0
+      }
+    },
+    "UK": {
+      "Gesamt": {
+        "Frauen": 197.0,
+        "Männer": 376.0,
+        "Gesamt": 573.0,
+        "Frauen.1": 192.0,
+        "Männer.1": 372.0,
+        "Gesamt.1": 564.0,
+        "Frauen.2": 211.0,
+        "Männer.2": 391.0,
+        "Gesamt.2": 602.0
+      }
+    },
+    "UL": {
+      "Gesamt": {
+        "Frauen": 79.0,
+        "Männer": 63.0,
+        "Gesamt": 142.0,
+        "Frauen.1": 65.0,
+        "Männer.1": 53.0,
+        "Gesamt.1": 118.0,
+        "Frauen.2": 77.0,
+        "Männer.2": 68.0,
+        "Gesamt.2": 145.0
+      }
+    },
+    "US": {
+      "Gesamt": {
+        "Frauen": 22.0,
+        "Männer": 10.0,
+        "Gesamt": 32.0,
+        "Frauen.1": 26.0,
+        "Männer.1": 9.0,
+        "Gesamt.1": 35.0,
+        "Frauen.2": 25.0,
+        "Männer.2": 11.0,
+        "Gesamt.2": 36.0
+      }
+    },
+    "UT": {
+      "Gesamt": {
+        "Frauen": 22.0,
+        "Männer": 30.0,
+        "Gesamt": 52.0,
+        "Frauen.1": 21.0,
+        "Männer.1": 26.0,
+        "Gesamt.1": 47.0,
+        "Frauen.2": 24.0,
+        "Männer.2": 25.0,
+        "Gesamt.2": 49.0
+      }
+    },
+    "UU": {
+      "Gesamt": {
+        "Frauen": 11.0,
+        "Männer": 3.0,
+        "Gesamt": 14.0,
+        "Frauen.1": 11.0,
+        "Männer.1": 3.0,
+        "Gesamt.1": 14.0,
+        "Frauen.2": 6.0,
+        "Männer.2": 5.0,
+        "Gesamt.2": 11.0
+      }
+    },
+    "UV": {
+      "Gesamt": {
+        "Frauen": 16.0,
+        "Männer": 12.0,
+        "Gesamt": 28.0,
+        "Frauen.1": 11.0,
+        "Männer.1": 12.0,
+        "Gesamt.1": 23.0,
+        "Frauen.2": 12.0,
+        "Männer.2": 15.0,
+        "Gesamt.2": 27.0
+      }
+    },
+    "UW": {
+      "Gesamt": {
+        "Frauen": 19.0,
+        "Männer": 10.0,
+        "Gesamt": 29.0,
+        "Frauen.1": 13.0,
+        "Männer.1": 13.0,
+        "Gesamt.1": 26.0,
+        "Frauen.2": 10.0,
+        "Männer.2": 9.0,
+        "Gesamt.2": 19.0
+      }
+    },
+    "UR": {
+      "Gesamt": {
+        "Frauen": 33.0,
+        "Männer": 9.0,
+        "Gesamt": 42.0,
+        "Frauen.1": 35.0,
+        "Männer.1": 10.0,
+        "Gesamt.1": 45.0,
+        "Frauen.2": 35.0,
+        "Männer.2": 11.0,
+        "Gesamt.2": 46.0
+      }
+    },
+    "UM": {
+      "Gesamt": {
+        "Frauen": 13.0,
+        "Männer": 8.0,
+        "Gesamt": 21.0,
+        "Frauen.1": 10.0,
+        "Männer.1": 4.0,
+        "Gesamt.1": 14.0,
+        "Frauen.2": 12.0,
+        "Männer.2": 6.0,
+        "Gesamt.2": 18.0
+      }
+    }
+  }
+}

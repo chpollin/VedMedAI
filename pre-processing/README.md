@@ -88,6 +88,8 @@ docs/data/summary.json
 - Initial Load für schnellen Dashboard-Überblick (4 KB mit meta.json)
 
 docs/data/categories/
+
+Basis-Kategorien (7 Dateien):
 - personal.json (185 KB: Köpfe + VZÄ nach UHSBV-Kategorien, Zeitreihen 2022-2024)
 - studierende.json (3,2 KB: Ordentliche Studierende gesamt, Frauen/Männer)
 - neuzulassungen.json (3,3 KB: Ordentliche Neuzugelassene gesamt, Frauen/Männer)
@@ -95,6 +97,20 @@ docs/data/categories/
 - abschluesse.json (3,7 KB: Ordentliche Studienabschlüsse gesamt, Frauen/Männer)
 - mobilitaet.json (2,9 KB: Outgoing-Studierende gesamt, Frauen/Männer)
 - infrastruktur.json (69 Zeilen: Nutzfläche m² 2006-2023, 22 Universitäten)
+
+Neue Wissensbilanz-Kennzahlen (12 Dateien):
+- berufungen.json (6,0 KB: Berufungen an die Universität, Frauen/Männer/Gesamt, 2022-2024)
+- frauenquote-kollegialorgane.json (14 KB: Frauenquote in Kollegialorganen, 2024)
+- gender-pay-gap.json (16 KB: Gender pay gap, 2022-2024)
+- professorinnen-aequivalente.json (3,7 KB: ProfessorInnen und Äquivalente, 2022-2024)
+- eingerichtete-studien.json (2,3 KB: Eingerichtete Studien, 2022-2024)
+- besondere-zulassungsbedingungen.json (6,0 KB: Besondere Zulassungsbedingungen, 2022-2024)
+- belegte-ordentliche-studien.json (4,6 KB: Belegte ordentliche Studien, 2022-2024)
+- outgoing-studierende.json (5,6 KB: Ordentliche Studierende outgoing, 2022-2023)
+- incoming-studierende.json (5,7 KB: Ordentliche Studierende incoming, 2022-2023)
+- doktoratsstudierende.json (6,0 KB: Doktoratsstudierende mit BV, 2022-2024)
+- ausserordentliche-abschluesse.json (2 B: Außerordentliche Studienabschlüsse, leer)
+- ordentliche-abschluesse.json (3,2 KB: Ordentliche Studienabschlüsse, 2022-2024)
 
 ## Abhängigkeiten
 

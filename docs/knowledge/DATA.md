@@ -1,11 +1,13 @@
 # DATA - Datendokumentation
 
-**Quelle:** Österreichische Universitäten Wissensbilanz  
-**Format:** Excel XLSX  
-**Dateien:** 59  
-**Zeitraum:** 2022-2024  
-**Stichtag Personal:** 31.12.  
+**Quelle:** Österreichische Universitäten Wissensbilanz
+**Format:** Excel XLSX
+**Dateien:** 74 (59 ursprünglich + 15 neue Wissensbilanz-Kennzahlen)
+**Zeitraum:** 2022-2024 (teilweise 2006-2023)
+**Stichtag Personal:** 31.12.
 **Stichtag Studierende:** 15.11. (WS) / 15.05. (SS)
+
+**Update:** Session 9 - 15 zusätzliche Dateien (1-A-2 bis 1-A-5, 2-A-1 bis 2-A-9, 2-B-1, 3-A-1 bis 3-A-3)
 
 ## UNIVERSITÄTEN-CODEX
 
@@ -471,3 +473,217 @@ Europa, Nordamerika, Südamerika, Asien, Afrika, Ozeanien
 - **Strikt eingehalten:** Keine nachträglichen Korrekturen
 - **Personal:** Immer 31.12. des jeweiligen Jahres
 - **Studierende:** WS 15.11., SS 15.05.
+
+## NEUE WISSENSBILANZ-KENNZAHLEN (SESSION 9)
+
+### Kategorie 1-A: Personal und Gleichstellung
+
+#### 1-A-2 Berufungen an die Universität
+- Datei: 1-A-2 Berufungen an die Universität.xlsx
+- Header-Row: 21
+- Zeitreihen: Jahr 2024, 2023, 2022 / Studienjahr 2024/25, 2023/24, 2022/23
+- Dimensionen: Frauen, Männer, Gesamt
+- Struktur: Standard (read_excel_file)
+- Filter-Dimensionen: Wissenschaftszweig, Herkunftsuni, Berufungsart
+
+#### 1-A-3 Frauenquote in Kollegialorganen
+- Datei: 1-A-3 Frauenquote in Kollegialorganen.xlsx
+- Header-Row: 20
+- Zeitreihen: Jahr 2024 / Studienjahr 2024/25
+- Dimensionen: Köpfe Frauen, Köpfe Männer, Köpfe Gesamt, Frauen %, Männer %, Organe mit erfüllter Quote
+- Struktur: Standard (read_excel_file)
+
+#### 1-A-4 Gender pay gap
+- Datei: 1-A-4 Gender pay gap.xlsx
+- Header-Row: 20
+- Zeitreihen: Jahr 2024, 2023, 2022 / Studienjahr 2024/25, 2023/24, 2022/23
+- Dimensionen: Frauen, Männer, Gesamt, Gender pay gap (%)
+- Struktur: Standard (read_excel_file)
+
+#### 1-A-5 Repräsentanz von Frauen in Berufungsverfahren
+- Datei: 1-A-5 Repräsentanz von Frauen in Berufungsverfahren.xlsx
+- Header-Row: 19 (erste Tabelle), 33 (zweite Tabelle)
+- Zeitreihen: Studienjahr 2024/25, 2023/24, 2022/23
+- Dimensionen: Anzahl, Durchschnittlicher Frauenanteil %, Frauen, Männer, Gesamt
+- Struktur: Spezial (read_name_based_file) - Universität als Filter
+- Besonderheit: Mehrere Tabellen pro Sheet (Berufungskommission, 3er-Vorschlag, etc.)
+
+### Kategorie 2-A: Studien und Studierende
+
+#### 2-A-1 ProfessorInnen und Äquivalente
+- Datei: 2-A-1 ProfessorInnen und Äquivalente.xlsx
+- Header-Row: 23
+- Zeitreihen: Jahr 2024, 2023, 2022 / Studienjahr 2023/24, 2023/24, 2022/23
+- Dimensionen: ProfessorInnen und Äquivalente (Einzelwert)
+- Struktur: Standard (read_excel_file)
+- Anmerkung: Entfällt für Universität für Weiterbildung Krems
+
+#### 2-A-2 Eingerichtete Studien
+- Datei: 2-A-2 Eingerichtete Studien.xlsx
+- Header-Row: 19
+- Zeitreihen: Studienjahr 2024/25, 2023/24, 2022/23
+- Dimensionen: Gesamt (Einzelwert)
+- Struktur: Standard (read_excel_file)
+
+#### 2-A-3 Studienabschlussquote
+- Datei: 2-A-3 Studienabschlussquote.xlsx
+- Header-Row: 18
+- Zeitreihen: Implizit in Spalten
+- Dimensionen: Quoten (Dezimalwerte 0-1)
+- Struktur: Komplex (zusätzliche Logik erforderlich)
+- Besonderheit: Daten ab Zeile 18, keine expliziten Jahre-Header
+- Anmerkung: Entfällt für Universität für Weiterbildung Krems
+
+#### 2-A-4 Besondere Zulassungsbedingungen
+- Datei: 2-A-4 Besondere Zulassungsbedingungen.xlsx
+- Header-Row: 25
+- Zeitreihen: Jahr 2024, 2023, 2022 / Studienjahr 2024/25, 2023/24, 2022/23
+- Dimensionen: Frauen, Männer, Gesamt
+- Struktur: Standard (read_excel_file)
+- Filter: Zugangsgeregelte Studien, DQ-Status
+- Anmerkung: Entfällt für Universität für Weiterbildung Krems
+
+#### 2-A-5 Anzahl Studierenden
+- Datei: 2-A-5 Anzahl Studierenden.xlsx
+- Header-Row: 18
+- Zeitreihen: Implizit in Spalten (Semester-Spalten)
+- Dimensionen: Ordentliche Studierende, Neuzugelassene, etc.
+- Struktur: Komplex (Subkategorie in Zeile 9)
+- Besonderheit: Mehrere Measures
+
+#### 2-A-6 Anzahl Prüfungsaktive
+- Datei: 2-A-6 Anzahl Prüfungsaktive.xlsx
+- Header-Row: 18
+- Zeitreihen: Implizit in Spalten
+- Dimensionen: Dezimalwerte (gewichtete Studierendenzahlen)
+- Struktur: Komplex (Subkategorie in Zeile 9: Studienart)
+
+#### 2-A-7 Anzahl belegte ordentliche Studien
+- Datei: 2-A-7 Anzahl belegte ordentliche Studien.xlsx
+- Header-Row: 20
+- Zeitreihen: Wintersemester 2024, 2023, 2022 (mit Stichtag)
+- Dimensionen: Ordentliche Studien (Einzelwert)
+- Struktur: Standard (read_excel_file)
+- Subkategorie: ISCED2013 1.Ebene
+
+#### 2-A-7 Anzahl belegte Universitätslehrgänge
+- Datei: 2-A-7 Anzahl belegte Universitätslehrgänge.xlsx
+- Header-Row: 17
+- Zeitreihen: Wintersemester 2024, 2023, 2022 (in Zeilen statt Spalten)
+- Dimensionen: Staatengruppe (Gesamt, Österreich, EU, Drittstaaten) als Subzeilen
+- Struktur: Spezial (read_name_based_file)
+- Besonderheit: Nur Universität für Weiterbildung Krems, Zeitreihe in Zeilen
+
+#### 2-A-8 Ordentliche Studierende (outgoing)
+- Datei: 2-A-8 Ordentliche Studierende (outgoing).xlsx
+- Header-Row: 21
+- Zeitreihen: Studienjahr 2023/24, 2022/23
+- Dimensionen: EU, Drittstaaten, Gesamt
+- Struktur: Standard (read_excel_file)
+- Anmerkung: Entfällt für Universität für Weiterbildung Krems
+
+#### 2-A-9 Ordentliche Studierende (incoming)
+- Datei: 2-A-9 Ordentliche Studierende (incoming).xlsx
+- Header-Row: 21
+- Zeitreihen: Studienjahr 2023/24, 2022/23
+- Dimensionen: EU, Drittstaaten, Gesamt
+- Struktur: Standard (read_excel_file)
+- Anmerkung: Entfällt für Universität für Weiterbildung Krems
+
+### Kategorie 2-B: Doktoratsstudierende
+
+#### 2-B-1 Doktoratsstudierende mit BV zur Universität
+- Datei: 2-B-1 Doktoratsstudierende mit BV zur Universität.xlsx
+- Header-Row: 20
+- Zeitreihen: Jahr 2024, 2023, 2022 / Studienjahr 2024/25, 2023/24, 2022/23
+- Dimensionen: Frauen, Männer, Gesamt
+- Struktur: Standard (read_excel_file)
+
+### Kategorie 3-A: Studienabschlüsse
+
+#### 3-A-1 Außerordentliche Studienabschlüsse
+- Datei: 3-A-1 Außerordentliche Studienabschlüsse.xlsx
+- Noch nicht analysiert (separate Session geplant)
+
+#### 3-A-1 Ordentliche Studienabschlüsse
+- Datei: 3-A-1 Ordentliche Studienabschlüsse.xlsx
+- Noch nicht analysiert (separate Session geplant)
+
+#### 3-A-2 Studienabschlüsse in der Toleranzstudiendauer
+- Datei: 3-A-2 Studienabschlüsse in der Toleranzstudiendauer.xlsx
+- Noch nicht analysiert (separate Session geplant)
+
+#### 3-A-3 Studienabschlüsse mit studienbezogenem Auslandsaufenthalt
+- Datei: 3-A-3 Studienabschlüsse mit studienbezogenem Auslandsaufenthalt.xlsx
+- Noch nicht analysiert (separate Session geplant)
+
+## GEMEINSAME MUSTER NEUER DATEIEN
+
+### Excel-Struktur
+- Sheet-Name: "Tab" (Daten), "XLCubedFormats" (Formatierung)
+- Zeilen 1-8: Titel (Wissensbilanz, Kennzahl, Beschreibung, Quelle, Datenprüfung, Anmerkung)
+- Interpretation-Spalten: Nach jedem Zeitraum (ignorierbar)
+
+### Header-Row-Position
+- Variable Position: Zeile 17-25
+- Identifikation: Zeile mit "Universität (Codex)" in Spalte 1
+
+### Zeitreihen-Formate
+- Jahr: 2024, 2023, 2022 (4-stellig)
+- Studienjahr: 2024/25, 2023/24, 2022/23 (Format: YYYY/YY)
+- Semester: "Wintersemester 2024 (Stichtag: DD.MM.YYYY)"
+
+### Dimensionen
+- Geschlecht: Frauen, Männer, Gesamt
+- Herkunft: Österreich, EU, Drittstaaten, Gesamt
+- Studienart: Bachelor, Diplom, Master, Doktorat
+
+### Parsing-Strategien
+
+Standard (read_excel_file) - 12 Dateien:
+- 1-A-2 Berufungen an die Universität
+- 1-A-3 Frauenquote in Kollegialorganen
+- 1-A-4 Gender pay gap
+- 2-A-1 ProfessorInnen und Äquivalente
+- 2-A-2 Eingerichtete Studien
+- 2-A-4 Besondere Zulassungsbedingungen
+- 2-A-7 Anzahl belegte ordentliche Studien
+- 2-A-8 Ordentliche Studierende (outgoing)
+- 2-A-9 Ordentliche Studierende (incoming)
+- 2-B-1 Doktoratsstudierende mit BV zur Universität
+- 3-A-1 Außerordentliche Studienabschlüsse
+- 3-A-1 Ordentliche Studienabschlüsse
+
+Spezial (read_name_based_file) - 2 Dateien:
+- 1-A-5 Repräsentanz von Frauen in Berufungsverfahren (mehrere Tabellen pro Sheet)
+- 2-A-7 Anzahl belegte Universitätslehrgänge (nur UR, Zeitreihe in Zeilen)
+
+Komplex (neue Logik erforderlich) - 3 Dateien:
+- 2-A-3 Studienabschlussquote (keine expliziten Jahre-Header)
+- 2-A-5 Anzahl Studierenden (mehrere Measures)
+- 2-A-6 Anzahl Prüfungsaktive (Subkategorien in Zeile 9)
+
+Nicht analysiert - 2 Dateien:
+- 3-A-2 Studienabschlüsse in der Toleranzstudiendauer
+- 3-A-3 Studienabschlüsse mit studienbezogenem Auslandsaufenthalt
+
+### Implementierungsstrategie
+
+Phase 1: Standard-Dateien (read_excel_file)
+- Bestehende Parsing-Funktion kann verwendet werden
+- Header-Detection: "Universität (Codex)" in Spalte 1, Zeile 17-25
+- Zeitreihen-Extraktion: extractYearValues() kompatibel
+- Geschätzte Entwicklungszeit: 2-3h
+
+Phase 2: Spezial-Dateien (read_name_based_file)
+- Universitätsname statt Code als Identifier
+- 1-A-5: Mehrere Tabellen pro Sheet (Berufungskommission, 3er-Vorschlag)
+- 2-A-7 Lehrgänge: Nur UR, Zeitreihe in Zeilen statt Spalten
+- Geschätzte Entwicklungszeit: 3-4h
+
+Phase 3: Komplexe Dateien
+- Individuelle Parsing-Logik erforderlich
+- 2-A-3: Quoten-Berechnung ohne explizite Jahre-Header
+- 2-A-5: Mehrere Measures (Studierende, Neuzulassungen) in einer Datei
+- 2-A-6: Studienart-Subkategorien in Zeile 9
+- Geschätzte Entwicklungszeit: 4-6h
