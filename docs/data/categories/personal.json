@@ -1,0 +1,3614 @@
+{
+  "koepfe": {
+    "UA": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 7640.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 7503.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 7535.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 573.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 557.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 557.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 263.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 293.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 199.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 114.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 130.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 149.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 49.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 50.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 50.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 100.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 113.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 6815.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 6686.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 6787.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 106.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1922.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1816.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1817.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3449.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3392.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 3274.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 240.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 197.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 194.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 10887.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 10691.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 10588.0
+      }
+    },
+    "UB": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3270.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3274.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 3292.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 259.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 244.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 236.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 173.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 194.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 169.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 78.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 91.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 100.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 65.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 65.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 69.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 30.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 38.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2839.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2836.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2887.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 38.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 636.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 584.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 585.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1503.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1474.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1439.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 52.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 64.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 57.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4719.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4696.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4681.0
+      }
+    },
+    "UC": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4018.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3982.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 3992.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 322.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 307.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 313.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 271.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 292.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 166.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 56.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 62.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 64.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 91.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 95.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 102.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 124.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 135.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3425.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3383.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 3513.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 131.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 8.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 11.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1067.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1089.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1081.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1671.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1647.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1590.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 94.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 102.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 87.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5662.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5606.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5558.0
+      }
+    },
+    "UN": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4704.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4491.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4288.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 145.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 134.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 126.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 564.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 592.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 631.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 287.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 308.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 342.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 263.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 274.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 289.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 14.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 10.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3995.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3765.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 3531.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 8.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1249.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1142.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1016.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 634.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 595.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 599.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2162.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2097.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2097.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 752.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 736.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 764.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 269.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 271.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 269.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 6863.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 6584.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 6382.0
+      }
+    },
+    "UO": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1723.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1690.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1609.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 95.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 94.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 92.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 154.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 175.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 162.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 71.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 85.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 96.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 51.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 63.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 66.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 32.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 27.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1474.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1421.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1355.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 18.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 315.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 333.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 295.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 209.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 215.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 209.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1241.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1175.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1126.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 140.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 121.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 114.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 282.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 272.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 260.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2961.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2864.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2734.0
+      }
+    },
+    "UQ": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1436.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1402.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1370.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 103.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 97.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 85.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 161.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 165.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 149.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 81.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 90.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 100.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 39.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 43.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 49.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 41.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 32.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1173.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1141.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1137.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 23.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 10.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 7.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 8.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 377.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 403.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 417.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 210.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 217.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 208.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1018.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 958.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 904.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 243.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 234.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 230.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 93.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 92.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 101.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2454.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2359.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2273.0
+      }
+    },
+    "UD": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2039.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2056.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2061.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 168.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 161.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 154.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 119.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 134.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 129.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 37.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 42.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 48.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 77.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 83.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 81.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 9.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1752.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1761.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1778.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 12.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 10.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 421.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 436.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 428.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 941.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 902.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 884.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 60.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 63.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 58.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2977.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2956.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2943.0
+      }
+    },
+    "UE": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4688.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4478.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4377.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 245.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 230.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 202.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 212.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 213.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 165.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 100.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 107.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 114.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 47.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 48.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 51.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 65.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 58.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4232.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4036.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4010.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 6.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 59.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 8.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 15.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 13.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1707.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1626.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1593.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1341.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1283.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1280.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 120.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 129.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 126.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 6029.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5761.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5657.0
+      }
+    },
+    "UF": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2679.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2786.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2724.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 164.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 154.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 140.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 143.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 157.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 120.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 34.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 41.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 45.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 67.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 71.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 75.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 42.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 45.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2372.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2475.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2464.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 51.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1088.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1106.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1078.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1153.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1151.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1130.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 133.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 141.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 160.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3830.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3935.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 3852.0
+      }
+    },
+    "UG": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1006.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 997.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1017.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 52.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 55.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 53.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 30.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 30.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 25.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 13.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 13.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 13.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 11.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 11.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 12.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 6.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 6.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 924.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 912.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 939.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 552.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 530.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 529.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 418.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 399.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 384.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 59.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 67.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 63.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1411.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1383.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1391.0
+      }
+    },
+    "UH": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2254.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2201.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2166.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 110.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 110.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 107.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 96.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 102.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 90.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 38.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 44.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 54.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 37.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 36.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 36.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 21.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 22.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2049.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1990.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1970.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 21.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1091.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1060.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 972.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 827.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 810.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 827.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 136.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 138.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 158.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3078.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3008.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2991.0
+      }
+    },
+    "UI": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 807.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 801.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 790.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 42.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 42.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 40.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 54.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 52.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 40.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 35.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 37.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 39.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 19.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 14.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 711.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 707.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 710.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 7.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 10.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 14.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 8.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 200.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 191.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 235.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 670.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 673.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 665.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 46.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 56.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 45.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 146.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 107.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 105.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1477.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1474.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1455.0
+      }
+    },
+    "UJ": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1878.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1734.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1713.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 128.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 126.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 120.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 78.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 84.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 77.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 33.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 42.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 48.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 33.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 28.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 29.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 12.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 14.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1672.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1524.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1516.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 24.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 11.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 260.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 242.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 235.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 870.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 878.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 877.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 26.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 28.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 30.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2741.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2605.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2579.0
+      }
+    },
+    "UK": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3058.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2936.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2880.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 181.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 176.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 173.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 126.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 135.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 127.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 42.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 47.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 50.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 70.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 73.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 77.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 14.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 15.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2753.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2628.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2584.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 15.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 8.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 643.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 669.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 684.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1138.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1063.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1036.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 92.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 89.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 90.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 25.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 10.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4189.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3992.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 3910.0
+      }
+    },
+    "UL": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1233.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1195.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1168.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 78.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 74.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 75.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 70.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 71.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 67.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 10.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 12.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 16.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 50.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 49.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 51.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 10.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 10.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1085.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1050.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1026.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 6.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 130.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 134.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 144.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 513.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 506.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 501.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 15.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 13.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 13.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1743.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1698.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1667.0
+      }
+    },
+    "US": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 681.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 676.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 672.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 45.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 48.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 45.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 632.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 627.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 624.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 66.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 81.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 81.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 312.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 315.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 303.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 975.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 972.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 957.0
+      }
+    },
+    "UT": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1123.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1099.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1093.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 194.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 187.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 182.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 34.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 36.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 33.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 22.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 24.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 29.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 8.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 9.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 895.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 876.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 878.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 55.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 52.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 51.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 446.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 434.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 423.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 6.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1563.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1527.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1511.0
+      }
+    },
+    "UU": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 675.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 653.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 654.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 118.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 114.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 110.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 13.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 18.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 18.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 12.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 14.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 18.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 544.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 521.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 526.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 16.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 8.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 11.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 250.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 240.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 255.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 924.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 893.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 908.0
+      }
+    },
+    "UV": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 589.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 561.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 556.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 125.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 123.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 118.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 14.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 15.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 13.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 11.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 11.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 12.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 450.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 423.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 425.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 21.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 24.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 27.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 231.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 216.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 205.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 819.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 777.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 760.0
+      }
+    },
+    "UW": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 514.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 498.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 480.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 49.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 44.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 40.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 6.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 463.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 451.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 434.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 14.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 11.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 14.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 138.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 140.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 133.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 639.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 620.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 596.0
+      }
+    },
+    "UR": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 393.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 393.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 383.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 37.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 40.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 35.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 8.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 8.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 6.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 348.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 345.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 342.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 50.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 52.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 58.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 175.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 176.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 172.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 567.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 568.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 554.0
+      }
+    },
+    "UM": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1067.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1166.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1204.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 32.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 30.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 26.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 30.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 23.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 16.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 17.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 12.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 13.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 11.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 8.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 3.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1005.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1113.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1162.0
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 6.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 8.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 16.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 130.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 123.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 117.0
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 383.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 353.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 350.0
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 11.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 10.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 12.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1430.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1500.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1535.0
+      }
+    }
+  },
+  "vzae": {
+    "UA": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4282.501699999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4182.532199999999,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4172.3928000000005
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 560.225,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 542.4999999999999,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 541.6501
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 255.5,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 283.325,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 192.60000000000002
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 109.75,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 125.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 144.15
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 47.15,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 48.449999999999996,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 48.449999999999996
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 98.60000000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 109.875,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3466.7766999999994,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3356.7071999999985,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 3438.1427000000017
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 103.9251
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1339.2749,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1237.2374999999997,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1250.3751
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2274.1826000000005,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2196.0147000000006,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2152.9842000000003
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 138.95,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 114.05,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 109.8126
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 6556.684299999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 6378.5469,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 6325.377000000002
+      }
+    },
+    "UB": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1566.9783,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1570.5494000000003,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1573.0935
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 229.05,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 219.20000000000002,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 210.125
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 169.975,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 191.425,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 166.6
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 76.75,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 89.25,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 98.25
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 63.225,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 64.425,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 68.35
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 30.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 37.75,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1167.9533000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1159.9244000000003,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1196.3684999999998
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 37.25
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 385.7375,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 343.61249999999995,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 362.49069999999995
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1155.625,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1168.2375000000002,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1090.5593999999999
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 31.425,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 34.475,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 34.95
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2722.6033000000007,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2738.7869,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2663.6528999999996
+      }
+    },
+    "UC": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2038.6461,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2023.2238999999995,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2027.9431999999997
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 303.525,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 286.4125,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 293.57500000000005
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 260.99999999999994,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 283.34999999999997,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 161.20000000000002
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 55.75,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 61.525,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 63.525
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 87.175,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 90.95,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 97.67500000000001
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 118.07500000000002,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 130.875,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1474.1210999999996,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1453.4613999999995,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1573.1681999999996
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.5,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2.55,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 125.2
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 7.75,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 11.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 582.4250000000002,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 596.3750000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 602.0000000000001
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1121.1655,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1099.4621,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1075.7978
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 38.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 43.574999999999996,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 42.55
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3159.811599999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3122.6859999999997,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 3103.7410000000004
+      }
+    },
+    "UN": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3216.9000000000005,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3099.82,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2999.0400000000004
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 135.35,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 124.65,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 118.5
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 523.2299999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 551.8,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 590.1999999999999
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 269.78000000000003,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 289.78000000000003,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 322.92999999999995
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 241.26999999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 252.22,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 267.27000000000004
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 12.180000000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 9.8,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2558.32,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2423.37,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2290.34
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.75
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 7.7
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 803.41,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 750.5699999999999,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 677.26
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 625.67,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 585.9,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 592.92
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1812.1100000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1742.0399999999995,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1744.7199999999998
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 544.5299999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 522.75,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 543.9399999999999
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 230.96,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 231.72000000000003,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 236.37
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5029.010000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4841.86,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4743.760000000001
+      }
+    },
+    "UO": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1079.9052000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1102.9327000000003,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1045.2567000000001
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 91.14999999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 92.6,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 89.35
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 141.95090000000002,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 163.805,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 153.43
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 68.60000000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 83.4,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 94.4
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 42.725899999999996,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 54.405,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 59.03
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 30.625,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 26.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 846.8043,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 846.5277000000002,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 802.4767
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 17.5
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 146.88750000000002,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 164.65,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 143.8625
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 201.50000000000003,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 206.00000000000003,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 199.75
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1023.3342999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 971.6649999999998,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 935.5649999999999
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 99.92499999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 82.30000000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 81.7
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 230.5375,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 222.60999999999996,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 217.22499999999997
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2103.2395,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2074.5977000000007,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1980.8217000000002
+      }
+    },
+    "UQ": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1037.5824,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1001.5402,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 963.5224
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 98.613,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 92.35,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 80.5
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 154.04999999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 158.6,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 141.8
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 77.35,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 86.35,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 96.4
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 37.15,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 40.85,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 45.4
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 39.55,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 31.4,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 784.9193999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 750.5902000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 741.2224
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 22.7
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 9.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 7.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 8.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 223.09999999999997,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 240.6875,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 241.6875
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 203.675,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 209.725,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 203.57500000000002
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 773.1409999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 718.7255,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 693.7556
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 168.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 162.97500000000002,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 168.2375
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 74.29999999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 72.37500000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 80.87499999999999
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1810.7233999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1720.2656999999997,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1657.2780000000002
+      }
+    },
+    "UD": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1095.6227000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1088.1947999999998,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1073.1652
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 164.075,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 158.525,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 151.925
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 114.65,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 128.6875,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 124.85
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 36.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 40.5,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 46.5
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 73.65,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 79.18749999999999,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 78.35
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 9.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 816.8977,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 800.9823,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 796.3901999999999
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 12.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 10.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 251.17499999999995,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 260.575,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 256.15
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 667.9164999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 642.6084,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 649.2134999999998
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 34.8,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 34.75000000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 37.599999999999994
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1763.5391999999997,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1730.8031999999996,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1722.3787
+      }
+    },
+    "UE": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2964.7875000000017,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2847.600000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2742.9
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 239.25,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 222.8625,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 193.0
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 206.05000000000004,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 209.425,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 162.375
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 98.55,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 105.225,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 112.375
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 45.199999999999996,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 46.4,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 50.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 62.3,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 57.8,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2519.487500000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2415.3125000000005,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2387.525
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.075,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 58.075
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 8.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 15.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 13.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1169.1625000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1132.5375000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1086.8999999999996
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1129.8188,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1082.1488,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1073.6154999999999
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 68.6375,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 76.2625,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 71.95
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4094.606300000002,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3929.7488000000008,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 3816.5155
+      }
+    },
+    "UF": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1584.9814999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1666.5773,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1644.7418999999995
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 157.39999999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 148.2,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 131.60000000000002
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 142.15,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 154.60000000000002,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 118.65
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 34.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 41.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 45.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 66.15,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 69.65,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 73.65
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 42.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 43.95,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1285.4314999999997,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1363.7772999999997,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1394.4918999999998
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.625,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.325,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 47.8
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 3.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 712.4999999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 728.65,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 730.1374999999998
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 977.2,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 971.3,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 956.1249999999998
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 103.775,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 107.675,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 123.05
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2562.1814999999992,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2637.8772999999997,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2600.8669
+      }
+    },
+    "UG": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 617.692,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 621.14,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 618.4406999999999
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 50.05,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 51.7,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 49.55
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 28.5875,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 28.5875,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 24.5
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 13.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 13.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 13.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 10.5,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 10.5,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 11.5
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.0875,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5.0875,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 539.0545,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 540.8525,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 544.3906999999999
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2.85
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 335.77430000000004,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 317.3305,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 306.90549999999996
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 329.5565,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 311.14820000000003,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 303.6223
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 41.699999999999996,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 47.575,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 48.512499999999996
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 947.2484999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 932.2882000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 922.0629999999998
+      }
+    },
+    "UH": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1233.8345000000002,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1214.7651,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1173.702
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 107.92500000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 107.85000000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 104.05000000000001
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 93.02499999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 99.02499999999999,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 88.02499999999999
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 37.6,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 43.6,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 53.6
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 34.675,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 33.675,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 34.425
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 20.75,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 21.75,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1032.8845000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1007.8901,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 981.627
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 20.75
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.875
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 614.1271,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 600.9364,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 557.7613
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 682.3225,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 662.5274999999998,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 671.4024999999999
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 74.9227,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 73.8281,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 86.3282
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1916.1570000000002,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1877.2925999999998,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1845.1044999999997
+      }
+    },
+    "UI": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 587.1857000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 581.3512000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 551.7432
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 39.150000000000006,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 39.400000000000006,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 37.7
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 52.15,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 50.65,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 38.65
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 33.65,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 35.65,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 37.65
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 18.5,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 14.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 495.8857,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 491.30119999999994,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 475.3932
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 6.75
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 10.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 14.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 8.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 132.42499999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 126.025,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 134.4286
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 574.3875,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 574.0685,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 567.9899999999999
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 30.7875,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 39.099999999999994,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 28.0375
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 127.70000000000002,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 95.45000000000002,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 96.20000000000002
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1161.5732000000005,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1155.4197000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1119.7332000000001
+      }
+    },
+    "UJ": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 886.3102999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 833.6102999999999,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 851.7931999999996
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 111.19130000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 109.82879999999999,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 106.5075
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 75.675,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 81.425,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 73.72919999999999
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 31.6,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 40.1,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 45.8792
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 32.45,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 27.325,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 27.849999999999998
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 11.625,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 14.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 699.4439999999997,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 642.3564999999998,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 671.5564999999997
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 24.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 11.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.5,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 149.8498,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 131.6625,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 134.68750000000003
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 675.8224999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 682.3200000000002,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 684.8049999999998
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 20.0625,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 20.825,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 21.725
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1562.1327999999996,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1515.9302999999995,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1536.5981999999997
+      }
+    },
+    "UK": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1371.0361999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1316.8670999999997,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1325.2116000000003
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 168.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 162.51000000000002,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 160.4
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 118.975,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 128.575,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 120.825
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 41.5,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 46.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 49.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 63.974999999999994,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 68.075,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 71.825
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 13.5,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 14.5,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1084.0611999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1025.7821,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1043.9866
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 15.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 8.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.625
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 395.05,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 403.6749999999999,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 414.35
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 868.8745,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 813.9680000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 792.2499999999998
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 44.425,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 38.775,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 42.175000000000004
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 23.75,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 10.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2239.9106999999995,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2130.8351,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2117.4616
+      }
+    },
+    "UL": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 526.364,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 525.4504999999997,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 526.2965999999997
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 71.75000000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 69.8,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 71.35
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 65.7,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 67.7,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 63.449999999999996
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 10.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 11.875,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 15.875
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 45.949999999999996,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 45.824999999999996,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 47.574999999999996
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 9.75,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 10.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 388.91400000000004,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 387.9504999999998,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 391.4965999999998
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 6.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 78.4125,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 83.7875,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 93.20000000000002
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 370.3435,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 358.73830000000004,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 350.9778
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 9.95,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 8.45,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 6.05
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 896.7075,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 884.1887999999997,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 877.2743999999997
+      }
+    },
+    "US": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 285.89480000000003,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 291.85740000000004,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 294.16040000000004
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 40.7,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 42.2,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 40.9
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.825
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.825
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 240.1948,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 245.65740000000005,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 248.43540000000007
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 28.574999999999996,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 33.0775,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 36.824999999999996
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 229.9565,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 231.9402,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 225.66629999999998
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.25,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.5,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.5
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 515.8513,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 523.7976,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 519.8267000000001
+      }
+    },
+    "UT": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 640.3858000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 632.1583,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 624.6833
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 186.2833,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 179.5333,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 175.5333
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 34.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 36.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 33.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 22.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 24.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 29.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 8.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 9.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 420.1025,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 416.6250000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 416.1500000000001
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.5
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 30.315000000000005,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 27.3125,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 26.4125
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 360.32499999999993,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 357.7249999999999,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 342.3125
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4.075,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.075,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1000.7108000000003,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 989.8833,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 966.9958
+      }
+    },
+    "UU": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 346.22980000000007,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 341.2711,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 345.67839999999995
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 109.9147,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 104.2853,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 100.23530000000001
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 13.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 17.5,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 18.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 12.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 14.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 18.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.5,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 223.31510000000006,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 219.4858,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 227.44310000000002
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.5
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.2694,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.875,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5.2158
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 192.7898,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 177.5174,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 174.8984
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.625,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.375,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.5
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 539.0196000000002,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 518.7884999999999,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 520.5768
+      }
+    },
+    "UV": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 328.4548,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 323.3412000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 320.114
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 113.27669999999999,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 112.61,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 109.277
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 13.75,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 14.75,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 12.75
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 10.75,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 10.75,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 11.75
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 201.42810000000003,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 195.9812,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 198.087
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 12.125,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 14.07,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 16.3
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 193.88309999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 186.0694,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 178.24220000000003
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.25,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 522.3379,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 509.4106,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 498.35620000000006
+      }
+    },
+    "UW": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 174.5675,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 162.582,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 152.8018
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 43.775,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 38.050000000000004,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 35.725
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 4.65,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 4.5,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5.375
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.9,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 3.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 4.625
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.75,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.75,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.75
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.75,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 126.14249999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 120.03200000000001,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 111.7018
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.75,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.5
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.75,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 8.600000000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 6.375,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 7.875
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 106.05000000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 104.0625,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 100.4
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.9,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0750000000000002,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.5
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 280.6175,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 266.6445,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 253.2018
+      }
+    },
+    "UR": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 193.21249999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 194.9375,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 190.0
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 34.8,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 37.8,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 34.8
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 8.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 8.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 6.0
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 5.0
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 1.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 1.0
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 2.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 150.4125,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 149.1375,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 149.20000000000002
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2.0
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 28.5,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 28.85,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 32.6125
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 149.8875,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 149.40000000000003,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 148.2375
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.9,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.9,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.9
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 343.1,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 344.33750000000003,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 338.23749999999995
+      }
+    },
+    "UM": {
+      "Wissenschaftliches und künstlerisches Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 325.8896000000001,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 323.99749999999995,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 329.41309999999993
+      },
+      "Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 18.830199999999998,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 17.7862,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 14.8062
+      },
+      "Äquivalente zu Professorinnen und Professoren": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 19.0008,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 15.503,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 11.311399999999999
+      },
+      "Dozentinnen und Dozenten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 7.9864000000000015,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 6.2581,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 8.532300000000001
+      },
+      "Assoziierte Professorinnen und Professoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 9.3894,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 6.8699,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 2.7791
+      },
+      "Assistenzprofessorinnen und Assistenzprofessoren (KV) (UG-Karrierepfad)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 1.625,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 2.375,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 288.05860000000007,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 290.7082999999999,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 303.29549999999995
+      },
+      "darunter Assistenzprofessorinnen und Assistenprofessoren (KV)": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 5.0372,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 7.5662,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 12.9857
+      },
+      "darunter Universitätsassistentinnen und -assistenten (KV) auf Laufbahnstelle gemäß § 13b Abs. 3 UG": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter über F & E-Projekte drittfinanzierte Mitarbeiterinnen und Mitarbeiter": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 91.0168,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 84.40290000000002,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 84.7317
+      },
+      "darunter Ärztinnen und Ärzte in Facharztausbildung": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 297.3424,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 284.90049999999997,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 269.7018
+      },
+      "darunter über F&E-Projekte drittfinanziertes allgemeines Personal": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 6.1598,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 5.4395,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 6.56
+      },
+      "darunter Ärzt/inn/e/n mit ausschließlichen Aufgaben in öffentlichen Krankenanstalten": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "darunter Krankenpflege im Rahmen einer öff. Krankenanstalt und Tierpflege in med. Einrichtungen": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 0.0,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 0.0,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 0.0
+      },
+      "Gesamt": {
+        "Wintersemester 2024 (Stichtag: 31.12.2024)": 623.2320000000002,
+        "Wintersemester 2023 (Stichtag: 31.12.2023)": 608.8979999999998,
+        "Wintersemester 2022 (Stichtag: 31.12.2022)": 599.1148999999996
+      }
+    }
+  }
+}

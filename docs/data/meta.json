@@ -1,0 +1,98 @@
+{
+  "universities": {
+    "UA": "Universität Wien",
+    "UB": "Universität Graz",
+    "UC": "Universität Innsbruck",
+    "UD": "Universität Salzburg",
+    "UE": "Universität Klagenfurt",
+    "UF": "Universität Linz",
+    "UG": "Technische Universität Wien",
+    "UH": "Technische Universität Graz",
+    "UI": "Montanuniversität Leoben",
+    "UJ": "Universität für Bodenkultur Wien",
+    "UK": "Universität für künstlerische und industrielle Gestaltung Linz",
+    "UL": "Universität Mozarteum Salzburg",
+    "UM": "Universität für Musik und darstellende Kunst Wien",
+    "UN": "Universität für Musik und darstellende Kunst Graz",
+    "UO": "Akademie der bildenden Künste Wien",
+    "UQ": "Universität für angewandte Kunst Wien",
+    "UR": "Universität für Weiterbildung Krems",
+    "US": "Medizinische Universität Wien",
+    "UT": "Medizinische Universität Graz",
+    "UU": "Medizinische Universität Innsbruck",
+    "UV": "Veterinärmedizinische Universität Wien",
+    "UW": "Wirtschaftsuniversität Wien"
+  },
+  "dimensions": {
+    "altersklassen": [
+      "18-21",
+      "22-25",
+      "26-30",
+      "31-35",
+      "36-40",
+      "41-45",
+      "46-50",
+      "51+"
+    ],
+    "universitaetsreife": [
+      "AHS-Matura",
+      "BHS-Matura",
+      "Studienberechtigungsprüfung",
+      "Berufsreifeprüfung",
+      "Sonstige österreichische Zulassung",
+      "EWR-Reifezeugnis",
+      "Sonstige ausländische Zulassung"
+    ],
+    "studiengruppen_national": [
+      "Geisteswissenschaften",
+      "Naturwissenschaften",
+      "Sozial- und Wirtschaftswissenschaften",
+      "Rechtswissenschaften",
+      "Medizin",
+      "Technik",
+      "Kunst"
+    ],
+    "studienarten": [
+      "Bachelor",
+      "Master",
+      "Diplom",
+      "Doktorat/PhD"
+    ],
+    "bundeslaender": [
+      "Wien",
+      "Niederösterreich",
+      "Burgenland",
+      "Oberösterreich",
+      "Salzburg",
+      "Steiermark",
+      "Kärnten",
+      "Tirol",
+      "Vorarlberg"
+    ],
+    "kontinente": [
+      "Europa",
+      "Nordamerika",
+      "Südamerika",
+      "Asien",
+      "Afrika",
+      "Ozeanien"
+    ]
+  },
+  "years": [
+    2022,
+    2023,
+    2024
+  ],
+  "stichtage": {
+    "personal": "31.12.",
+    "studierende_ws": "15.11.",
+    "studierende_ss": "15.05."
+  },
+  "klassifikationen": {
+    "UHSBV": "Universitäts-Haushalts- und Stellenplanverordnung",
+    "WBV": "Wissensbilanz-Verordnung",
+    "ISCED": "International Standard Classification of Education (UNESCO 2013)",
+    "ISCED_F_99": "ISCED Fields of Education and Training 2013 (99 Felder)",
+    "UG": "Universitätsgesetz"
+  }
+}
