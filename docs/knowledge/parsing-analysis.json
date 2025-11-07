@@ -1,0 +1,20 @@
+{
+  "GROUP_1": {
+    "name": "University-Based Hierarchical Data",
+    "file_count": 3,
+    "function": "read_excel_file",
+    "status": "ENHANCE EXISTING"
+  },
+  "GROUP_2": {
+    "name": "Multi-Year Gender Breakdowns",
+    "file_count": 2,
+    "function": "read_multi_year_gender_file",
+    "status": "CREATE NEW"
+  },
+  "GROUP_3": {
+    "name": "Pivot Table Format",
+    "file_count": 9,
+    "function": "read_pivot_table_file",
+    "status": "CREATE NEW"
+  }
+}

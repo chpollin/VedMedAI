@@ -6,7 +6,11 @@
     "studien": 89584.1465299998,
     "abschluesse": 9429.985000000011,
     "mobilitaet": 1518.0,
-    "infrastruktur": 364488.0
+    "infrastruktur": 364488.0,
+    "berufungen": 28.0,
+    "gender_pay_gap": 501.0,
+    "eingerichtete_studien": 185.0,
+    "besondere_zulassungsbedingungen": 38036.0
   },
   "UB": {
     "personal_koepfe": 3270.0,
@@ -15,7 +19,11 @@
     "studien": 25902.6516,
     "abschluesse": 3068.3317499999957,
     "mobilitaet": 547.0,
-    "infrastruktur": 157502.02999999997
+    "infrastruktur": 157502.02999999997,
+    "berufungen": 30.0,
+    "gender_pay_gap": 241.0,
+    "eingerichtete_studien": 120.0,
+    "besondere_zulassungsbedingungen": 5451.0
   },
   "UC": {
     "personal_koepfe": 4018.0,
@@ -24,7 +32,11 @@
     "studien": 29016.849199999993,
     "abschluesse": 4352.899950000001,
     "mobilitaet": 569.0,
-    "infrastruktur": 216580.5
+    "infrastruktur": 216580.5,
+    "berufungen": 16.0,
+    "gender_pay_gap": 278.0,
+    "eingerichtete_studien": 132.0,
+    "besondere_zulassungsbedingungen": 3938.0
   },
   "UN": {
     "personal_koepfe": 4704.0,
@@ -33,7 +45,11 @@
     "studien": 1698.60655,
     "abschluesse": 283.4326,
     "mobilitaet": 43.0,
-    "infrastruktur": 25055.86
+    "infrastruktur": 25055.86,
+    "berufungen": 18.0,
+    "gender_pay_gap": 124.0,
+    "eingerichtete_studien": 8.0,
+    "besondere_zulassungsbedingungen": 14541.0
   },
   "UO": {
     "personal_koepfe": 1723.0,
@@ -42,7 +58,11 @@
     "studien": 1651.0,
     "abschluesse": 156.5,
     "mobilitaet": 114.0,
-    "infrastruktur": 34049.5
+    "infrastruktur": 34049.5,
+    "berufungen": 10.999999999999998,
+    "gender_pay_gap": 87.0,
+    "eingerichtete_studien": 8.0,
+    "besondere_zulassungsbedingungen": 5115.0
   },
   "UQ": {
     "personal_koepfe": 1436.0,
@@ -51,7 +71,11 @@
     "studien": 1932.5,
     "abschluesse": 253.5,
     "mobilitaet": 151.0,
-    "infrastruktur": 37066.85
+    "infrastruktur": 37066.85,
+    "berufungen": 12.0,
+    "gender_pay_gap": 88.0,
+    "eingerichtete_studien": 7.0,
+    "besondere_zulassungsbedingungen": 6412.0
   },
   "UD": {
     "personal_koepfe": 2039.0,
@@ -60,7 +84,11 @@
     "studien": 13709.36545000001,
     "abschluesse": 2000.5245999999988,
     "mobilitaet": 253.0,
-    "infrastruktur": 116681.29999999999
+    "infrastruktur": 116681.29999999999,
+    "berufungen": 15.0,
+    "gender_pay_gap": 154.0,
+    "eingerichtete_studien": 89.0,
+    "besondere_zulassungsbedingungen": 2265.0
   },
   "UE": {
     "personal_koepfe": 4688.0,
@@ -69,7 +97,11 @@
     "studien": 8008.376049999978,
     "abschluesse": 995.1895499999998,
     "mobilitaet": 162.0,
-    "infrastruktur": 36250.36999999999
+    "infrastruktur": 36250.36999999999,
+    "berufungen": 14.999999999999998,
+    "gender_pay_gap": 199.0,
+    "eingerichtete_studien": 59.0,
+    "besondere_zulassungsbedingungen": 5735.0
   },
   "UF": {
     "personal_koepfe": 2679.0,
@@ -78,7 +110,11 @@
     "studien": 21565.67925000006,
     "abschluesse": 2260.4324499999975,
     "mobilitaet": 624.0,
-    "infrastruktur": 143662.01
+    "infrastruktur": 143662.01,
+    "berufungen": 10.999999999999998,
+    "gender_pay_gap": 125.0,
+    "eingerichtete_studien": 59.0,
+    "besondere_zulassungsbedingungen": 1630.0
   },
   "UG": {
     "personal_koepfe": 1006.0,
@@ -87,7 +123,11 @@
     "studien": 26633.166940000003,
     "abschluesse": 2921.5,
     "mobilitaet": 400.0,
-    "infrastruktur": 212962.58999999997
+    "infrastruktur": 212962.58999999997,
+    "berufungen": 2.0,
+    "gender_pay_gap": 50.0,
+    "eingerichtete_studien": 40.0,
+    "besondere_zulassungsbedingungen": 0.0
   },
   "UH": {
     "personal_koepfe": 2254.0,
@@ -96,7 +136,11 @@
     "studien": 14150.568949999997,
     "abschluesse": 1920.4388000000004,
     "mobilitaet": 329.0,
-    "infrastruktur": 190860.46000000002
+    "infrastruktur": 190860.46000000002,
+    "berufungen": 3.0,
+    "gender_pay_gap": 93.0,
+    "eingerichtete_studien": 51.0,
+    "besondere_zulassungsbedingungen": 0.0
   },
   "UI": {
     "personal_koepfe": 807.0,
@@ -105,7 +149,11 @@
     "studien": 2812.0,
     "abschluesse": 570.0,
     "mobilitaet": 157.0,
-    "infrastruktur": 53959.880000000005
+    "infrastruktur": 53959.880000000005,
+    "berufungen": 5.0,
+    "gender_pay_gap": 40.0,
+    "eingerichtete_studien": 9.0,
+    "besondere_zulassungsbedingungen": 3342.0
   },
   "UJ": {
     "personal_koepfe": 1878.0,
@@ -114,7 +162,11 @@
     "studien": 10536.406530000004,
     "abschluesse": 1299.8200000000002,
     "mobilitaet": 198.0,
-    "infrastruktur": 111969.62000000001
+    "infrastruktur": 111969.62000000001,
+    "berufungen": 2.0,
+    "gender_pay_gap": 105.0,
+    "eingerichtete_studien": 24.0,
+    "besondere_zulassungsbedingungen": 23680.0
   },
   "UK": {
     "personal_koepfe": 3058.0,
@@ -123,7 +175,11 @@
     "studien": 1368.92425,
     "abschluesse": 169.71475,
     "mobilitaet": 68.0,
-    "infrastruktur": 27425.87
+    "infrastruktur": 27425.87,
+    "berufungen": 15.0,
+    "gender_pay_gap": 169.0,
+    "eingerichtete_studien": 78.0,
+    "besondere_zulassungsbedingungen": 4804.0
   },
   "UL": {
     "personal_koepfe": 1233.0,
@@ -132,7 +188,11 @@
     "studien": 1635.4192000000005,
     "abschluesse": 332.2516999999999,
     "mobilitaet": 11.0,
-    "infrastruktur": 30257.78
+    "infrastruktur": 30257.78,
+    "berufungen": 8.0,
+    "gender_pay_gap": 69.0,
+    "eingerichtete_studien": 56.0,
+    "besondere_zulassungsbedingungen": 1723.0
   },
   "US": {
     "personal_koepfe": 681.0,
@@ -141,7 +201,11 @@
     "studien": 7480.0,
     "abschluesse": 863.9,
     "mobilitaet": 603.0,
-    "infrastruktur": 82733.87
+    "infrastruktur": 82733.87,
+    "berufungen": 5.0,
+    "gender_pay_gap": 50.0,
+    "eingerichtete_studien": 28.0,
+    "besondere_zulassungsbedingungen": 7213.0
   },
   "UT": {
     "personal_koepfe": 1123.0,
@@ -150,7 +214,11 @@
     "studien": 4212.960600000005,
     "abschluesse": 449.9938000000001,
     "mobilitaet": 371.0,
-    "infrastruktur": 68200.11
+    "infrastruktur": 68200.11,
+    "berufungen": 17.0,
+    "gender_pay_gap": 186.0,
+    "eingerichtete_studien": 54.0,
+    "besondere_zulassungsbedingungen": 6947.0
   },
   "UU": {
     "personal_koepfe": 675.0,
@@ -159,7 +227,11 @@
     "studien": 3742.5,
     "abschluesse": 468.5,
     "mobilitaet": 161.0,
-    "infrastruktur": 42677.55999999999
+    "infrastruktur": 42677.55999999999,
+    "berufungen": 14.0,
+    "gender_pay_gap": 114.0,
+    "eingerichtete_studien": 84.0,
+    "besondere_zulassungsbedingungen": 4319.0
   },
   "UV": {
     "personal_koepfe": 589.0,
@@ -168,7 +240,11 @@
     "studien": 2186.9399999999996,
     "abschluesse": 287.53999999999996,
     "mobilitaet": 195.0,
-    "infrastruktur": 98909.18000000001
+    "infrastruktur": 98909.18000000001,
+    "berufungen": 13.0,
+    "gender_pay_gap": 106.0,
+    "eingerichtete_studien": 101.0,
+    "besondere_zulassungsbedingungen": 2904.0
   },
   "UW": {
     "personal_koepfe": 514.0,
@@ -177,7 +253,11 @@
     "studien": 22187.0,
     "abschluesse": 3498.0,
     "mobilitaet": 1088.0,
-    "infrastruktur": 82963.75999999998
+    "infrastruktur": 82963.75999999998,
+    "berufungen": 5.0,
+    "gender_pay_gap": 47.0,
+    "eingerichtete_studien": 24.0,
+    "besondere_zulassungsbedingungen": 2182.0
   },
   "UR": {
     "personal_koepfe": 393.0,
@@ -185,7 +265,11 @@
     "neuzulassungen": 13.0,
     "studien": 37.0,
     "abschluesse": 5.0,
-    "infrastruktur": 25341.019999999997
+    "infrastruktur": 25341.019999999997,
+    "berufungen": 6.0,
+    "gender_pay_gap": 47.0,
+    "eingerichtete_studien": 12.0,
+    "besondere_zulassungsbedingungen": 3859.0
   },
   "UM": {
     "personal_koepfe": 1067.0,
@@ -194,6 +278,9 @@
     "studien": 2791.5,
     "abschluesse": 372.5,
     "mobilitaet": 34.0,
-    "infrastruktur": 42109.520000000004
+    "infrastruktur": 42109.520000000004,
+    "berufungen": 1.0,
+    "gender_pay_gap": 7.0,
+    "eingerichtete_studien": 4.0
   }
 }

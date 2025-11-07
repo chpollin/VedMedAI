@@ -105,7 +105,19 @@ function extractSparklineData(category) {
         'studien': 'gesamt',
         'abschluesse': 'gesamt',
         'mobilitaet': 'gesamt',
-        'infrastruktur': 'gesamt'
+        'infrastruktur': 'gesamt',
+        'berufungen': 'gesamt',
+        'frauenquote-kollegialorgane': 'gesamt',
+        'gender-pay-gap': 'gesamt',
+        'professorinnen-aequivalente': 'gesamt',
+        'eingerichtete-studien': 'gesamt',
+        'besondere-zulassungsbedingungen': 'gesamt',
+        'belegte-ordentliche-studien': 'gesamt',
+        'outgoing-studierende': 'gesamt',
+        'incoming-studierende': 'gesamt',
+        'doktoratsstudierende': 'gesamt',
+        'ausserordentliche-abschluesse': 'gesamt',
+        'ordentliche-abschluesse': 'gesamt'
     };
 
     const dataKey = categoryMapping[category];
@@ -194,7 +206,19 @@ function createUniversityCard(code) {
         'studien': { key: 'studien', label: 'Studien' },
         'abschluesse': { key: 'abschluesse', label: 'Abschlüsse' },
         'mobilitaet': { key: 'mobilitaet', label: 'Outgoing-Studierende' },
-        'infrastruktur': { key: 'infrastruktur', label: 'Nutzfläche m²' }
+        'infrastruktur': { key: 'infrastruktur', label: 'Nutzfläche m²' },
+        'berufungen': { key: 'berufungen', label: 'Berufungen gesamt' },
+        'frauenquote-kollegialorgane': { key: 'frauenquote_kollegialorgane', label: 'Frauenquote Kollegialorgane %' },
+        'gender-pay-gap': { key: 'gender_pay_gap', label: 'Gender Pay Gap %' },
+        'professorinnen-aequivalente': { key: 'professorinnen_aequivalente', label: 'Professorinnen-Äquivalente' },
+        'eingerichtete-studien': { key: 'eingerichtete_studien', label: 'Eingerichtete Studien' },
+        'besondere-zulassungsbedingungen': { key: 'besondere_zulassungsbedingungen', label: 'Besondere Zulassungsbedingungen' },
+        'belegte-ordentliche-studien': { key: 'belegte_ordentliche_studien', label: 'Belegte ordentliche Studien' },
+        'outgoing-studierende': { key: 'outgoing_studierende_wb', label: 'Outgoing-Studierende (WB)' },
+        'incoming-studierende': { key: 'incoming_studierende', label: 'Incoming-Studierende' },
+        'doktoratsstudierende': { key: 'doktoratsstudierende', label: 'Doktoratsstudierende mit BV' },
+        'ausserordentliche-abschluesse': { key: 'ausserordentliche_abschluesse', label: 'Außerordentliche Abschlüsse' },
+        'ordentliche-abschluesse': { key: 'ordentliche_abschluesse_wb', label: 'Ordentliche Abschlüsse (WB)' }
     };
 
     const config = categoryConfig[state.selectedCategory] || { key: null, label: 'N/A' };

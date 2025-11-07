@@ -1,18 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python analyze_data.py:*)",
-      "Bash(python analyze_detailed.py:*)",
-      "Bash(python:*)",
-      "Bash(git add:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Datenanalyse und Dokumentation\n\nVollständige Analyse von 59 Excel-Dateien (Wissensbilanz österreichischer Universitäten)\n\nStruktur:\n- data/ - 59 Excel-Dateien (Personal, Studierende, Neuzulassungen, Studien, Abschlüsse, Mobilität, Infrastruktur)\n- pre-processing/ - Python-Scripts für Datenanalyse\n- docs/knowledge/ - Vollständige Datendokumentation\n- docs/WORKING.journal.md - Session-Dokumentation\n\nDokumentation:\n- DATA.md - Komplette Dokumentation aller 59 Dateien mit Definitionen, Strukturen, Klassifikationen\n- CLAUDE.md - Arbeitsregeln für konsistente Dokumentation\n- pre-processing/README.md - Dokumentation aller Analyse-Scripts\n\nAnalyse-Ergebnisse:\n- 20 österreichische Universitäten erfasst\n- Zeitraum 2022-2024\n- 7 Hauptkategorien identifiziert\n- Wissensbilanz-Kennzahlen extrahiert\n- Vollständige Metadaten in JSON-Dateien\n\nGenerated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(while read f)",
-      "Bash(do basename \"$f\")",
-      "Bash(done)",
-      "Bash(cat:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nDashboard-Vorbereitung: JSON-Datenstruktur für GitHub Pages\n\nDatenaufbereitung:\n- Excel-to-JSON Konvertierung implementiert\n- 22 österreichische Universitäten (UA-UW)\n- Hybrid-Ansatz: meta + summary + Kategorie-JSONs\n- Zeitraum 2022-2024, nur 2024-Werte in summary\n\nDateien:\n- pre-processing/extract_to_json.py (Excel-Parser)\n- pre-processing/analyze.py (konsolidiert aus 3 Scripts)\n- docs/data/meta.json (Codex, Dimensionen, Klassifikationen)\n- docs/data/summary.json (Top-Level KPIs pro Uni)\n- docs/data/categories/personal.json (15 KB, Köpfe + VZÄ)\n- docs/data/categories/studierende.json (vorbereitet)\n\nStruktur:\n- CLAUDE.md ins Root verschoben\n- PROJECT-JOURNAL.md kompakt strukturiert\n- DATA.md aktualisiert (22 statt 20 Unis)\n\nPerformance:\n- Initial Load: 4 KB (meta + summary)\n- Lazy Load: 15 KB pro Kategorie\n- Optimiert für GitHub Pages\n\nGenerated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git commit -m \"$(cat <<''EOF''\nMVP Dashboard: Single-Page-Application für Wissensbilanz\n\nDashboard-Implementierung:\n- index.html: Dashboard-Interface (Header, Sidebar, Content)\n- styles.css: CSS mit Custom Properties, Farbkonzept aus CONCEPT.md\n- app.js: Vanilla JavaScript, keine Frameworks\n\nFeatures:\n- Initial Load: meta.json + summary.json (4 KB)\n- Overview: 22 Universitäts-Karten mit Personal-Köpfen 2024\n- Lazy Load: personal.json beim Click auf Karte\n- Detail-View: Tabelle mit Zeitreihen 2022-2024 pro Kategorie\n- Filterung: Universitäts-Auswahl nach Typ (5 Kategorien)\n- Sortierung: Alphabetisch / Nach Wert / Nach Veränderung\n- Export: CSV / JSON mit UTF-8 BOM\n- Breadcrumb-Navigation: Übersicht > Detail\n\nLayout:\n- Header: 140px (Titel, Jahr-Selektor, 7 Kategorie-Buttons)\n- Sidebar: 280px (Filter-Panel mit Checkboxen)\n- Main Content: Responsive Grid (280px Cards, Auto-Fill)\n\nFarbkonzept:\n- 5 Universitätstypen: Voll (Blau), Tech (Orange), Kunst (Grün), Med (Rot), Special (Violett)\n- Sequentielle Skala: 3 Blautöne für Sparklines (2022-2024)\n- Neutralfarben: UI-Elemente\n\nDokumentation:\n- CONCEPT.md: Vollständige Dashboard-Spezifikation\n- PROJECT-JOURNAL.md: Session 3 (CONCEPT.md) + Session 4 (MVP)\n\nStatus:\n- Personal-Kategorie funktional\n- 6 weitere Kategorien disabled (Daten fehlen)\n\nGenerated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git commit:*)"
+      "Bash(python3:*)"
     ],
     "deny": [],
     "ask": []

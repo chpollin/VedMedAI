@@ -1,0 +1,179 @@
+EXCEL FILE PARSING STRATEGY ANALYSIS
+====================================
+
+ANALYZED: 15 files
+PATTERNS: 3 distinct groups identified
+FUNCTIONS NEEDED: 1 enhancement + 2 new functions
+
+=== GROUP 1: UNIVERSITY-BASED HIERARCHICAL DATA ===
+
+Files (3):
+- 1-A-1 Personal - Köpfe.xlsx
+- 1-A-1 Personal - VZÄ.xlsx  
+- 3-A-1 Ordentliche Studienabschlüsse.xlsx
+
+Characteristics:
+- Header row: 19-22
+- Columns: 7-9
+- Structure: Universität | Codex | Langtext | Category | Year1 | Year2 | Year3
+- University identifier: Codex (UA, UB, UC, etc.)
+- Data arrangement: Hierarchical categories per university
+- Time series: 3 years (2024, 2023, 2022)
+- Total data rows per file: 374-45
+
+Parsing Function: read_excel_file
+Status: ENHANCE EXISTING
+
+Implementation Details:
+- Header detection: Find row containing both "Universität" and "Codex"
+- Extract codex: Column 1 value (2-char code starting with U)
+- Extract categories: Column 3 values (hierarchical labels)
+- Extract years: Auto-detect numeric columns from header
+- Filter rows: Skip entries without university code (sub-categories)
+- Output: JSON structure {university_code: {category: {year: value}}}
+
+Quality Checks:
+- All 22 universities present
+- Numeric validation: Non-negative values
+- Hierarchy integrity: Parent-child category relationships
+
+=== GROUP 2: MULTI-YEAR GENDER BREAKDOWNS ===
+
+Files (2):
+- 1-A-2 Berufungen an die Universität.xlsx
+- 2-B-1 Doktoratsstudierende mit BV zur Universität.xlsx
+
+Characteristics:
+- Header row: 16-18
+- Columns: 15 total
+- Structure: 3 columns (University ID) + 4-column blocks for each year
+- University identifier: Column 0 (name), Column 1 (codex)
+- Gender breakdown: Frauen | Männer | Gesamt | Interpretation (per year)
+- Time series: 3 years (2024/25, 2023/24, 2022/23)
+- Total universities: 20-21 per file
+
+Parsing Function: read_multi_year_gender_file
+Status: CREATE NEW
+
+Implementation Details:
+- Header detection: Look for university names in rows 16-18
+- Year parsing: Extract labels from header structure
+- Column offset: Base column per year = year_index * 4 + 3
+- Value extraction: Frauen (col N), Männer (col N+1), Gesamt (col N+2)
+- Skip columns: Interpretation column (every 4th)
+- Year mapping: Convert 2024 → 2024/25 format
+- Output: JSON structure {university_code: {year: {frauen: N, maenner: N, gesamt: N}}}
+
+Quality Checks:
+- Gender sum validation: frauen + maenner = gesamt
+- All 22 universities expected
+- No negative counts
+- Year consistency across rows
+
+=== GROUP 3: PIVOT TABLE FORMAT (CLASSIFICATION-BASED) ===
+
+Files (9):
+- Ordentliche Studierende nach Altersklassen.xlsx
+- Ordentliche Studierende nach Form der Universitätsreife.xlsx
+- Inländische ordentliche Studierende nach regionaler Herkunft.xlsx
+- Ordentliche Neuzugelassene nach Altersklassen.xlsx
+- Ordentliche Neuzugelassene nach Form der Universitätsreife.xlsx
+- Inländische ordentliche Neuzugelassene nach regionaler Herkunft.xlsx
+- Ordentliche Studien nach nationalen Gruppen.xlsx
+- Ordentliche Studien nach internationalen Gruppen.xlsx
+- Ordentliche Studien nach Studienart.xlsx
+
+Characteristics:
+- Header row: 6-8
+- Columns: 6 total
+- Structure: Classification category | Period1 | Period2 | Period3 | ...
+- University identifier: NONE (aggregated across all universities)
+- Data type: Pivot/cross-tab format
+- Time series: Multiple semester/year snapshots
+- Classification types: Age ranges, qualifications, regions, study groups, study types
+- Total rows per file: 25-92 rows
+
+Parsing Function: read_pivot_table_file
+Status: CREATE NEW
+
+Implementation Details:
+- Minimal header search: Scan first 10 rows for header
+- Classification extraction: Column 0 contains category names/values
+- Period parsing: Header contains period labels
+- Period normalization: Extract year from "Wintersemester 2024 (Stichtag: 28.02.2025)"
+- Aggregation filtering: Skip rows with "Gesamt" or "Bundesland Universität"
+- Direct matrix: Simple category × period numeric values
+- Output: JSON structure {classification_type: {category: {period: value}}, metadata: {...}}
+
+Quality Checks:
+- No university disaggregation (already aggregated)
+- Aggregation row filtering
+- All classification categories present
+- Numeric validation
+
+=== IMPLEMENTATION ROADMAP ===
+
+Phase 1 - Enhance Existing Function (2-3 hours):
+Task: read_excel_file improvements
+- Robustness: Better header detection algorithm
+- Error handling: Clear logging for failures
+- Type conversion: Handle German number formats
+Affected files: 3 (GROUP 1)
+
+Phase 2 - Create read_multi_year_gender_file (1-2 hours):
+Task: Parse multi-year gender blocks
+- Year block parsing logic
+- Column offset calculation
+- Gender normalization
+- Validation rules
+Affected files: 2 (GROUP 2)
+
+Phase 3 - Create read_pivot_table_file (1-2 hours):
+Task: Parse classification-based pivots
+- Period extraction from headers
+- Classification filtering
+- Aggregation row detection
+- Simple matrix output
+Affected files: 9 (GROUP 3)
+
+Phase 4 - Integration (1 hour):
+Task: Update extract_to_json.py
+- Add file-to-function routing
+- Update function calls
+- Test on all 15 files
+- Output verification
+
+Total Estimated Time: 5-8 hours
+Code Volume: 300-400 lines
+
+=== FILE MAPPING TABLE ===
+
+File | Group | Function | Header | Rows | Status
+1-A-1 Personal - Köpfe.xlsx | G1 | read_excel_file | 20 | 374 | READY
+1-A-1 Personal - VZÄ.xlsx | G1 | read_excel_file | 19 | 374 | READY
+1-A-2 Berufungen.xlsx | G2 | read_multi_year_gender | 17 | 22 | READY
+Studierende - Altersklassen.xlsx | G3 | read_pivot_table | 6 | 28 | READY
+Studierende - Universitätsreife.xlsx | G3 | read_pivot_table | 6 | 70 | READY
+Studierende - Herkunft.xlsx | G3 | read_pivot_table | 6 | 27 | READY
+Neuzugelassene - Altersklassen.xlsx | G3 | read_pivot_table | 7 | 25 | READY
+Neuzugelassene - Universitätsreife.xlsx | G3 | read_pivot_table | 7 | 70 | READY
+Neuzugelassene - Herkunft.xlsx | G3 | read_pivot_table | 7 | 30 | READY
+Studien - Nationale Gruppen.xlsx | G3 | read_pivot_table | 7 | 35 | READY
+Studien - Internationale Gruppen.xlsx | G3 | read_pivot_table | 8 | 92 | READY
+Studien - Studienart.xlsx | G3 | read_pivot_table | 8 | 26 | READY
+2-B-1 Doktoratsstudierende.xlsx | G2 | read_multi_year_gender | 16 | 22 | READY
+3-A-1 Studienabschlüsse.xlsx | G1 | read_excel_file | 22 | 45 | READY
+
+=== SUMMARY ===
+
+Total Files: 15
+All files have clear, well-defined parsing strategies
+No files require special case handling
+No ambiguous structures identified
+
+Functions Status:
+- read_excel_file: EXISTING (enhance)
+- read_multi_year_gender_file: MISSING (create)
+- read_pivot_table_file: MISSING (create)
+
+All 15 files ready for implementation.

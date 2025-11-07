@@ -46,6 +46,18 @@
     --cat-abschluesse: #7C3AED;
     --cat-mobilitaet: #0891B2;
     --cat-infrastruktur: #DB2777;
+    --cat-berufungen: #F59E0B;
+    --cat-frauenquote-kollegialorgane: #EC4899;
+    --cat-gender-pay-gap: #8B5CF6;
+    --cat-professorinnen-aequivalente: #06B6D4;
+    --cat-eingerichtete-studien: #14B8A6;
+    --cat-besondere-zulassungsbedingungen: #F97316;
+    --cat-belegte-ordentliche-studien: #10B981;
+    --cat-outgoing-studierende: #3B82F6;
+    --cat-incoming-studierende: #6366F1;
+    --cat-doktoratsstudierende: #A855F7;
+    --cat-ausserordentliche-abschluesse: #EF4444;
+    --cat-ordentliche-abschluesse: #84CC16;
 
     --font-family: Inter, ui-sans-serif, system-ui, -apple-system;
     --font-size-body: 14px;

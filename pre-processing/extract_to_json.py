@@ -503,6 +503,114 @@ def extract_summary():
                         summary[uni_code]["infrastruktur"] = value
                         break
 
+    berufungen = data_folder / "1-A-2 Berufungen an die Universität.xlsx"
+    if berufungen.exists():
+        berufungen_data = read_wissensbilanz_file(berufungen)
+        for uni_code, categories in berufungen_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["berufungen"] = categories["Gesamt"]["Gesamt"]
+
+    frauenquote = data_folder / "1-A-3 Frauenquote in Kollegialorganen.xlsx"
+    if frauenquote.exists():
+        frauenquote_data = read_wissensbilanz_file(frauenquote)
+        for uni_code, categories in frauenquote_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["frauenquote_kollegialorgane"] = categories["Gesamt"]["Gesamt"]
+
+    gender_pay_gap = data_folder / "1-A-4 Gender pay gap.xlsx"
+    if gender_pay_gap.exists():
+        gender_pay_gap_data = read_wissensbilanz_file(gender_pay_gap)
+        for uni_code, categories in gender_pay_gap_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["gender_pay_gap"] = categories["Gesamt"]["Gesamt"]
+
+    professorinnen = data_folder / "2-A-1 Professorinnen und Äquivalente.xlsx"
+    if professorinnen.exists():
+        professorinnen_data = read_wissensbilanz_file(professorinnen)
+        for uni_code, categories in professorinnen_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["professorinnen_aequivalente"] = categories["Gesamt"]["Gesamt"]
+
+    eingerichtete_studien = data_folder / "2-A-2 Eingerichtete Studien.xlsx"
+    if eingerichtete_studien.exists():
+        eingerichtete_studien_data = read_wissensbilanz_file(eingerichtete_studien)
+        for uni_code, categories in eingerichtete_studien_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["eingerichtete_studien"] = categories["Gesamt"]["Gesamt"]
+
+    besondere_zulassung = data_folder / "2-A-4 Besondere Zulassungsbedingungen.xlsx"
+    if besondere_zulassung.exists():
+        besondere_zulassung_data = read_wissensbilanz_file(besondere_zulassung)
+        for uni_code, categories in besondere_zulassung_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["besondere_zulassungsbedingungen"] = categories["Gesamt"]["Gesamt"]
+
+    belegte_studien = data_folder / "2-A-8 Anzahl belegte ordentliche Studien.xlsx"
+    if belegte_studien.exists():
+        belegte_studien_data = read_wissensbilanz_file(belegte_studien)
+        for uni_code, categories in belegte_studien_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["belegte_ordentliche_studien"] = categories["Gesamt"]["Gesamt"]
+
+    outgoing = data_folder / "2-A-9 Ordentliche Studierende outgoing.xlsx"
+    if outgoing.exists():
+        outgoing_data = read_wissensbilanz_file(outgoing)
+        for uni_code, categories in outgoing_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["outgoing_studierende_wb"] = categories["Gesamt"]["Gesamt"]
+
+    incoming = data_folder / "2-A-9 Ordentliche Studierende incoming.xlsx"
+    if incoming.exists():
+        incoming_data = read_wissensbilanz_file(incoming)
+        for uni_code, categories in incoming_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["incoming_studierende"] = categories["Gesamt"]["Gesamt"]
+
+    doktorat = data_folder / "2-B-1 Doktoratsstudierende mit Betreuungsverhältnis.xlsx"
+    if doktorat.exists():
+        doktorat_data = read_wissensbilanz_file(doktorat)
+        for uni_code, categories in doktorat_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["doktoratsstudierende"] = categories["Gesamt"]["Gesamt"]
+
+    ausserord_abschluesse = data_folder / "3-A-1 Außerordentliche Studienabschlüsse.xlsx"
+    if ausserord_abschluesse.exists():
+        ausserord_abschluesse_data = read_wissensbilanz_file(ausserord_abschluesse)
+        for uni_code, categories in ausserord_abschluesse_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["ausserordentliche_abschluesse"] = categories["Gesamt"]["Gesamt"]
+
+    ord_abschluesse = data_folder / "3-A-1 Ordentliche Studienabschlüsse.xlsx"
+    if ord_abschluesse.exists():
+        ord_abschluesse_data = read_wissensbilanz_file(ord_abschluesse)
+        for uni_code, categories in ord_abschluesse_data.items():
+            if uni_code not in summary:
+                summary[uni_code] = {}
+            if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
+                summary[uni_code]["ordentliche_abschluesse_wb"] = categories["Gesamt"]["Gesamt"]
+
     with open(output_folder / "summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
 
