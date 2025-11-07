@@ -1,3 +1,158 @@
 {
-  "ordentliche": {}
+  "ordentliche": {
+    "UA": {
+      "Ordentliche Studierende": {
+        "Frauen": 49577.0,
+        "Männer": 29572.0,
+        "Gesamt": 79149.0
+      }
+    },
+    "UB": {
+      "Ordentliche Studierende": {
+        "Frauen": 17105.0,
+        "Männer": 10452.0,
+        "Gesamt": 27557.0
+      }
+    },
+    "UC": {
+      "Ordentliche Studierende": {
+        "Frauen": 14363.0,
+        "Männer": 12487.0,
+        "Gesamt": 26850.0
+      }
+    },
+    "US": {
+      "Ordentliche Studierende": {
+        "Frauen": 4300.0,
+        "Männer": 3374.0,
+        "Gesamt": 7674.0
+      }
+    },
+    "UT": {
+      "Ordentliche Studierende": {
+        "Frauen": 2819.0,
+        "Männer": 2173.0,
+        "Gesamt": 4992.0
+      }
+    },
+    "UU": {
+      "Ordentliche Studierende": {
+        "Frauen": 2104.0,
+        "Männer": 1595.0,
+        "Gesamt": 3699.0
+      }
+    },
+    "UD": {
+      "Ordentliche Studierende": {
+        "Frauen": 9763.0,
+        "Männer": 5239.0,
+        "Gesamt": 15002.0
+      }
+    },
+    "UG": {
+      "Ordentliche Studierende": {
+        "Frauen": 8044.0,
+        "Männer": 17274.0,
+        "Gesamt": 25318.0
+      }
+    },
+    "UH": {
+      "Ordentliche Studierende": {
+        "Frauen": 5798.0,
+        "Männer": 10984.0,
+        "Gesamt": 16782.0
+      }
+    },
+    "UI": {
+      "Ordentliche Studierende": {
+        "Frauen": 710.0,
+        "Männer": 1934.0,
+        "Gesamt": 2644.0
+      }
+    },
+    "UJ": {
+      "Ordentliche Studierende": {
+        "Frauen": 5394.0,
+        "Männer": 4805.0,
+        "Gesamt": 10199.0
+      }
+    },
+    "UV": {
+      "Ordentliche Studierende": {
+        "Frauen": 1894.0,
+        "Männer": 569.0,
+        "Gesamt": 2463.0
+      }
+    },
+    "UW": {
+      "Ordentliche Studierende": {
+        "Frauen": 9716.0,
+        "Männer": 11264.0,
+        "Gesamt": 20980.0
+      }
+    },
+    "UF": {
+      "Ordentliche Studierende": {
+        "Frauen": 12562.0,
+        "Männer": 11829.0,
+        "Gesamt": 24391.0
+      }
+    },
+    "UE": {
+      "Ordentliche Studierende": {
+        "Frauen": 7741.0,
+        "Männer": 4791.0,
+        "Gesamt": 12532.0
+      }
+    },
+    "UQ": {
+      "Ordentliche Studierende": {
+        "Frauen": 1299.0,
+        "Männer": 697.0,
+        "Gesamt": 1996.0
+      }
+    },
+    "UM": {
+      "Ordentliche Studierende": {
+        "Frauen": 1432.0,
+        "Männer": 1209.0,
+        "Gesamt": 2641.0
+      }
+    },
+    "UL": {
+      "Ordentliche Studierende": {
+        "Frauen": 1357.0,
+        "Männer": 688.0,
+        "Gesamt": 2045.0
+      }
+    },
+    "UN": {
+      "Ordentliche Studierende": {
+        "Frauen": 982.0,
+        "Männer": 1022.0,
+        "Gesamt": 2004.0
+      }
+    },
+    "UK": {
+      "Ordentliche Studierende": {
+        "Frauen": 1099.0,
+        "Männer": 500.0,
+        "Gesamt": 1599.0
+      }
+    },
+    "UO": {
+      "Ordentliche Studierende": {
+        "Frauen": 1161.0,
+        "Männer": 539.0,
+        "Gesamt": 1700.0
+      }
+    },
+    "UR": {
+      "Ordentliche Studierende": {
+        "Frauen": 23.0,
+        "Männer": 14.0,
+        "Gesamt": 37.0
+      }
+    }
+  }
 }

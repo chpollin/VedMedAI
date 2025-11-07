@@ -1,68 +1,90 @@
 {
   "UA": {
-    "personal_koepfe": 7640.0
+    "personal_koepfe": 7640.0,
+    "studierende": 79149.0
   },
   "UB": {
-    "personal_koepfe": 3270.0
+    "personal_koepfe": 3270.0,
+    "studierende": 27557.0
   },
   "UC": {
-    "personal_koepfe": 4018.0
+    "personal_koepfe": 4018.0,
+    "studierende": 26850.0
   },
   "UN": {
-    "personal_koepfe": 4704.0
+    "personal_koepfe": 4704.0,
+    "studierende": 2004.0
   },
   "UO": {
-    "personal_koepfe": 1723.0
+    "personal_koepfe": 1723.0,
+    "studierende": 1700.0
   },
   "UQ": {
-    "personal_koepfe": 1436.0
+    "personal_koepfe": 1436.0,
+    "studierende": 1996.0
   },
   "UD": {
-    "personal_koepfe": 2039.0
+    "personal_koepfe": 2039.0,
+    "studierende": 15002.0
   },
   "UE": {
-    "personal_koepfe": 4688.0
+    "personal_koepfe": 4688.0,
+    "studierende": 12532.0
   },
   "UF": {
-    "personal_koepfe": 2679.0
+    "personal_koepfe": 2679.0,
+    "studierende": 24391.0
   },
   "UG": {
-    "personal_koepfe": 1006.0
+    "personal_koepfe": 1006.0,
+    "studierende": 25318.0
   },
   "UH": {
-    "personal_koepfe": 2254.0
+    "personal_koepfe": 2254.0,
+    "studierende": 16782.0
   },
   "UI": {
-    "personal_koepfe": 807.0
+    "personal_koepfe": 807.0,
+    "studierende": 2644.0
   },
   "UJ": {
-    "personal_koepfe": 1878.0
+    "personal_koepfe": 1878.0,
+    "studierende": 10199.0
   },
   "UK": {
-    "personal_koepfe": 3058.0
+    "personal_koepfe": 3058.0,
+    "studierende": 1599.0
   },
   "UL": {
-    "personal_koepfe": 1233.0
+    "personal_koepfe": 1233.0,
+    "studierende": 2045.0
   },
   "US": {
-    "personal_koepfe": 681.0
+    "personal_koepfe": 681.0,
+    "studierende": 7674.0
   },
   "UT": {
-    "personal_koepfe": 1123.0
+    "personal_koepfe": 1123.0,
+    "studierende": 4992.0
   },
   "UU": {
-    "personal_koepfe": 675.0
+    "personal_koepfe": 675.0,
+    "studierende": 3699.0
   },
   "UV": {
-    "personal_koepfe": 589.0
+    "personal_koepfe": 589.0,
+    "studierende": 2463.0
   },
   "UW": {
-    "personal_koepfe": 514.0
+    "personal_koepfe": 514.0,
+    "studierende": 20980.0
   },
   "UR": {
-    "personal_koepfe": 393.0
+    "personal_koepfe": 393.0,
+    "studierende": 37.0
   },
   "UM": {
-    "personal_koepfe": 1067.0
+    "personal_koepfe": 1067.0,
+    "studierende": 2641.0
   }
 }

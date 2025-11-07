@@ -1,3 +1,10 @@
+// Logging
+const log = (msg, data = null) => {
+    const prefix = `[${new Date().toLocaleTimeString()}]`;
+    if (data) console.log(prefix, msg, data);
+    else console.log(prefix, msg);
+};
+
 // State
 const state = {
     meta: null,
@@ -30,10 +37,12 @@ const uniTypeLabels = {
 // Initialize
 async function init() {
     try {
+        log('Init start');
         await loadInitialData();
         renderUniversityFilters();
         renderOverview();
         attachEventListeners();
+        log('Init complete');
     } catch (error) {
         console.error('Initialisierungsfehler:', error);
         alert('Fehler beim Laden der Daten');
@@ -42,6 +51,7 @@ async function init() {
 
 // Load data
 async function loadInitialData() {
+    log('Load meta + summary');
     const [metaRes, summaryRes] = await Promise.all([
         fetch('data/meta.json'),
         fetch('data/summary.json')
@@ -54,13 +64,16 @@ async function loadInitialData() {
     Object.keys(state.meta.universities).forEach(code => {
         state.selectedUniversities.add(code);
     });
+    log(`Loaded ${Object.keys(state.meta.universities).length} unis`);
 }
 
 async function loadCategoryData(category) {
+    log(`Load category: ${category}`);
     showLoading();
     try {
         const res = await fetch(`data/categories/${category}.json`);
         state.categoryData = await res.json();
+        log(`Category loaded`, Object.keys(state.categoryData));
         hideLoading();
     } catch (error) {
         console.error('Fehler beim Laden der Kategorie:', error);
@@ -123,7 +136,19 @@ function createUniversityCard(code) {
     card.dataset.code = code;
 
     const type = getUniversityType(code);
-    const value = state.summary[code]?.personal_koepfe || 0;
+
+    // Wähle Wert und Label basierend auf aktiver Kategorie
+    let value, label;
+    if (state.selectedCategory === 'personal') {
+        value = state.summary[code]?.personal_koepfe || 0;
+        label = 'Personal (Köpfe)';
+    } else if (state.selectedCategory === 'studierende') {
+        value = state.summary[code]?.studierende || 0;
+        label = 'Ordentliche Studierende';
+    } else {
+        value = 0;
+        label = 'N/A';
+    }
 
     card.innerHTML = `
         <div class="university-card-header">
@@ -131,7 +156,7 @@ function createUniversityCard(code) {
             <div class="university-code">${code}</div>
         </div>
         <div class="university-value">${formatNumber(value)}</div>
-        <div class="university-label">Personal (Köpfe)</div>
+        <div class="university-label">${label}</div>
         <div class="sparkline">
             <div class="sparkline-bar" style="height: 60%"></div>
             <div class="sparkline-bar" style="height: 80%"></div>
@@ -160,42 +185,75 @@ function renderDetailView(code) {
     overviewView.classList.remove('active');
     detailView.classList.add('active');
 
-    const data = state.categoryData?.koepfe?.[code] || {};
-    const categories = Object.keys(data);
+    let tableHTML = `<h2>${state.meta.universities[code]}</h2>`;
 
-    let tableHTML = `
-        <h2>${state.meta.universities[code]}</h2>
-        <table class="detail-table">
-            <thead>
-                <tr>
-                    <th>Kategorie</th>
-                    <th>2022</th>
-                    <th>2023</th>
-                    <th>2024</th>
-                    <th>Veränderung</th>
-                </tr>
-            </thead>
-            <tbody>
-    `;
-
-    categories.forEach(category => {
-        const years = data[category];
-        const values = extractYearValues(years);
-        const change = values.y2024 - values.y2022;
-        const changePercent = values.y2022 ? ((change / values.y2022) * 100).toFixed(1) : 0;
+    if (state.selectedCategory === 'personal') {
+        const data = state.categoryData?.koepfe?.[code] || {};
+        const categories = Object.keys(data);
 
         tableHTML += `
-            <tr>
-                <td>${category}</td>
-                <td>${formatNumber(values.y2022)}</td>
-                <td>${formatNumber(values.y2023)}</td>
-                <td>${formatNumber(values.y2024)}</td>
-                <td>${change >= 0 ? '+' : ''}${formatNumber(change)} (${changePercent}%)</td>
-            </tr>
+            <table class="detail-table">
+                <thead>
+                    <tr>
+                        <th>Kategorie</th>
+                        <th>2022</th>
+                        <th>2023</th>
+                        <th>2024</th>
+                        <th>Veränderung</th>
+                    </tr>
+                </thead>
+                <tbody>
         `;
-    });
 
-    tableHTML += '</tbody></table>';
+        categories.forEach(category => {
+            const years = data[category];
+            const values = extractYearValues(years);
+            const change = values.y2024 - values.y2022;
+            const changePercent = values.y2022 ? ((change / values.y2022) * 100).toFixed(1) : 0;
+
+            tableHTML += `
+                <tr>
+                    <td>${category}</td>
+                    <td>${formatNumber(values.y2022)}</td>
+                    <td>${formatNumber(values.y2023)}</td>
+                    <td>${formatNumber(values.y2024)}</td>
+                    <td>${change >= 0 ? '+' : ''}${formatNumber(change)} (${changePercent}%)</td>
+                </tr>
+            `;
+        });
+
+        tableHTML += '</tbody></table>';
+    } else if (state.selectedCategory === 'studierende') {
+        const data = state.categoryData?.ordentliche?.[code] || {};
+        const categories = Object.keys(data);
+
+        tableHTML += `
+            <table class="detail-table">
+                <thead>
+                    <tr>
+                        <th>Kategorie</th>
+                        <th>Wert</th>
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+
+        categories.forEach(category => {
+            const values = data[category];
+
+            Object.entries(values).forEach(([key, value]) => {
+                tableHTML += `
+                    <tr>
+                        <td>${category} - ${key}</td>
+                        <td>${formatNumber(value)}</td>
+                    </tr>
+                `;
+            });
+        });
+
+        tableHTML += '</tbody></table>';
+    }
+
     detailContent.innerHTML = tableHTML;
 
     updateBreadcrumb(['Übersicht', state.meta.universities[code]]);
@@ -227,8 +285,17 @@ function sortUniversities(universities) {
             break;
         case 'value':
             sorted.sort((a, b) => {
-                const valA = state.summary[a]?.personal_koepfe || 0;
-                const valB = state.summary[b]?.personal_koepfe || 0;
+                let valA, valB;
+                if (state.selectedCategory === 'personal') {
+                    valA = state.summary[a]?.personal_koepfe || 0;
+                    valB = state.summary[b]?.personal_koepfe || 0;
+                } else if (state.selectedCategory === 'studierende') {
+                    valA = state.summary[a]?.studierende || 0;
+                    valB = state.summary[b]?.studierende || 0;
+                } else {
+                    valA = 0;
+                    valB = 0;
+                }
                 return valB - valA;
             });
             break;
@@ -289,6 +356,7 @@ function handleUniversityFilterChange(e) {
         return;
     }
 
+    log(`Filter: ${state.selectedUniversities.size} unis`);
     renderOverview();
 }
 
@@ -343,6 +411,7 @@ function attachEventListeners() {
             document.getElementById('overview-view').classList.add('active');
             updateBreadcrumb(['Übersicht']);
 
+            log(`Category: ${state.selectedCategory}`);
             renderOverview();
         });
     });
@@ -360,21 +429,36 @@ function attachEventListeners() {
     // Sort
     document.getElementById('sort-select').addEventListener('change', (e) => {
         state.sortMode = e.target.value;
+        log(`Sort: ${state.sortMode}`);
         renderOverview();
     });
 
     // Export
-    document.getElementById('export-csv').addEventListener('click', exportCSV);
-    document.getElementById('export-json').addEventListener('click', exportJSON);
+    document.getElementById('export-csv').addEventListener('click', () => {
+        log('Export CSV');
+        exportCSV();
+    });
+    document.getElementById('export-json').addEventListener('click', () => {
+        log('Export JSON');
+        exportJSON();
+    });
 }
 
 function exportCSV() {
     const universities = getFilteredUniversities();
-    let csv = 'Universität,Code,Personal (Köpfe)\n';
+    const categoryLabel = state.selectedCategory === 'personal' ? 'Personal (Köpfe)' : 'Ordentliche Studierende';
+    let csv = `Universität,Code,${categoryLabel}\n`;
 
     universities.forEach(code => {
         const name = state.meta.universities[code];
-        const value = state.summary[code]?.personal_koepfe || 0;
+        let value;
+        if (state.selectedCategory === 'personal') {
+            value = state.summary[code]?.personal_koepfe || 0;
+        } else if (state.selectedCategory === 'studierende') {
+            value = state.summary[code]?.studierende || 0;
+        } else {
+            value = 0;
+        }
         csv += `"${name}",${code},${value}\n`;
     });
 
@@ -387,9 +471,14 @@ function exportJSON() {
 
     universities.forEach(code => {
         data[code] = {
-            name: state.meta.universities[code],
-            personal_koepfe: state.summary[code]?.personal_koepfe || 0
+            name: state.meta.universities[code]
         };
+
+        if (state.selectedCategory === 'personal') {
+            data[code].personal_koepfe = state.summary[code]?.personal_koepfe || 0;
+        } else if (state.selectedCategory === 'studierende') {
+            data[code].studierende = state.summary[code]?.studierende || 0;
+        }
     });
 
     const json = JSON.stringify(data, null, 2);

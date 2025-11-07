@@ -176,6 +176,97 @@ def extract_personal():
     print("categories/personal.json erstellt")
 
 
+def read_studierende_file(file_path):
+    """Liest Studierende-Excel mit anderem Format (Name statt Code)"""
+    try:
+        df_raw = pd.read_excel(file_path, sheet_name="Tab", header=None)
+
+        # Finde Header-Zeile mit "Universität"
+        header_row = None
+        for i in range(min(30, len(df_raw))):
+            if pd.notna(df_raw.iloc[i, 0]) and "Universität" in str(df_raw.iloc[i, 0]):
+                # Prüfe ob nächste Spalten Frauen/Männer/Gesamt sind
+                if i + 1 < len(df_raw):
+                    header_row = i
+                    break
+
+        if header_row is None:
+            return {}
+
+        # Lese mit Header
+        df = pd.read_excel(file_path, sheet_name="Tab", header=header_row)
+
+        # Bereinige Spaltennamen (Frauen, Männer, Gesamt)
+        columns_clean = []
+        for i, col in enumerate(df.columns):
+            if i == 0:
+                columns_clean.append("Universität")
+            elif "Frauen" in str(col) or i == 1:
+                columns_clean.append("Frauen")
+            elif "Männer" in str(col) or "M�nner" in str(col) or i == 2:
+                columns_clean.append("Männer")
+            elif i == 3:
+                columns_clean.append("Gesamt")
+            else:
+                columns_clean.append(str(col))
+
+        df.columns = columns_clean
+
+        # Name-zu-Code Mapping (aus meta.json)
+        name_to_code = {
+            "Universität Wien": "UA",
+            "Universität Graz": "UB",
+            "Universität Innsbruck": "UC",
+            "Universität Salzburg": "UD",
+            "Universität Klagenfurt": "UE",
+            "Universität Linz": "UF",
+            "Technische Universität Wien": "UG",
+            "Technische Universität Graz": "UH",
+            "Montanuniversität Leoben": "UI",
+            "Universität für Bodenkultur Wien": "UJ",
+            "Universität für künstlerische und industrielle Gestaltung Linz": "UK",
+            "Universität Mozarteum Salzburg": "UL",
+            "Universität für Musik und darstellende Kunst Wien": "UM",
+            "Universität für Musik und darstellende Kunst Graz": "UN",
+            "Akademie der bildenden Künste Wien": "UO",
+            "Universität für angewandte Kunst Wien": "UQ",
+            "Universität für Weiterbildung Krems": "UR",
+            "Medizinische Universität Wien": "US",
+            "Medizinische Universität Graz": "UT",
+            "Medizinische Universität Innsbruck": "UU",
+            "Veterinärmedizinische Universität Wien": "UV",
+            "Wirtschaftsuniversität Wien": "UW"
+        }
+
+        result = {}
+
+        for idx, row in df.iterrows():
+            uni_name = str(row.iloc[0]) if pd.notna(row.iloc[0]) else None
+
+            if uni_name and uni_name in name_to_code:
+                uni_code = name_to_code[uni_name]
+
+                if uni_code not in result:
+                    result[uni_code] = {}
+
+                # Extrahiere Werte (Frauen, Männer, Gesamt)
+                if "Ordentliche Studierende" not in result[uni_code]:
+                    result[uni_code]["Ordentliche Studierende"] = {}
+
+                for col_name in ["Frauen", "Männer", "Gesamt"]:
+                    if col_name in df.columns:
+                        val = row[col_name]
+                        if pd.notna(val) and isinstance(val, (int, float)):
+                            result[uni_code]["Ordentliche Studierende"][col_name] = float(val)
+
+        return result
+    except Exception as e:
+        print(f"Fehler bei {file_path.name}: {e}")
+        import traceback
+        traceback.print_exc()
+        return {}
+
+
 def extract_studierende():
     """Extrahiert Studierende-Daten"""
     studierende_files = [
@@ -187,7 +278,7 @@ def extract_studierende():
     for filename in studierende_files:
         file_path = data_folder / filename
         if file_path.exists():
-            data["ordentliche"] = read_excel_file(file_path)
+            data["ordentliche"] = read_studierende_file(file_path)
 
     categories_folder = output_folder / "categories"
     categories_folder.mkdir(exist_ok=True)
@@ -219,18 +310,15 @@ def extract_summary():
                         break
 
     if studierende.exists():
-        studierende_data = read_excel_file(studierende)
+        studierende_data = read_studierende_file(studierende)
         for uni_code, categories in studierende_data.items():
             if uni_code not in summary:
                 summary[uni_code] = {}
 
-            if categories:
-                first_category = list(categories.values())[0]
-                if isinstance(first_category, dict):
-                    for year_label, value in first_category.items():
-                        if "2024" in year_label:
-                            summary[uni_code]["studierende"] = value
-                            break
+            if "Ordentliche Studierende" in categories:
+                values = categories["Ordentliche Studierende"]
+                if "Gesamt" in values:
+                    summary[uni_code]["studierende"] = values["Gesamt"]
 
     with open(output_folder / "summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
