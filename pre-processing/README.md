@@ -94,7 +94,7 @@ docs/data/categories/
 - studien.json (3,5 KB: Ordentliche Studien gesamt, Frauen/Männer)
 - abschluesse.json (3,7 KB: Ordentliche Studienabschlüsse gesamt, Frauen/Männer)
 - mobilitaet.json (2,9 KB: Outgoing-Studierende gesamt, Frauen/Männer)
-- infrastruktur.json (leer: Nutzfläche-Parsing noch offen)
+- infrastruktur.json (69 Zeilen: Nutzfläche m² 2006-2023, 22 Universitäten)
 
 ## Abhängigkeiten
 

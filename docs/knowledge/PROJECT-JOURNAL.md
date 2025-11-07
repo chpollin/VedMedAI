@@ -320,3 +320,45 @@ Nächste Schritte:
 - Phase 2: Sparklines mit echten Daten + einheitlicher y-Skala
 - Infrastruktur-Kategorie: Nutzfläche-Parsing fixen
 - GitHub Pages deployen
+
+## 2025-11-07 Session 9
+
+Phase 2: Sparklines mit echten Daten + Infrastruktur-Kategorie funktional
+
+Dateien aktualisiert:
+- docs/app.js (State + extractSparklineData + sparklineHTML)
+- docs/index.html (Infrastruktur-Button enabled)
+- docs/data/categories/infrastruktur.json (69 Zeilen)
+- docs/data/summary.json (infrastruktur-Werte)
+- pre-processing/extract_to_json.py (read_infrastruktur_file)
+
+Sparklines-Implementierung:
+- State.sparklineData: Speichert 2022-2024 Werte + maxValue pro Kategorie
+- extractSparklineData: Extrahiert erste Kategorie aus categoryData (z.B. "Wissenschaftliches und künstlerisches Personal" für Personal)
+- Unified y-scale: maxValue über alle Universitäten
+- 3 vertikale Balken: Höhe als Prozent von maxValue
+- Sequentielle Blau-Skala: sparkline-bar:nth-child(1/2/3) mit seq-2022/2023/2024
+- Tooltips: title-Attribut mit Jahr und formatiertem Wert
+- Lazy Loading: extractSparklineData bei loadCategoryData + Category-Switch
+
+Infrastruktur-Kategorie:
+- read_infrastruktur_file: Spezialisierte Parsing-Funktion vor extract_summary platziert
+- Header-Detection-Fix: cell_value.strip() == "Universität" statt "Universität" in str (verhindert Match mit "Raum Universitäten")
+- Korrekte Header-Row: Zeile 15 statt Zeile 0
+- Jahr-Spalten: 2023, 2022, 2021... bis 2006 als Strings
+- 22 Universitäten: Alle Name-zu-Code Mappings funktional
+- Zeitreihen: "Stichtag 31.12.2023" bis "Stichtag 31.12.2006"
+- Kategorie: "Nutzfläche m²"
+- extract_summary: 2023-Werte (neueste verfügbare)
+
+Cleanup:
+- 7 Debug-Scripts gelöscht: debug_infrastruktur.py (1-6), test_infrastruktur_direct.py
+
+Status:
+- Alle 7 Kategorien funktional
+- Sparklines zeigen echte Trends mit einheitlicher Skala
+- Infrastruktur-Button aktiviert
+- Initial Load: personal.json mit Sparklines
+- Category Switch: Lazy Load + Sparkline-Neuberechnung
+
+Commit: 5 Dateien, 675 Zeilen hinzugefügt, 34 Zeilen gelöscht
