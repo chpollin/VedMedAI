@@ -271,3 +271,52 @@ Status:
 - Phase 1 Revision abgeschlossen
 - Interface professioneller, weniger überladen
 - Nächste Schritte: Phase 2 (echte Sparkline-Daten mit einheitlicher y-Skala)
+
+## 2025-11-07 Session 8
+
+Design-System Phase 1 Revision 2: Farbige Icons + Neutrale UI
+
+Dateien aktualisiert:
+- docs/styles.css (CSS-Spezifität-Fix für Farbklassen)
+- docs/knowledge/DESIGN.md (Version 1.1, vollständige Revision)
+
+Problem gelöst:
+- Icons in Universitätskarten nicht sichtbar
+- Ursache: CSS-Klassen .voll/.tech/.kunst/.med/.special setzten background auf Badge-Container
+- Fix: Klassen zu .color-indicator.voll etc. geändert (höhere Spezifität)
+
+Änderungen Typ-Icons:
+- Icons direkt gefärbt (color auf i-Tag)
+- 20px Größe, keine Hintergrund-Circle
+- Farbzuordnung: voll=Blau, tech=Orange, kunst=Grün, med=Rot, special=Violett
+
+Änderungen UI-Elemente:
+- Aktive Buttons: neutral-900 statt primary-600 (Blau)
+- year-btn.active, category-btn.active, agg-btn.active: alle neutral-900
+- Konsistente neutrale UI, Fokus auf Daten-Farben
+
+CSS-Spezifikation dokumentiert:
+- .university-type-badge: display flex, font-size 20px
+- .university-type-badge.voll i: color var(--uni-voll)
+- .color-indicator: width 12px, height 12px, border-radius 2px
+- .color-indicator.voll: background var(--uni-voll)
+
+DESIGN.md aktualisiert:
+- Version 1.1
+- Revision Session 8: Farbige Icons, neutrale UI
+- Universität-Karten: KPI 48px, Label 12px uppercase, Icons 20px farbig
+- Filter: 12px Farbindikator-Quadrat, keine Icons
+- Aggregation-Buttons: neutral-900 aktiv, keine Icons
+- CSS-Spezifikationen für alle Komponenten
+
+Status:
+- Design-System Phase 1 Revision 2 abgeschlossen
+- Icons funktional, Farben konsistent
+- UI neutral, Daten-Visualisierung im Fokus
+- 6 Kategorien funktional (Personal, Studierende, Neuzulassungen, Studien, Abschlüsse, Mobilität)
+- Commit: 14 Dateien, 1755 Zeilen hinzugefügt
+
+Nächste Schritte:
+- Phase 2: Sparklines mit echten Daten + einheitlicher y-Skala
+- Infrastruktur-Kategorie: Nutzfläche-Parsing fixen
+- GitHub Pages deployen
