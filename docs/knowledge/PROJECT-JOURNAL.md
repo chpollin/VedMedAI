@@ -424,3 +424,33 @@ Status:
 - Phase 2 offen: 2 Spezial-Dateien (1-A-5, 2-A-7 Lehrgänge)
 - Phase 3 offen: 3 Komplexe Dateien (2-A-3, 2-A-5, 2-A-6)
 - Nicht analysiert: 2 Dateien (3-A-2, 3-A-3)
+
+## Session 11: Dashboard-Erweiterung (2025-11-07)
+
+Aufgabe: 12 neue Wissensbilanz-Kategorien ins Dashboard integrieren
+
+Implementierung:
+
+Dashboard-Erweiterung:
+- index.html: 12 neue Kategorie-Buttons (19 Buttons gesamt)
+- app.js: categoryConfig erweitert (alle Labels + summary.json Keys)
+- app.js: categoryMapping erweitert (Sparkline-Extraktion)
+- styles.css: 12 neue Kategorie-Farben definiert
+
+Datenintegration:
+- extract_to_json.py: extract_summary() erweitert
+- summary.json: 19 KPIs pro Universität (12 neue Felder)
+- Neue KPIs: berufungen, frauenquote_kollegialorgane, gender_pay_gap, professorinnen_aequivalente, eingerichtete_studien, besondere_zulassungsbedingungen, belegte_ordentliche_studien, outgoing_studierende_wb, incoming_studierende, doktoratsstudierende, ausserordentliche_abschluesse, ordentliche_abschluesse_wb
+
+Icons:
+- Font Awesome 6: user-tie, venus, scale-unbalanced, chalkboard-user, graduation-cap, door-open, user-check, plane-departure, plane-arrival, scroll
+
+Commit: 2d400b1
+- 29 Dateien geändert, 4970 Zeilen hinzugefügt, 36 gelöscht
+- JavaScript-Syntax validiert
+- 22 Universitäten mit 19 KPIs funktional
+
+Status:
+- Dashboard-UI: 19 Kategorien verfügbar
+- Lazy Loading: alle 19 Kategorien funktionsfähig
+- Sparklines: funktional für Kategorien mit Zeitreihen-Daten
