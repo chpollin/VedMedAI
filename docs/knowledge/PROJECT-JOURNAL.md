@@ -121,7 +121,15 @@ Status:
 - Studierende-Kategorie disabled (JSON-Parsing noch fehlerhaft)
 - 5 weitere Kategorien disabled (JSONs noch nicht erstellt)
 
+Commits:
+- MVP Dashboard (5 Dateien, 1311 Zeilen)
+
+Test:
+- Dashboard lokal funktional
+- Alle Features getestet und funktionieren
+- Export CSV/JSON erfolgreich
+
 Nächste Schritte:
-- Dashboard lokal testen
 - studierende.json Parsing beheben
 - Restliche 5 Kategorie-JSONs implementieren
+- GitHub Pages deployen
