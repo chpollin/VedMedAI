@@ -2,149 +2,275 @@
   "gesamt": {
     "UA": {
       "Gesamt": {
-        "EU": 2396.0,
-        "Drittstaaten": 770.0,
-        "Gesamt": 3166.0
+        "Studienjahr 2023/24 - EU": 1191.0,
+        "Studienjahr 2023/24 - Drittstaaten": 398.0,
+        "Studienjahr 2023/24 - Gesamt": 1589.0,
+        "Studienjahr 2022/23 - EU": 1290.0,
+        "Studienjahr 2022/23 - Drittstaaten": 445.0,
+        "Studienjahr 2022/23 - Gesamt": 1735.0,
+        "Studienjahr 2021/22 - EU": 2396.0,
+        "Studienjahr 2021/22 - Drittstaaten": 770.0,
+        "Studienjahr 2021/22 - Gesamt": 3166.0
       }
     },
     "UB": {
       "Gesamt": {
-        "EU": 346.0,
-        "Drittstaaten": 190.0,
-        "Gesamt": 536.0
+        "Studienjahr 2023/24 - EU": 364.0,
+        "Studienjahr 2023/24 - Drittstaaten": 180.0,
+        "Studienjahr 2023/24 - Gesamt": 544.0,
+        "Studienjahr 2022/23 - EU": 374.0,
+        "Studienjahr 2022/23 - Drittstaaten": 223.0,
+        "Studienjahr 2022/23 - Gesamt": 597.0,
+        "Studienjahr 2021/22 - EU": 346.0,
+        "Studienjahr 2021/22 - Drittstaaten": 190.0,
+        "Studienjahr 2021/22 - Gesamt": 536.0
       }
     },
     "UC": {
       "Gesamt": {
-        "EU": 366.0,
-        "Drittstaaten": 126.0,
-        "Gesamt": 492.0
+        "Studienjahr 2023/24 - EU": 352.0,
+        "Studienjahr 2023/24 - Drittstaaten": 197.0,
+        "Studienjahr 2023/24 - Gesamt": 549.0,
+        "Studienjahr 2022/23 - EU": 411.0,
+        "Studienjahr 2022/23 - Drittstaaten": 198.0,
+        "Studienjahr 2022/23 - Gesamt": 609.0,
+        "Studienjahr 2021/22 - EU": 366.0,
+        "Studienjahr 2021/22 - Drittstaaten": 126.0,
+        "Studienjahr 2021/22 - Gesamt": 492.0
       }
     },
     "UN": {
       "Gesamt": {
-        "EU": 432.0,
-        "Drittstaaten": 208.0,
-        "Gesamt": 640.0
+        "Studienjahr 2023/24 - EU": 403.0,
+        "Studienjahr 2023/24 - Drittstaaten": 250.0,
+        "Studienjahr 2023/24 - Gesamt": 653.0,
+        "Studienjahr 2022/23 - EU": 449.0,
+        "Studienjahr 2022/23 - Drittstaaten": 235.0,
+        "Studienjahr 2022/23 - Gesamt": 684.0,
+        "Studienjahr 2021/22 - EU": 432.0,
+        "Studienjahr 2021/22 - Drittstaaten": 208.0,
+        "Studienjahr 2021/22 - Gesamt": 640.0
       }
     },
     "UO": {
       "Gesamt": {
-        "EU": 102.0,
-        "Drittstaaten": 70.0,
-        "Gesamt": 172.0
+        "Studienjahr 2023/24 - EU": 247.0,
+        "Studienjahr 2023/24 - Drittstaaten": 220.0,
+        "Studienjahr 2023/24 - Gesamt": 467.0,
+        "Studienjahr 2022/23 - EU": 146.0,
+        "Studienjahr 2022/23 - Drittstaaten": 169.0,
+        "Studienjahr 2022/23 - Gesamt": 315.0,
+        "Studienjahr 2021/22 - EU": 102.0,
+        "Studienjahr 2021/22 - Drittstaaten": 70.0,
+        "Studienjahr 2021/22 - Gesamt": 172.0
       }
     },
     "UQ": {
       "Gesamt": {
-        "EU": 106.0,
-        "Drittstaaten": 11.0,
-        "Gesamt": 117.0
+        "Studienjahr 2023/24 - EU": 89.0,
+        "Studienjahr 2023/24 - Drittstaaten": 54.0,
+        "Studienjahr 2023/24 - Gesamt": 143.0,
+        "Studienjahr 2022/23 - EU": 70.0,
+        "Studienjahr 2022/23 - Drittstaaten": 72.0,
+        "Studienjahr 2022/23 - Gesamt": 142.0,
+        "Studienjahr 2021/22 - EU": 106.0,
+        "Studienjahr 2021/22 - Drittstaaten": 11.0,
+        "Studienjahr 2021/22 - Gesamt": 117.0
       }
     },
     "UD": {
       "Gesamt": {
-        "EU": 305.0,
-        "Drittstaaten": 98.0,
-        "Gesamt": 403.0
+        "Studienjahr 2023/24 - EU": 185.0,
+        "Studienjahr 2023/24 - Drittstaaten": 81.0,
+        "Studienjahr 2023/24 - Gesamt": 266.0,
+        "Studienjahr 2022/23 - EU": 245.0,
+        "Studienjahr 2022/23 - Drittstaaten": 111.0,
+        "Studienjahr 2022/23 - Gesamt": 356.0,
+        "Studienjahr 2021/22 - EU": 305.0,
+        "Studienjahr 2021/22 - Drittstaaten": 98.0,
+        "Studienjahr 2021/22 - Gesamt": 403.0
       }
     },
     "UE": {
       "Gesamt": {
-        "EU": 235.0,
-        "Drittstaaten": 89.0,
-        "Gesamt": 324.0
+        "Studienjahr 2023/24 - EU": 310.0,
+        "Studienjahr 2023/24 - Drittstaaten": 113.0,
+        "Studienjahr 2023/24 - Gesamt": 423.0,
+        "Studienjahr 2022/23 - EU": 262.0,
+        "Studienjahr 2022/23 - Drittstaaten": 108.0,
+        "Studienjahr 2022/23 - Gesamt": 370.0,
+        "Studienjahr 2021/22 - EU": 235.0,
+        "Studienjahr 2021/22 - Drittstaaten": 89.0,
+        "Studienjahr 2021/22 - Gesamt": 324.0
       }
     },
     "UF": {
       "Gesamt": {
-        "EU": 124.0,
-        "Drittstaaten": 86.0,
-        "Gesamt": 210.0
+        "Studienjahr 2023/24 - EU": 174.0,
+        "Studienjahr 2023/24 - Drittstaaten": 153.0,
+        "Studienjahr 2023/24 - Gesamt": 327.0,
+        "Studienjahr 2022/23 - EU": 125.0,
+        "Studienjahr 2022/23 - Drittstaaten": 120.0,
+        "Studienjahr 2022/23 - Gesamt": 245.0,
+        "Studienjahr 2021/22 - EU": 124.0,
+        "Studienjahr 2021/22 - Drittstaaten": 86.0,
+        "Studienjahr 2021/22 - Gesamt": 210.0
       }
     },
     "UG": {
       "Gesamt": {
-        "EU": 119.0,
-        "Drittstaaten": 77.0,
-        "Gesamt": 196.0
+        "Studienjahr 2023/24 - EU": 156.0,
+        "Studienjahr 2023/24 - Drittstaaten": 25.0,
+        "Studienjahr 2023/24 - Gesamt": 181.0,
+        "Studienjahr 2022/23 - EU": 103.0,
+        "Studienjahr 2022/23 - Drittstaaten": 58.0,
+        "Studienjahr 2022/23 - Gesamt": 161.0,
+        "Studienjahr 2021/22 - EU": 119.0,
+        "Studienjahr 2021/22 - Drittstaaten": 77.0,
+        "Studienjahr 2021/22 - Gesamt": 196.0
       }
     },
     "UH": {
       "Gesamt": {
-        "EU": 154.0,
-        "Drittstaaten": 46.0,
-        "Gesamt": 200.0
+        "Studienjahr 2023/24 - EU": 156.0,
+        "Studienjahr 2023/24 - Drittstaaten": 38.0,
+        "Studienjahr 2023/24 - Gesamt": 194.0,
+        "Studienjahr 2022/23 - EU": 152.0,
+        "Studienjahr 2022/23 - Drittstaaten": 45.0,
+        "Studienjahr 2022/23 - Gesamt": 197.0,
+        "Studienjahr 2021/22 - EU": 154.0,
+        "Studienjahr 2021/22 - Drittstaaten": 46.0,
+        "Studienjahr 2021/22 - Gesamt": 200.0
       }
     },
     "UI": {
       "Gesamt": {
-        "EU": 128.0,
-        "Drittstaaten": 74.0,
-        "Gesamt": 202.0
+        "Studienjahr 2023/24 - EU": 140.0,
+        "Studienjahr 2023/24 - Drittstaaten": 94.0,
+        "Studienjahr 2023/24 - Gesamt": 234.0,
+        "Studienjahr 2022/23 - EU": 134.0,
+        "Studienjahr 2022/23 - Drittstaaten": 84.0,
+        "Studienjahr 2022/23 - Gesamt": 218.0,
+        "Studienjahr 2021/22 - EU": 128.0,
+        "Studienjahr 2021/22 - Drittstaaten": 74.0,
+        "Studienjahr 2021/22 - Gesamt": 202.0
       }
     },
     "UJ": {
       "Gesamt": {
-        "EU": 449.0,
-        "Drittstaaten": 468.0,
-        "Gesamt": 917.0
+        "Studienjahr 2023/24 - EU": 512.0,
+        "Studienjahr 2023/24 - Drittstaaten": 545.0,
+        "Studienjahr 2023/24 - Gesamt": 1057.0,
+        "Studienjahr 2022/23 - EU": 457.0,
+        "Studienjahr 2022/23 - Drittstaaten": 578.0,
+        "Studienjahr 2022/23 - Gesamt": 1035.0,
+        "Studienjahr 2021/22 - EU": 449.0,
+        "Studienjahr 2021/22 - Drittstaaten": 468.0,
+        "Studienjahr 2021/22 - Gesamt": 917.0
       }
     },
     "UK": {
       "Gesamt": {
-        "EU": 288.0,
-        "Drittstaaten": 205.0,
-        "Gesamt": 493.0
+        "Studienjahr 2023/24 - EU": 388.0,
+        "Studienjahr 2023/24 - Drittstaaten": 242.0,
+        "Studienjahr 2023/24 - Gesamt": 630.0,
+        "Studienjahr 2022/23 - EU": 311.0,
+        "Studienjahr 2022/23 - Drittstaaten": 237.0,
+        "Studienjahr 2022/23 - Gesamt": 548.0,
+        "Studienjahr 2021/22 - EU": 288.0,
+        "Studienjahr 2021/22 - Drittstaaten": 205.0,
+        "Studienjahr 2021/22 - Gesamt": 493.0
       }
     },
     "UL": {
       "Gesamt": {
-        "EU": 126.0,
-        "Drittstaaten": 50.0,
-        "Gesamt": 176.0
+        "Studienjahr 2023/24 - EU": 108.0,
+        "Studienjahr 2023/24 - Drittstaaten": 51.0,
+        "Studienjahr 2023/24 - Gesamt": 159.0,
+        "Studienjahr 2022/23 - EU": 111.0,
+        "Studienjahr 2022/23 - Drittstaaten": 59.0,
+        "Studienjahr 2022/23 - Gesamt": 170.0,
+        "Studienjahr 2021/22 - EU": 126.0,
+        "Studienjahr 2021/22 - Drittstaaten": 50.0,
+        "Studienjahr 2021/22 - Gesamt": 176.0
       }
     },
     "US": {
       "Gesamt": {
-        "EU": 80.0,
-        "Drittstaaten": 31.0,
-        "Gesamt": 111.0
+        "Studienjahr 2023/24 - EU": 75.0,
+        "Studienjahr 2023/24 - Drittstaaten": 43.0,
+        "Studienjahr 2023/24 - Gesamt": 118.0,
+        "Studienjahr 2022/23 - EU": 85.0,
+        "Studienjahr 2022/23 - Drittstaaten": 66.0,
+        "Studienjahr 2022/23 - Gesamt": 151.0,
+        "Studienjahr 2021/22 - EU": 80.0,
+        "Studienjahr 2021/22 - Drittstaaten": 31.0,
+        "Studienjahr 2021/22 - Gesamt": 111.0
       }
     },
     "UT": {
       "Gesamt": {
-        "EU": 31.0,
-        "Drittstaaten": 0.0,
-        "Gesamt": 31.0
+        "Studienjahr 2023/24 - EU": 44.0,
+        "Studienjahr 2023/24 - Drittstaaten": 8.0,
+        "Studienjahr 2023/24 - Gesamt": 52.0,
+        "Studienjahr 2022/23 - EU": 30.0,
+        "Studienjahr 2022/23 - Drittstaaten": 8.0,
+        "Studienjahr 2022/23 - Gesamt": 38.0,
+        "Studienjahr 2021/22 - EU": 31.0,
+        "Studienjahr 2021/22 - Drittstaaten": 0.0,
+        "Studienjahr 2021/22 - Gesamt": 31.0
       }
     },
     "UU": {
       "Gesamt": {
-        "EU": 26.0,
-        "Drittstaaten": 5.0,
-        "Gesamt": 31.0
+        "Studienjahr 2023/24 - EU": 28.0,
+        "Studienjahr 2023/24 - Drittstaaten": 7.0,
+        "Studienjahr 2023/24 - Gesamt": 35.0,
+        "Studienjahr 2022/23 - EU": 27.0,
+        "Studienjahr 2022/23 - Drittstaaten": 9.0,
+        "Studienjahr 2022/23 - Gesamt": 36.0,
+        "Studienjahr 2021/22 - EU": 26.0,
+        "Studienjahr 2021/22 - Drittstaaten": 5.0,
+        "Studienjahr 2021/22 - Gesamt": 31.0
       }
     },
     "UV": {
       "Gesamt": {
-        "EU": 27.0,
-        "Drittstaaten": 5.0,
-        "Gesamt": 32.0
+        "Studienjahr 2023/24 - EU": 37.0,
+        "Studienjahr 2023/24 - Drittstaaten": 2.0,
+        "Studienjahr 2023/24 - Gesamt": 39.0,
+        "Studienjahr 2022/23 - EU": 24.0,
+        "Studienjahr 2022/23 - Drittstaaten": 4.0,
+        "Studienjahr 2022/23 - Gesamt": 28.0,
+        "Studienjahr 2021/22 - EU": 27.0,
+        "Studienjahr 2021/22 - Drittstaaten": 5.0,
+        "Studienjahr 2021/22 - Gesamt": 32.0
       }
     },
     "UW": {
       "Gesamt": {
-        "EU": 48.0,
-        "Drittstaaten": 9.0,
-        "Gesamt": 57.0
+        "Studienjahr 2023/24 - EU": 54.0,
+        "Studienjahr 2023/24 - Drittstaaten": 8.0,
+        "Studienjahr 2023/24 - Gesamt": 62.0,
+        "Studienjahr 2022/23 - EU": 50.0,
+        "Studienjahr 2022/23 - Drittstaaten": 21.0,
+        "Studienjahr 2022/23 - Gesamt": 71.0,
+        "Studienjahr 2021/22 - EU": 48.0,
+        "Studienjahr 2021/22 - Drittstaaten": 9.0,
+        "Studienjahr 2021/22 - Gesamt": 57.0
       }
     },
     "UR": {
       "Gesamt": {
-        "EU": 74.0,
-        "Drittstaaten": 13.0,
-        "Gesamt": 87.0
+        "Studienjahr 2023/24 - EU": 76.0,
+        "Studienjahr 2023/24 - Drittstaaten": 24.0,
+        "Studienjahr 2023/24 - Gesamt": 100.0,
+        "Studienjahr 2022/23 - EU": 110.0,
+        "Studienjahr 2022/23 - Drittstaaten": 19.0,
+        "Studienjahr 2022/23 - Gesamt": 129.0,
+        "Studienjahr 2021/22 - EU": 74.0,
+        "Studienjahr 2021/22 - Drittstaaten": 13.0,
+        "Studienjahr 2021/22 - Gesamt": 87.0
       }
     }
   }

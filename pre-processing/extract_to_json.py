@@ -363,12 +363,20 @@ def read_wissensbilanz_multiheader_file(file_path):
         if header_row is None or header_row < 2:
             return {}
 
-        year_row = header_row - 1
         year_labels = []
         for col_idx in range(3, len(df_raw.columns)):
-            cell = str(df_raw.iloc[year_row, col_idx]) if pd.notna(df_raw.iloc[year_row, col_idx]) else ""
-            if "Studienjahr" in cell or "WS" in cell or "SS" in cell:
-                year_labels.append(cell)
+            year_label = ""
+
+            for offset in [1, 2]:
+                year_row = header_row - offset
+                if year_row >= 0:
+                    cell = str(df_raw.iloc[year_row, col_idx]) if pd.notna(df_raw.iloc[year_row, col_idx]) else ""
+                    if "Studienjahr" in cell or "WS" in cell or "SS" in cell:
+                        year_label = cell
+                        break
+
+            if year_label:
+                year_labels.append(year_label)
             elif year_labels:
                 year_labels.append(year_labels[-1])
             else:
