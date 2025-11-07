@@ -1,0 +1,1237 @@
+{
+  "1-A-1 Personal - Köpfe.xlsx": {
+    "filename": "1-A-1 Personal - Köpfe.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "394 × 7",
+        "title": "Kennzahl 1.A.1 - Gesamtübersicht",
+        "columns": [
+          "Universität",
+          "Universität (Codex)",
+          "Universität (Langtext)",
+          "Verwendungskategorien WBV",
+          "Wintersemester 2024 (Stichtag: 31.12.2024)",
+          "Wintersemester 2023 (Stichtag: 31.12.2023)",
+          "Wintersemester 2022 (Stichtag: 31.12.2022)"
+        ],
+        "data_rows": 374
+      }
+    ],
+    "total_sheets": 3
+  },
+  "1-A-1 Personal - VZÄ.xlsx": {
+    "filename": "1-A-1 Personal - VZÄ.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "393 × 7",
+        "title": "Kennzahl 1.A.1 - Gesamtübersicht",
+        "columns": [
+          "Universität",
+          "Universität (Codex)",
+          "Universität (Langtext)",
+          "Verwendungskategorien WBV",
+          "Wintersemester 2024 (Stichtag: 31.12.2024)",
+          "Wintersemester 2023 (Stichtag: 31.12.2023)",
+          "Wintersemester 2022 (Stichtag: 31.12.2022)"
+        ],
+        "data_rows": 374
+      }
+    ],
+    "total_sheets": 3
+  },
+  "1-A-2 Berufungen an die Universität.xlsx": {
+    "filename": "1-A-2 Berufungen an die Universität.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "43 × 15",
+        "title": "Kennzahl 1.A.2 - Gesamtübersicht",
+        "columns": [
+          "Jahr",
+          "Studienjahr (Kurzbezeichnung)",
+          "Measures"
+        ],
+        "data_rows": 26
+      }
+    ],
+    "total_sheets": 2
+  },
+  "1-A-3 Frauenquote in Kollegialorganen.xlsx": {
+    "filename": "1-A-3 Frauenquote in Kollegialorganen.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "41 × 24",
+        "title": "Kennzahl 1.A.3 - Gesamtübersicht",
+        "columns": [
+          "Jahr",
+          "Studienjahr (Kurzbezeichnung)",
+          "Measures"
+        ],
+        "data_rows": 25
+      }
+    ],
+    "total_sheets": 2
+  },
+  "1-A-4 Gender pay gap.xlsx": {
+    "filename": "1-A-4 Gender pay gap.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "43 × 21",
+        "title": "Kennzahl 1.A.4 - Gesamtübersicht",
+        "columns": [
+          "Jahr",
+          "Studienjahr (Kurzbezeichnung)",
+          "Measures"
+        ],
+        "data_rows": 27
+      }
+    ],
+    "total_sheets": 2
+  },
+  "1-A-5 Repräsentanz von Frauen in Berufungsverfahren.xlsx": {
+    "filename": "1-A-5 Repräsentanz von Frauen in Berufungsverfahren.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "67 × 13",
+        "title": "Kennzahl 1.A.5 - Gesamtübersicht",
+        "columns": [
+          "Jahr",
+          "Studienjahr (Kurzbezeichnung)",
+          "Measures"
+        ],
+        "data_rows": 52
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Altersverteilung nach Verwendung (1).xlsx": {
+    "filename": "Altersverteilung nach Verwendung (1).xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "42 × 31",
+        "title": "Altersverteilung des Personals nach Verwendung",
+        "columns": [
+          "Verwendung",
+          "Gesamt",
+          " "
+        ],
+        "data_rows": 32
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Altersverteilung nach Verwendung.xlsx": {
+    "filename": "Altersverteilung nach Verwendung.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "42 × 31",
+        "title": "Altersverteilung des Personals nach Verwendung",
+        "columns": [
+          "Verwendung",
+          "Gesamt",
+          " "
+        ],
+        "data_rows": 32
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Altersverteilung von ProfessorInnen nach Universitäten.xlsx": {
+    "filename": "Altersverteilung von ProfessorInnen nach Universitäten.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "44 × 21",
+        "title": "Altersverteilung von ProfessorInnen nach Universitäten",
+        "columns": [
+          "Verwendung",
+          "Universitätsprofessor/in",
+          " "
+        ],
+        "data_rows": 30
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Funktionen an Universitäten (1).xlsx": {
+    "filename": "Funktionen an Universitäten (1).xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "136 × 7",
+        "title": "Funktionen an Universitäten",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 123
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Funktionen an Universitäten.xlsx": {
+    "filename": "Funktionen an Universitäten.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "136 × 7",
+        "title": "Funktionen an Universitäten",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 123
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Inländische ordentliche Neuzugelassene nach regionaler Herkunft.xlsx": {
+    "filename": "Inländische ordentliche Neuzugelassene nach regionaler Herkunft.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "29 × 6",
+        "title": "Inländische ordentliche Neuzugelassene nach regionaler Herkunft",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 22
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Inländische ordentliche Studierende nach regionaler Herkunft.xlsx": {
+    "filename": "Inländische ordentliche Studierende nach regionaler Herkunft.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "26 × 6",
+        "title": "Inländische ordentliche Studierende nach regionaler Herkunft",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Wintersemester 2024 (Stichtag: 28.02.2025)",
+          " "
+        ],
+        "data_rows": 20
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Lehrlinge nach Universitäten.xlsx": {
+    "filename": "Lehrlinge nach Universitäten.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "39 × 6",
+        "title": "Lehrlinge nach Universitäten",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 24
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Liste aller von ordentlichen Studierenden belegten Studien im ersten Semester - Universitäten.xlsx": {
+    "filename": "Liste aller von ordentlichen Studierenden belegten Studien im ersten Semester - Universitäten.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "49 × 6",
+        "title": "Liste aller von ordentlichen Studierenden belegten Studien im ersten Semester nach Universitäten",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 40
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Liste aller von ordentlichen Studierenden belegten Studien im ersten Semester - Zeitreihe Studienjahr.xlsx": {
+    "filename": "Liste aller von ordentlichen Studierenden belegten Studien im ersten Semester - Zeitreihe Studienjahr.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "99 × 7",
+        "title": "Liste aller von ordentlichen Studierenden belegten Studien im ersten Semester - Zeitreihe Studienjahr",
+        "columns": [
+          "Universität",
+          "Gesamt",
+          " "
+        ],
+        "data_rows": 90
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "41 × 6",
+        "title": "Studienfamilie (Kurztext) Gesamt",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht",
+          "Begonnene Studien"
+        ],
+        "data_rows": 28
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Neuzugelassene an Universitäten - Zeitreihe (1).xlsx": {
+    "filename": "Neuzugelassene an Universitäten - Zeitreihe (1).xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "89 × 11",
+        "title": "Neuzugelassene an Universitäten - Zeitreihe Studienjahr",
+        "columns": [
+          "Universität",
+          "Gesamt",
+          " "
+        ],
+        "data_rows": 82
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "33 × 4",
+        "title": "Staatengruppe (Ö, EU, andere) Gesamt",
+        "columns": [
+          "ALLG Semester.Studienjahr (Kurzbezeichnung)",
+          "Frauen",
+          "Männer",
+          "Gesamt"
+        ],
+        "data_rows": 25
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Neuzugelassene an Universitäten - Zeitreihe (2).xlsx": {
+    "filename": "Neuzugelassene an Universitäten - Zeitreihe (2).xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "89 × 11",
+        "title": "Neuzugelassene an Universitäten - Zeitreihe Studienjahr",
+        "columns": [
+          "Universität",
+          "Gesamt",
+          " "
+        ],
+        "data_rows": 82
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "33 × 4",
+        "title": "Staatengruppe (Ö, EU, andere) Gesamt",
+        "columns": [
+          "ALLG Semester.Studienjahr (Kurzbezeichnung)",
+          "Frauen",
+          "Männer",
+          "Gesamt"
+        ],
+        "data_rows": 25
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Neuzugelassene an Universitäten - Zeitreihe.xlsx": {
+    "filename": "Neuzugelassene an Universitäten - Zeitreihe.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "89 × 11",
+        "title": "Neuzugelassene an Universitäten - Zeitreihe Studienjahr",
+        "columns": [
+          "Universität",
+          "Gesamt",
+          " "
+        ],
+        "data_rows": 82
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "33 × 4",
+        "title": "Staatengruppe (Ö, EU, andere) Gesamt",
+        "columns": [
+          "ALLG Semester.Studienjahr (Kurzbezeichnung)",
+          "Frauen",
+          "Männer",
+          "Gesamt"
+        ],
+        "data_rows": 25
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Nutzfläche nach Universitäten.xlsx": {
+    "filename": "Nutzfläche nach Universitäten.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "38 × 22",
+        "title": "Nutzfläche nach Universitäten in m²",
+        "columns": [
+          "Universität",
+          "2023",
+          "2022",
+          "2021.0",
+          "2020.0",
+          "2019.0",
+          "2018.0",
+          "2017.0",
+          "2017.0",
+          "2016.0",
+          "2015.0",
+          "2014.0",
+          "2014",
+          "2013.0",
+          "2013",
+          "2012.0",
+          "2011.0",
+          "2010.0",
+          "2009.0",
+          "2008.0",
+          "2007.0",
+          "2006.0"
+        ],
+        "data_rows": 23
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Neuzugelassene an Universitäten - Zeitreihe.xlsx": {
+    "filename": "Ordentliche Neuzugelassene an Universitäten - Zeitreihe.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "90 × 7",
+        "title": "Ordentliche Neuzugelassene an Universitäten - Zeitreihe Studienjahr",
+        "columns": [
+          "Universität",
+          "Gesamt",
+          " "
+        ],
+        "data_rows": 83
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "34 × 6",
+        "title": "Staatengruppe (Ö, EU, andere) Gesamt",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 28
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Ordentliche Neuzugelassene an Universitäten nach Altersklassen (1).xlsx": {
+    "filename": "Ordentliche Neuzugelassene an Universitäten nach Altersklassen (1).xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "24 × 6",
+        "title": "Ordentliche Neuzugelassene an Universitäten nach Altersklassen",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 17
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "24 × 6",
+        "title": "",
+        "columns": [
+          "Altersklasse Erstzugelassene",
+          "Frauen",
+          "Männer",
+          "Frauen",
+          "Männer"
+        ],
+        "data_rows": 7
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Ordentliche Neuzugelassene an Universitäten nach Altersklassen.xlsx": {
+    "filename": "Ordentliche Neuzugelassene an Universitäten nach Altersklassen.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "24 × 6",
+        "title": "Ordentliche Neuzugelassene an Universitäten nach Altersklassen",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 17
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "24 × 6",
+        "title": "",
+        "columns": [
+          "Altersklasse Erstzugelassene",
+          "Frauen",
+          "Männer",
+          "Frauen",
+          "Männer"
+        ],
+        "data_rows": 7
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Ordentliche Neuzugelassene an Universitäten nach Form der allgemeinen Universitätsreife.xlsx": {
+    "filename": "Ordentliche Neuzugelassene an Universitäten nach Form der allgemeinen Universitätsreife.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "69 × 6",
+        "title": "Ordentliche Neuzugelassene an Universitäten nach Form der allgemeinen Universitätsreife",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 62
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Neuzugelassene nach Universitäten.xlsx": {
+    "filename": "Ordentliche Neuzugelassene nach Universitäten.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "40 × 6",
+        "title": "Ordentliche Neuzugelassene nach Universitäten",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 33
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "40 × 6",
+        "title": "",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 26
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Ordentliche Studien - Zeitreihe Wintersemester.xlsx": {
+    "filename": "Ordentliche Studien - Zeitreihe Wintersemester.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "46 × 6",
+        "title": "Ordentliche Studien - Zeitreihe Wintersemester",
+        "columns": [
+          "Universität",
+          "Gesamt",
+          " "
+        ],
+        "data_rows": 38
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "30 × 6",
+        "title": "NUR VERWEISE AUF AUSWERTUNG IN TAB1",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Frauen",
+          "Männer",
+          "Gesamt",
+          "Frauen",
+          "Männer"
+        ],
+        "data_rows": 24
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Ordentliche Studien an Universitäten nach Form der allgemeinen Universitätsreife.xlsx": {
+    "filename": "Ordentliche Studien an Universitäten nach Form der allgemeinen Universitätsreife.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "81 × 6",
+        "title": "Ordentliche Studien an Universitäten nach Form der allgemeinen Universitätsreife",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Wintersemester 2024 (Stichtag: 28.02.2025)",
+          " "
+        ],
+        "data_rows": 73
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien im ersten Semester - Zeitreihe Studienjahr.xlsx": {
+    "filename": "Ordentliche Studien im ersten Semester - Zeitreihe Studienjahr.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "96 × 7",
+        "title": "Ordentliche Studien im ersten Semester - Zeitreihe Studienjahr",
+        "columns": [
+          "Universität",
+          "Gesamt",
+          " "
+        ],
+        "data_rows": 88
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "39 × 6",
+        "title": "ISCED2013 3.Ebene (Code, Langtext) Gesamt",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 28
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Ordentliche Studien im ersten Semester an Universitäten nach Form der allgemeinen Universitätsreife.xlsx": {
+    "filename": "Ordentliche Studien im ersten Semester an Universitäten nach Form der allgemeinen Universitätsreife.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "81 × 6",
+        "title": "Ordentliche Studien in ersten Semester an Universitäten nach Form der allgemeinen Universitätsreife",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 72
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien im ersten Semester auf Studium-Ebene.xlsx": {
+    "filename": "Ordentliche Studien im ersten Semester auf Studium-Ebene.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "251 × 6",
+        "title": "Ordentliche Studien im ersten Semester auf Studium-Ebene",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 242
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien im ersten Semester nach internationalen Gruppen von Studien (ISCED-F 99).xlsx": {
+    "filename": "Ordentliche Studien im ersten Semester nach internationalen Gruppen von Studien (ISCED-F 99).xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "95 × 6",
+        "title": "Ordentliche Studien im ersten Semester nach internationalen Gruppen von Studien (ISCED-F 1999)",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 86
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien im ersten Semester nach internationalen Gruppen von Studien.xlsx": {
+    "filename": "Ordentliche Studien im ersten Semester nach internationalen Gruppen von Studien.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "92 × 6",
+        "title": "Ordentliche Studien im ersten Semester nach internationalen Gruppen von Studien",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 83
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien im ersten Semester nach nationalen Gruppen von Studien.xlsx": {
+    "filename": "Ordentliche Studien im ersten Semester nach nationalen Gruppen von Studien.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "36 × 6",
+        "title": "Ordentliche Studien im ersten Semester nach nationalen Gruppen von Studien",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 28
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien im ersten Semester nach Studienart.xlsx": {
+    "filename": "Ordentliche Studien im ersten Semester nach Studienart.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "28 × 6",
+        "title": "Ordentliche Studien im ersten Semester an Universitäten nach Studienart",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 19
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien im ersten Semester nach Universitäten.xlsx": {
+    "filename": "Ordentliche Studien im ersten Semester nach Universitäten.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "47 × 6",
+        "title": "Ordentliche Studien im ersten Semester nach Universitäten",
+        "columns": [
+          "ALLG Semester.Studienjahr (Langbezeichnung)",
+          "Studienjahr 2024/25",
+          " "
+        ],
+        "data_rows": 38
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien nach internationalen Gruppen von Studien.xlsx": {
+    "filename": "Ordentliche Studien nach internationalen Gruppen von Studien.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "91 × 6",
+        "title": "Ordentliche Studien nach internationalen Gruppen von Studien",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Wintersemester 2024 (Stichtag: 28.02.2025)",
+          " "
+        ],
+        "data_rows": 83
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien nach nationalen Gruppen von Studien.xlsx": {
+    "filename": "Ordentliche Studien nach nationalen Gruppen von Studien.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "34 × 6",
+        "title": "Ordentliche Studien nach nationalen Gruppen von Studien",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Wintersemester 2024 (Stichtag: 28.02.2025)",
+          " "
+        ],
+        "data_rows": 27
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien nach Studienart (1).xlsx": {
+    "filename": "Ordentliche Studien nach Studienart (1).xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "25 × 6",
+        "title": "Ordentliche Studien an Universitäten nach Studienart",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Wintersemester 2024 (Stichtag: 28.02.2025)",
+          " "
+        ],
+        "data_rows": 17
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien nach Studienart.xlsx": {
+    "filename": "Ordentliche Studien nach Studienart.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "25 × 6",
+        "title": "Ordentliche Studien an Universitäten nach Studienart",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Wintersemester 2024 (Stichtag: 28.02.2025)",
+          " "
+        ],
+        "data_rows": 17
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studien nach Universitäten.xlsx": {
+    "filename": "Ordentliche Studien nach Universitäten.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "44 × 6",
+        "title": "Ordentliche Studien nach Universitäten",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Wintersemester 2024 (Stichtag: 28.02.2025)",
+          " "
+        ],
+        "data_rows": 36
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studierende an Universitäten - Zeitreihe Wintersemester.xlsx": {
+    "filename": "Ordentliche Studierende an Universitäten - Zeitreihe Wintersemester.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "38 × 6",
+        "title": "Ordentliche Studierende an Universitäten - Zeitreihe Wintersemester",
+        "columns": [
+          "Universität",
+          "Insgesamt (bereinigt)",
+          " "
+        ],
+        "data_rows": 32
+      },
+      {
+        "name": "Tab (2)",
+        "dimensions": "39 × 6",
+        "title": "Ordentliche Studierende an Universitäten - Zeitreihe Wintersemester",
+        "columns": [
+          "Universität",
+          "Insgesamt (bereinigt)",
+          " "
+        ],
+        "data_rows": 33
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Ordentliche Studierende an Universitäten nach Altersklassen.xlsx": {
+    "filename": "Ordentliche Studierende an Universitäten nach Altersklassen.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "27 × 6",
+        "title": "Ordentliche Studierende an Universitäten nach Altersklassen",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Wintersemester 2024 (Stichtag: 28.02.2025)",
+          " "
+        ],
+        "data_rows": 21
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "22 × 6",
+        "title": "Universität Insgesamt (bereinigt)",
+        "columns": [
+          "Altersklasse Studierende",
+          "Frauen",
+          "Männer",
+          "Frauen",
+          "Männer"
+        ],
+        "data_rows": 12
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Ordentliche Studierende an Universitäten nach Form der allgemeinen Universitätsreife (1).xlsx": {
+    "filename": "Ordentliche Studierende an Universitäten nach Form der allgemeinen Universitätsreife (1).xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "69 × 6",
+        "title": "Ordentliche Studierende an Universitäten nach Form der allgemeinen Universitätsreife",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Wintersemester 2024 (Stichtag: 28.02.2025)",
+          " "
+        ],
+        "data_rows": 63
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studierende an Universitäten nach Form der allgemeinen Universitätsreife.xlsx": {
+    "filename": "Ordentliche Studierende an Universitäten nach Form der allgemeinen Universitätsreife.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "69 × 6",
+        "title": "Ordentliche Studierende an Universitäten nach Form der allgemeinen Universitätsreife",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Wintersemester 2024 (Stichtag: 28.02.2025)",
+          " "
+        ],
+        "data_rows": 63
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Ordentliche Studierende nach Universitäten.xlsx": {
+    "filename": "Ordentliche Studierende nach Universitäten.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "38 × 6",
+        "title": "Ordentliche Studierende nach Universitäten",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Wintersemester 2024 (Stichtag: 28.02.2025)",
+          " "
+        ],
+        "data_rows": 32
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Personal an Universitäten - Kopfzahl.xlsx": {
+    "filename": "Personal an Universitäten - Kopfzahl.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "320 × 5",
+        "title": "Personal an Universitäten - Köpfe",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Verwendungskategorien WBV",
+          "Frauen",
+          "Männer",
+          "Gesamt"
+        ],
+        "data_rows": 302
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Personal an Universitäten - VZÄ.xlsx": {
+    "filename": "Personal an Universitäten - VZÄ.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "323 × 5",
+        "title": "Personal an Universitäten - Vollzeitäquivalente",
+        "columns": [
+          "Personal Universitäten"
+        ],
+        "data_rows": 323
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Personal nach Verwendung.xlsx": {
+    "filename": "Personal nach Verwendung.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "80 × 14",
+        "title": "Personal nach Verwendung",
+        "columns": [
+          "Wintersemester 2024 (Stichtag: 31.12.2024)",
+          "Wintersemester 2023 (Stichtag: 31.12.2023)",
+          "Wintersemester 2022 (Stichtag: 31.12.2022)",
+          "Wintersemester 2021 (Stichtag: 31.12.2021)"
+        ],
+        "data_rows": 63
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Senioren-Studierende an Universitäten - Zeitreihe Wintersemester.xlsx": {
+    "filename": "Senioren-Studierende an Universitäten - Zeitreihe Wintersemester.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "40 × 6",
+        "title": "Senioren-Studierende an Universitäten - Zeitreihe Wintersemester",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Frauen",
+          "Männer",
+          "Gesamt",
+          "Frauen",
+          "Männer"
+        ],
+        "data_rows": 25
+      },
+      {
+        "name": "Tab (2)",
+        "dimensions": "42 × 6",
+        "title": "Senioren-Studierende an Universitäten - Zeitreihe Wintersemester",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 28
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Stammpersonal an Universitäten - Kopfzahl.xlsx": {
+    "filename": "Stammpersonal an Universitäten - Kopfzahl.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "301 × 5",
+        "title": "Stammpersonal an Universitäten - Köpfe",
+        "columns": [
+          "Semester und Datenstichtag",
+          "Verwendungskategorien WBV",
+          "Frauen",
+          "Männer",
+          "Gesamt"
+        ],
+        "data_rows": 282
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Stammpersonal an Universitäten - VZÄ.xlsx": {
+    "filename": "Stammpersonal an Universitäten - VZÄ.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "303 × 5",
+        "title": "Stammpersonal an Universitäten - Vollzeitäquivalente",
+        "columns": [
+          "Personal Universitäten"
+        ],
+        "data_rows": 303
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Studienabschlüsse an Universitäten - Zeitreihe Studienjahr (1).xlsx": {
+    "filename": "Studienabschlüsse an Universitäten - Zeitreihe Studienjahr (1).xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "43 × 6",
+        "title": "Ordentliche Studienabschlüsse an Universitäten - Zeitreihe Studienjahr",
+        "columns": [
+          "Universität",
+          "Gesamt",
+          " "
+        ],
+        "data_rows": 36
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "37 × 6",
+        "title": "ISCED2013 3.Ebene (Code, Langtext) Gesamt",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 27
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Studienabschlüsse an Universitäten - Zeitreihe Studienjahr.xlsx": {
+    "filename": "Studienabschlüsse an Universitäten - Zeitreihe Studienjahr.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "43 × 6",
+        "title": "Ordentliche Studienabschlüsse an Universitäten - Zeitreihe Studienjahr",
+        "columns": [
+          "Universität",
+          "Gesamt",
+          " "
+        ],
+        "data_rows": 36
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "37 × 6",
+        "title": "ISCED2013 3.Ebene (Code, Langtext) Gesamt",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 27
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Studienabschlüsse nach Universitäten (1).xlsx": {
+    "filename": "Studienabschlüsse nach Universitäten (1).xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "42 × 6",
+        "title": "Ordentliche Studienabschlüsse nach Universitäten",
+        "columns": [
+          "Studienjahr und Datenstand",
+          "Studienjahr 2023/24 (endgültig)",
+          " "
+        ],
+        "data_rows": 35
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Studienabschlüsse nach Universitäten.xlsx": {
+    "filename": "Studienabschlüsse nach Universitäten.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "42 × 6",
+        "title": "Ordentliche Studienabschlüsse nach Universitäten",
+        "columns": [
+          "Studienjahr und Datenstand",
+          "Studienjahr 2023/24 (endgültig)",
+          " "
+        ],
+        "data_rows": 35
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Studierende  an Universitäten - Zeitreihe Wintersemester.xlsx": {
+    "filename": "Studierende  an Universitäten - Zeitreihe Wintersemester.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "37 × 10",
+        "title": "Studierende an Universitäten - Zeitreihe Wintersemester",
+        "columns": [
+          "Universität",
+          "Insgesamt (bereinigt)",
+          " "
+        ],
+        "data_rows": 31
+      },
+      {
+        "name": "Tab (2)",
+        "dimensions": "39 × 10",
+        "title": "Studierende an Universitäten - Zeitreihe Wintersemester",
+        "columns": [
+          "Universität",
+          "Insgesamt (bereinigt)",
+          " "
+        ],
+        "data_rows": 33
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Studierendenmobilität an Universitäten - Outgoing - Zeitreihe.xlsx": {
+    "filename": "Studierendenmobilität an Universitäten - Outgoing - Zeitreihe.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "90 × 7",
+        "title": "Studierende Universitäten",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 75
+      },
+      {
+        "name": "Tabelle1",
+        "dimensions": "34 × 6",
+        "title": "Mobilitätsprogramm Gesamt",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 26
+      }
+    ],
+    "total_sheets": 3
+  },
+  "Studierendenmobilität nach Kontinenten - Outgoing.xlsx": {
+    "filename": "Studierendenmobilität nach Kontinenten - Outgoing.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "24 × 4",
+        "title": "Studierende Universitäten",
+        "columns": [
+          "GL Kontinent",
+          "Frauen",
+          "Männer",
+          "Gesamt"
+        ],
+        "data_rows": 6
+      }
+    ],
+    "total_sheets": 2
+  },
+  "Studierendenmobilität nach Universitäten - Outgoing.xlsx": {
+    "filename": "Studierendenmobilität nach Universitäten - Outgoing.xlsx",
+    "sheets": [
+      {
+        "name": "Tab",
+        "dimensions": "41 × 6",
+        "title": "Studierende Universitäten",
+        "columns": [
+          "Measures",
+          "Wertart",
+          "Geschlecht"
+        ],
+        "data_rows": 25
+      }
+    ],
+    "total_sheets": 2
+  }
+}
