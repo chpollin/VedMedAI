@@ -34,6 +34,14 @@ const uniTypeLabels = {
     'special': 'Spezialisierte Universitäten'
 };
 
+const uniTypeIcons = {
+    'voll': 'fa-university',
+    'tech': 'fa-microchip',
+    'kunst': 'fa-palette',
+    'med': 'fa-user-md',
+    'special': 'fa-graduation-cap'
+};
+
 // Initialize
 async function init() {
     try {
@@ -138,30 +146,30 @@ function createUniversityCard(code) {
     const type = getUniversityType(code);
 
     // Wähle Wert und Label basierend auf aktiver Kategorie
-    let value, label;
-    if (state.selectedCategory === 'personal') {
-        value = state.summary[code]?.personal_koepfe || 0;
-        label = 'Personal (Köpfe)';
-    } else if (state.selectedCategory === 'studierende') {
-        value = state.summary[code]?.studierende || 0;
-        label = 'Ordentliche Studierende';
-    } else {
-        value = 0;
-        label = 'N/A';
-    }
+    const categoryConfig = {
+        'personal': { key: 'personal_koepfe', label: 'Personal (Köpfe)' },
+        'studierende': { key: 'studierende', label: 'Ordentliche Studierende' },
+        'neuzulassungen': { key: 'neuzulassungen', label: 'Neuzulassungen' },
+        'studien': { key: 'studien', label: 'Studien' },
+        'abschluesse': { key: 'abschluesse', label: 'Abschlüsse' },
+        'mobilitaet': { key: 'mobilitaet', label: 'Outgoing-Studierende' },
+        'infrastruktur': { key: 'infrastruktur', label: 'Nutzfläche m²' }
+    };
+
+    const config = categoryConfig[state.selectedCategory] || { key: null, label: 'N/A' };
+    const value = config.key ? (state.summary[code]?.[config.key] || 0) : 0;
+    const label = config.label;
+    const icon = uniTypeIcons[type];
 
     card.innerHTML = `
         <div class="university-card-header">
             <div class="university-name">${state.meta.universities[code]}</div>
-            <div class="university-code">${code}</div>
+            <div class="university-type-badge ${type}" title="${uniTypeLabels[type]}">
+                <i class="fa-solid ${icon}"></i>
+            </div>
         </div>
         <div class="university-value">${formatNumber(value)}</div>
         <div class="university-label">${label}</div>
-        <div class="sparkline">
-            <div class="sparkline-bar" style="height: 60%"></div>
-            <div class="sparkline-bar" style="height: 80%"></div>
-            <div class="sparkline-bar" style="height: 100%"></div>
-        </div>
     `;
 
     card.addEventListener('click', () => handleCardClick(code));
@@ -223,8 +231,9 @@ function renderDetailView(code) {
         });
 
         tableHTML += '</tbody></table>';
-    } else if (state.selectedCategory === 'studierende') {
-        const data = state.categoryData?.ordentliche?.[code] || {};
+    } else {
+        const dataKey = state.selectedCategory === 'studierende' ? 'gesamt' : 'gesamt';
+        const data = state.categoryData?.[dataKey]?.[code] || {};
         const categories = Object.keys(data);
 
         tableHTML += `
@@ -241,14 +250,23 @@ function renderDetailView(code) {
         categories.forEach(category => {
             const values = data[category];
 
-            Object.entries(values).forEach(([key, value]) => {
+            if (typeof values === 'object' && values !== null) {
+                Object.entries(values).forEach(([key, value]) => {
+                    tableHTML += `
+                        <tr>
+                            <td>${category} - ${key}</td>
+                            <td>${formatNumber(value)}</td>
+                        </tr>
+                    `;
+                });
+            } else {
                 tableHTML += `
                     <tr>
-                        <td>${category} - ${key}</td>
-                        <td>${formatNumber(value)}</td>
+                        <td>${category}</td>
+                        <td>${formatNumber(values)}</td>
                     </tr>
                 `;
-            });
+            }
         });
 
         tableHTML += '</tbody></table>';
@@ -279,23 +297,25 @@ function getFilteredUniversities() {
 function sortUniversities(universities) {
     const sorted = [...universities];
 
+    const categoryKeys = {
+        'personal': 'personal_koepfe',
+        'studierende': 'studierende',
+        'neuzulassungen': 'neuzulassungen',
+        'studien': 'studien',
+        'abschluesse': 'abschluesse',
+        'mobilitaet': 'mobilitaet',
+        'infrastruktur': 'infrastruktur'
+    };
+
     switch (state.sortMode) {
         case 'alpha':
             sorted.sort((a, b) => state.meta.universities[a].localeCompare(state.meta.universities[b]));
             break;
         case 'value':
             sorted.sort((a, b) => {
-                let valA, valB;
-                if (state.selectedCategory === 'personal') {
-                    valA = state.summary[a]?.personal_koepfe || 0;
-                    valB = state.summary[b]?.personal_koepfe || 0;
-                } else if (state.selectedCategory === 'studierende') {
-                    valA = state.summary[a]?.studierende || 0;
-                    valB = state.summary[b]?.studierende || 0;
-                } else {
-                    valA = 0;
-                    valB = 0;
-                }
+                const key = categoryKeys[state.selectedCategory];
+                const valA = key ? (state.summary[a]?.[key] || 0) : 0;
+                const valB = key ? (state.summary[b]?.[key] || 0) : 0;
                 return valB - valA;
             });
             break;

@@ -77,19 +77,24 @@ python pre-processing/analyze.py all
 extract_to_json.py generiert:
 
 docs/data/meta.json
-- Universitäten-Codex (UA-UU)
-- Dimensionen (Altersklassen, Universitätsreife, Studiengruppen, etc.)
-- Klassifikationen (UHSBV, WBV, ISCED, UG)
-- Jahre, Stichtage
+- Universitäten-Codex (22 Universitäten UA-UW)
+- Dimensionen (Altersklassen, Universitätsreife, Studiengruppen, Bundesländer, Kontinente, Studienarten)
+- Klassifikationen (UHSBV, WBV, ISCED, ISCED-F 99, UG)
+- Jahre (2022-2024), Stichtage
 
 docs/data/summary.json
-- Top-Level KPIs pro Universität
-- Schneller Überblick für Dashboard
+- 7 Top-Level KPIs pro Universität (nur 2024-Werte)
+- personal_koepfe, studierende, neuzulassungen, studien, abschluesse, mobilitaet, infrastruktur
+- Initial Load für schnellen Dashboard-Überblick (4 KB mit meta.json)
 
 docs/data/categories/
-- personal.json (Köpfe, VZÄ nach Verwendungskategorien)
-- studierende.json (Ordentliche Studierende)
-- weitere Kategorien folgen
+- personal.json (185 KB: Köpfe + VZÄ nach UHSBV-Kategorien, Zeitreihen 2022-2024)
+- studierende.json (3,2 KB: Ordentliche Studierende gesamt, Frauen/Männer)
+- neuzulassungen.json (3,3 KB: Ordentliche Neuzugelassene gesamt, Frauen/Männer)
+- studien.json (3,5 KB: Ordentliche Studien gesamt, Frauen/Männer)
+- abschluesse.json (3,7 KB: Ordentliche Studienabschlüsse gesamt, Frauen/Männer)
+- mobilitaet.json (2,9 KB: Outgoing-Studierende gesamt, Frauen/Männer)
+- infrastruktur.json (leer: Nutzfläche-Parsing noch offen)
 
 ## Abhängigkeiten
 

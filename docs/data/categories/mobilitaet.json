@@ -1,0 +1,151 @@
+{
+  "gesamt": {
+    "UA": {
+      "Outgoing-Studierende": {
+        "Frauen": 1102.0,
+        "Männer": 416.0,
+        "Gesamt": 1518.0
+      }
+    },
+    "UB": {
+      "Outgoing-Studierende": {
+        "Frauen": 363.0,
+        "Männer": 184.0,
+        "Gesamt": 547.0
+      }
+    },
+    "UC": {
+      "Outgoing-Studierende": {
+        "Frauen": 348.0,
+        "Männer": 221.0,
+        "Gesamt": 569.0
+      }
+    },
+    "US": {
+      "Outgoing-Studierende": {
+        "Frauen": 366.0,
+        "Männer": 237.0,
+        "Gesamt": 603.0
+      }
+    },
+    "UT": {
+      "Outgoing-Studierende": {
+        "Frauen": 210.0,
+        "Männer": 161.0,
+        "Gesamt": 371.0
+      }
+    },
+    "UU": {
+      "Outgoing-Studierende": {
+        "Frauen": 101.0,
+        "Männer": 60.0,
+        "Gesamt": 161.0
+      }
+    },
+    "UD": {
+      "Outgoing-Studierende": {
+        "Frauen": 188.0,
+        "Männer": 65.0,
+        "Gesamt": 253.0
+      }
+    },
+    "UG": {
+      "Outgoing-Studierende": {
+        "Frauen": 164.0,
+        "Männer": 236.0,
+        "Gesamt": 400.0
+      }
+    },
+    "UH": {
+      "Outgoing-Studierende": {
+        "Frauen": 121.0,
+        "Männer": 208.0,
+        "Gesamt": 329.0
+      }
+    },
+    "UI": {
+      "Outgoing-Studierende": {
+        "Frauen": 56.0,
+        "Männer": 101.0,
+        "Gesamt": 157.0
+      }
+    },
+    "UJ": {
+      "Outgoing-Studierende": {
+        "Frauen": 120.0,
+        "Männer": 78.0,
+        "Gesamt": 198.0
+      }
+    },
+    "UV": {
+      "Outgoing-Studierende": {
+        "Frauen": 158.0,
+        "Männer": 37.0,
+        "Gesamt": 195.0
+      }
+    },
+    "UW": {
+      "Outgoing-Studierende": {
+        "Frauen": 485.0,
+        "Männer": 603.0,
+        "Gesamt": 1088.0
+      }
+    },
+    "UF": {
+      "Outgoing-Studierende": {
+        "Frauen": 396.0,
+        "Männer": 228.0,
+        "Gesamt": 624.0
+      }
+    },
+    "UE": {
+      "Outgoing-Studierende": {
+        "Frauen": 107.0,
+        "Männer": 55.0,
+        "Gesamt": 162.0
+      }
+    },
+    "UQ": {
+      "Outgoing-Studierende": {
+        "Frauen": 89.0,
+        "Männer": 62.0,
+        "Gesamt": 151.0
+      }
+    },
+    "UM": {
+      "Outgoing-Studierende": {
+        "Frauen": 22.0,
+        "Männer": 12.0,
+        "Gesamt": 34.0
+      }
+    },
+    "UL": {
+      "Outgoing-Studierende": {
+        "Frauen": 9.0,
+        "Männer": 2.0,
+        "Gesamt": 11.0
+      }
+    },
+    "UN": {
+      "Outgoing-Studierende": {
+        "Frauen": 25.0,
+        "Männer": 18.0,
+        "Gesamt": 43.0
+      }
+    },
+    "UK": {
+      "Outgoing-Studierende": {
+        "Frauen": 48.0,
+        "Männer": 20.0,
+        "Gesamt": 68.0
+      }
+    },
+    "UO": {
+      "Outgoing-Studierende": {
+        "Frauen": 79.0,
+        "Männer": 35.0,
+        "Gesamt": 114.0
+      }
+    }
+  }
+}
