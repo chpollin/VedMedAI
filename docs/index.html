@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wissensbilanz österreichischer Universitäten</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Wissensbilanz österreichischer Universitäten</h1>
+            <div class="header-controls">
+                <div class="year-selector">
+                    <button class="year-btn active" data-year="2024">2024</button>
+                    <button class="year-btn" data-year="2023">2023</button>
+                    <button class="year-btn" data-year="2022">2022</button>
+                    <button class="year-btn" data-year="all">Alle</button>
+                </div>
+            </div>
+        </div>
+        <nav class="category-nav">
+            <button class="category-btn active" data-category="personal">Personal</button>
+            <button class="category-btn" data-category="studierende" disabled>Studierende</button>
+            <button class="category-btn" data-category="neuzulassungen" disabled>Neuzulassungen</button>
+            <button class="category-btn" data-category="studien" disabled>Studien</button>
+            <button class="category-btn" data-category="abschluesse" disabled>Abschlüsse</button>
+            <button class="category-btn" data-category="mobilitaet" disabled>Mobilität</button>
+            <button class="category-btn" data-category="infrastruktur" disabled>Infrastruktur</button>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="filter-panel">
+                <h3>Filter</h3>
+
+                <div class="filter-section">
+                    <h4>Universitäten</h4>
+                    <div class="filter-controls">
+                        <button class="filter-control-btn" id="select-all">Alle auswählen</button>
+                        <button class="filter-control-btn" id="deselect-all">Alle abwählen</button>
+                    </div>
+                    <div id="university-filters" class="filter-checkboxes"></div>
+                </div>
+
+                <div class="filter-section">
+                    <h4>Aggregation</h4>
+                    <div class="aggregation-controls">
+                        <button class="agg-btn active" data-agg="sum">Summe</button>
+                        <button class="agg-btn" data-agg="avg">Durchschnitt</button>
+                        <button class="agg-btn" data-agg="median">Median</button>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h4>Export</h4>
+                    <button class="export-btn" id="export-csv">CSV Export</button>
+                    <button class="export-btn" id="export-json">JSON Export</button>
+                </div>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="breadcrumb">
+                <span class="breadcrumb-item active">Übersicht</span>
+            </div>
+
+            <div class="view-controls">
+                <div class="sort-controls">
+                    <label>Sortierung:</label>
+                    <select id="sort-select">
+                        <option value="alpha">Alphabetisch</option>
+                        <option value="value">Nach Wert</option>
+                        <option value="change">Nach Veränderung</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="overview-view" class="view active">
+                <div id="university-grid" class="university-grid"></div>
+            </div>
+
+            <div id="detail-view" class="view">
+                <div id="detail-content"></div>
+            </div>
+
+            <div id="loading" class="loading hidden">Laden...</div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
