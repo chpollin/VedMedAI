@@ -347,6 +347,70 @@ def read_wissensbilanz_file(file_path):
         return {}
 
 
+def read_wissensbilanz_multiheader_file(file_path):
+    """Liest Wissensbilanz-Excel mit Multi-Header (Zeile 19: Studienjahr, Zeile 20: Spalten)"""
+    try:
+        df_raw = pd.read_excel(file_path, sheet_name="Tab", header=None)
+
+        header_row = None
+        for i in range(min(30, len(df_raw))):
+            cell0 = str(df_raw.iloc[i, 0]) if pd.notna(df_raw.iloc[i, 0]) else ""
+            cell1 = str(df_raw.iloc[i, 1]) if pd.notna(df_raw.iloc[i, 1]) else ""
+            if "Universität" in cell0 and ("Codex" in cell1 or "Langtext" in cell1):
+                header_row = i
+                break
+
+        if header_row is None or header_row < 2:
+            return {}
+
+        year_row = header_row - 1
+        year_labels = []
+        for col_idx in range(3, len(df_raw.columns)):
+            cell = str(df_raw.iloc[year_row, col_idx]) if pd.notna(df_raw.iloc[year_row, col_idx]) else ""
+            if "Studienjahr" in cell or "WS" in cell or "SS" in cell:
+                year_labels.append(cell)
+            elif year_labels:
+                year_labels.append(year_labels[-1])
+            else:
+                year_labels.append("")
+
+        df = pd.read_excel(file_path, sheet_name="Tab", header=header_row)
+
+        result = {}
+
+        for idx, row in df.iterrows():
+            uni_code = extract_university_code(row.iloc[1] if len(row) > 1 else None)
+
+            if uni_code:
+                if uni_code not in result:
+                    result[uni_code] = {}
+
+                for col_idx in range(3, len(row)):
+                    val = row.iloc[col_idx]
+                    col_name = str(df.columns[col_idx])
+
+                    if pd.notna(val) and isinstance(val, (int, float)):
+                        year_label = year_labels[col_idx - 3] if col_idx - 3 < len(year_labels) else ""
+
+                        col_name_clean = col_name.split('.')[0]
+
+                        if year_label:
+                            combined_label = f"{year_label} - {col_name_clean}"
+                        else:
+                            combined_label = col_name_clean
+
+                        if "Gesamt" not in result[uni_code]:
+                            result[uni_code]["Gesamt"] = {}
+                        result[uni_code]["Gesamt"][combined_label] = float(val)
+
+        return result
+    except Exception as e:
+        print(f"Fehler bei {file_path.name}: {e}")
+        import traceback
+        traceback.print_exc()
+        return {}
+
+
 def read_infrastruktur_file(file_path):
     """Liest Nutzfläche-Excel mit Universitätsnamen und Jahr-Spalten"""
     try:
@@ -923,7 +987,7 @@ def extract_outgoing_studierende():
 
     outgoing = data_folder / "2-A-8 Ordentliche Studierende (outgoing).xlsx"
     if outgoing.exists():
-        outgoing_data = read_wissensbilanz_file(outgoing)
+        outgoing_data = read_wissensbilanz_multiheader_file(outgoing)
         if outgoing_data:
             data["gesamt"] = outgoing_data
 
@@ -942,7 +1006,7 @@ def extract_incoming_studierende():
 
     incoming = data_folder / "2-A-9 Ordentliche Studierende (incoming).xlsx"
     if incoming.exists():
-        incoming_data = read_wissensbilanz_file(incoming)
+        incoming_data = read_wissensbilanz_multiheader_file(incoming)
         if incoming_data:
             data["gesamt"] = incoming_data
 

@@ -364,9 +364,13 @@ function extractYearValues(years) {
     const values = { y2022: 0, y2023: 0, y2024: 0 };
 
     Object.entries(years).forEach(([key, value]) => {
-        if (key.includes('2022')) values.y2022 = value;
-        if (key.includes('2023')) values.y2023 = value;
-        if (key.includes('2024')) values.y2024 = value;
+        if (key.includes('Studienjahr 2023/24') || key.includes('WS 2024') || (key.includes('2024') && !key.includes('2023/24'))) {
+            values.y2024 = value;
+        } else if (key.includes('Studienjahr 2022/23') || key.includes('WS 2023') || (key.includes('2023') && !key.includes('2022/23') && !key.includes('2023/24'))) {
+            values.y2023 = value;
+        } else if (key.includes('Studienjahr 2021/22') || key.includes('WS 2022') || (key.includes('2022') && !key.includes('2021/22') && !key.includes('2022/23'))) {
+            values.y2022 = value;
+        }
     });
 
     return values;
