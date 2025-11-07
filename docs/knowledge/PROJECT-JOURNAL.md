@@ -454,3 +454,50 @@ Status:
 - Dashboard-UI: 19 Kategorien verfügbar
 - Lazy Loading: alle 19 Kategorien funktionsfähig
 - Sparklines: funktional für Kategorien mit Zeitreihen-Daten
+
+## Session 12: Multi-Header Parsing für Sparklines (2025-11-07)
+
+Aufgabe: Incoming/Outgoing-Kategorien zeigen max: 0 (keine Sparklines) wegen fehlender Jahr-Labels
+
+Problem-Analyse:
+- Excel-Dateien haben Multi-Header-Struktur
+- Zeile 19: "Studienjahr 2023/24", "Studienjahr 2022/23"
+- Zeile 20: "EU", "Drittstaaten", "Gesamt" (pro Studienjahr)
+- read_wissensbilanz_file() erkannte nur Zeile 20
+- Spalten wurden als "EU", "EU.1", "EU.2" gespeichert (pandas auto-numbering)
+- extractYearValues() fand keine "2022", "2023", "2024" Labels
+
+Implementierung:
+
+Neue Parsing-Funktion:
+- read_wissensbilanz_multiheader_file() erstellt
+- Liest year_row = header_row - 1 (Zeile 19)
+- Extrahiert Studienjahr-Labels für jede Spalte
+- Kombiniert zu "Studienjahr 2023/24 - EU", "Studienjahr 2023/24 - Gesamt"
+- Entfernt Pandas-Suffixe (.1, .2) via col_name.split('.')[0]
+
+Extract-Funktionen aktualisiert:
+- extract_incoming_studierende(): read_wissensbilanz_multiheader_file()
+- extract_outgoing_studierende(): read_wissensbilanz_multiheader_file()
+
+Dashboard-Anpassung:
+- extractYearValues() in app.js erweitert
+- Priorisierung: "Studienjahr 2023/24" → 2024 (nicht 2023)
+- Unterstützt: Studienjahr, WS, SS, direkte Jahreszahlen
+
+JSON-Struktur:
+- incoming-studierende.json: 9 Spalten pro Uni
+  - "Studienjahr 2023/24 - Gesamt": 1989 (UA)
+  - "Studienjahr 2022/23 - Gesamt": 1800 (UA)
+  - "Studienjahr 2021/22 - Gesamt": 156 (UA)
+- outgoing-studierende.json: analog
+
+Commit: 7ead487
+- 6 Dateien geändert, 327 Zeilen hinzugefügt, 384 gelöscht
+- JavaScript-Syntax validiert
+- Multi-Header Parsing funktional
+
+Status:
+- Incoming/Outgoing-Kategorien haben jetzt Zeitreihen-Labels
+- Sparklines sollten im Dashboard funktionieren
+- 2 von 12 neuen Kategorien mit Sparklines

@@ -61,6 +61,38 @@ Vollständige Analyse mit:
 - Universitätslisten
 - Verwendungskategorien
 
+## Parsing-Funktionen
+
+extract_to_json.py verwendet 4 Parsing-Strategien:
+
+read_excel_file:
+- Standard-Format: "Universität (Codex)" in Spalte 1
+- Header-Detection: Sucht "Universität" + "Codex" in ersten 30 Zeilen
+- Daten ab Spalte 4
+- Verwendet für: Personal, Zeitreihen
+
+read_name_based_file:
+- Universitätsname statt Code
+- name_to_code Mapping (22 Universitäten)
+- Verwendet für: Studierende, Neuzulassungen, Studien, Abschlüsse, Mobilität (gesamt)
+
+read_wissensbilanz_file:
+- Neue Wissensbilanz-Dateien: "Universität" in Spalte 0, "Codex" in Spalte 1
+- Daten ab Spalte 3
+- Aggregiert unter "Gesamt" Kategorie
+- Verwendet für: Berufungen, Frauenquote, Gender Pay Gap, etc.
+
+read_wissensbilanz_multiheader_file:
+- Multi-Header-Struktur: Zeile -1 (Studienjahr), Zeile 0 (Spalten)
+- Kombiniert zu "Studienjahr 2023/24 - EU"
+- Entfernt Pandas-Suffixe (.1, .2)
+- Verwendet für: Incoming-Studierende, Outgoing-Studierende
+
+read_infrastruktur_file:
+- Spezial-Format: Jahr-Spalten (2006-2023)
+- Universitätsname in Spalte 0
+- Nur für: Nutzfläche nach Universitäten
+
 ## Verwendung
 
 Im Projektroot ausführen:
@@ -70,6 +102,7 @@ python pre-processing/analyze.py overview
 python pre-processing/analyze.py structure
 python pre-processing/analyze.py deep
 python pre-processing/analyze.py all
+python pre-processing/extract_to_json.py
 ```
 
 ## Ausgabe JSON-Dateien
