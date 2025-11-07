@@ -264,12 +264,6 @@ def extract_studierende():
     """Extrahiert Studierende-Daten"""
     data = {}
 
-    studierende_zeitreihe = data_folder / "Ordentliche Studierende an Universitäten - Zeitreihe Wintersemester.xlsx"
-    if studierende_zeitreihe.exists():
-        zeitreihe_data = read_excel_file(studierende_zeitreihe)
-        if zeitreihe_data:
-            data["zeitreihe"] = zeitreihe_data
-
     studierende_gesamt = data_folder / "Ordentliche Studierende nach Universitäten.xlsx"
     if studierende_gesamt.exists():
         gesamt_data = read_name_based_file(studierende_gesamt, "Ordentliche Studierende")
@@ -693,12 +687,6 @@ def extract_neuzulassungen():
     """Extrahiert Neuzulassungen-Daten"""
     data = {}
 
-    neuzulassungen_zeitreihe = data_folder / "Ordentliche Neuzugelassene an Universitäten - Zeitreihe.xlsx"
-    if neuzulassungen_zeitreihe.exists():
-        zeitreihe_data = read_excel_file(neuzulassungen_zeitreihe)
-        if zeitreihe_data:
-            data["zeitreihe"] = zeitreihe_data
-
     neuzulassungen_gesamt = data_folder / "Ordentliche Neuzugelassene nach Universitäten.xlsx"
     if neuzulassungen_gesamt.exists():
         gesamt_data = read_name_based_file(neuzulassungen_gesamt, "Ordentliche Neuzugelassene")
@@ -735,12 +723,6 @@ def extract_neuzulassungen():
 def extract_studien():
     """Extrahiert Studien-Daten"""
     data = {}
-
-    studien_zeitreihe = data_folder / "Ordentliche Studien - Zeitreihe Wintersemester.xlsx"
-    if studien_zeitreihe.exists():
-        zeitreihe_data = read_excel_file(studien_zeitreihe)
-        if zeitreihe_data:
-            data["zeitreihe"] = zeitreihe_data
 
     studien_gesamt = data_folder / "Ordentliche Studien nach Universitäten.xlsx"
     if studien_gesamt.exists():
@@ -784,12 +766,6 @@ def extract_studien():
 def extract_abschluesse():
     """Extrahiert Abschlüsse-Daten"""
     data = {}
-
-    abschluesse_zeitreihe = data_folder / "Studienabschlüsse an Universitäten - Zeitreihe Studienjahr.xlsx"
-    if abschluesse_zeitreihe.exists():
-        zeitreihe_data = read_excel_file(abschluesse_zeitreihe)
-        if zeitreihe_data:
-            data["zeitreihe"] = zeitreihe_data
 
     abschluesse_gesamt = data_folder / "Studienabschlüsse nach Universitäten.xlsx"
     if abschluesse_gesamt.exists():
