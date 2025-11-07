@@ -303,6 +303,77 @@ def extract_studierende():
     print("categories/studierende.json erstellt")
 
 
+def read_infrastruktur_file(file_path):
+    """Liest Nutzfläche-Excel mit Universitätsnamen und Jahr-Spalten"""
+    try:
+        df_raw = pd.read_excel(file_path, sheet_name="Tab", header=None)
+
+        header_row = None
+        for i in range(min(25, len(df_raw))):
+            cell_value = str(df_raw.iloc[i, 0]) if pd.notna(df_raw.iloc[i, 0]) else ""
+            if cell_value.strip() == "Universität":
+                header_row = i
+                break
+
+        if header_row is None:
+            return {}
+
+        df = pd.read_excel(file_path, sheet_name="Tab", header=header_row)
+
+        name_to_code = {
+            "Universität Wien": "UA",
+            "Universität Graz": "UB",
+            "Universität Innsbruck": "UC",
+            "Universität Salzburg": "UD",
+            "Universität Klagenfurt": "UE",
+            "Universität Linz": "UF",
+            "Technische Universität Wien": "UG",
+            "Technische Universität Graz": "UH",
+            "Montanuniversität Leoben": "UI",
+            "Universität für Bodenkultur Wien": "UJ",
+            "Universität für künstlerische und industrielle Gestaltung Linz": "UK",
+            "Universität Mozarteum Salzburg": "UL",
+            "Universität für Musik und darstellende Kunst Wien": "UM",
+            "Universität für Musik und darstellende Kunst Graz": "UN",
+            "Akademie der bildenden Künste Wien": "UO",
+            "Universität für angewandte Kunst Wien": "UQ",
+            "Universität für Weiterbildung Krems": "UR",
+            "Medizinische Universität Wien": "US",
+            "Medizinische Universität Graz": "UT",
+            "Medizinische Universität Innsbruck": "UU",
+            "Veterinärmedizinische Universität Wien": "UV",
+            "Wirtschaftsuniversität Wien": "UW"
+        }
+
+        result = {}
+
+        for idx, row in df.iterrows():
+            uni_name = str(row.iloc[0]) if pd.notna(row.iloc[0]) else None
+
+            if uni_name and uni_name in name_to_code:
+                uni_code = name_to_code[uni_name]
+
+                if uni_code not in result:
+                    result[uni_code] = {}
+
+                result[uni_code]["Nutzfläche m²"] = {}
+
+                for col in df.columns[1:]:
+                    col_str = str(col)
+                    if col_str.isdigit() and len(col_str) == 4:
+                        val = row[col]
+                        if pd.notna(val) and isinstance(val, (int, float)):
+                            year_label = f"Stichtag 31.12.{col_str}"
+                            result[uni_code]["Nutzfläche m²"][year_label] = float(val)
+
+        return result
+    except Exception as e:
+        print(f"Fehler bei {file_path.name}: {e}")
+        import traceback
+        traceback.print_exc()
+        return {}
+
+
 def extract_summary():
     """Extrahiert Top-Level KPIs für schnellen Überblick (nur 2024-Werte)"""
     summary = {}
@@ -377,16 +448,16 @@ def extract_summary():
 
     infrastruktur = data_folder / "Nutzfläche nach Universitäten.xlsx"
     if infrastruktur.exists():
-        infrastruktur_data = read_excel_file(infrastruktur)
+        infrastruktur_data = read_infrastruktur_file(infrastruktur)
         for uni_code, categories in infrastruktur_data.items():
             if uni_code not in summary:
                 summary[uni_code] = {}
-            for kategorie, years in categories.items():
-                if "Nutzfläche" in kategorie:
-                    for year_label, value in years.items():
-                        if "2024" in year_label:
-                            summary[uni_code]["infrastruktur"] = value
-                            break
+            if "Nutzfläche m²" in categories:
+                years = categories["Nutzfläche m²"]
+                for year_label, value in years.items():
+                    if "2023" in year_label:
+                        summary[uni_code]["infrastruktur"] = value
+                        break
 
     with open(output_folder / "summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
@@ -548,9 +619,9 @@ def extract_infrastruktur():
 
     infrastruktur_nutzflaeche = data_folder / "Nutzfläche nach Universitäten.xlsx"
     if infrastruktur_nutzflaeche.exists():
-        nutzflaeche_data = read_excel_file(infrastruktur_nutzflaeche)
+        nutzflaeche_data = read_infrastruktur_file(infrastruktur_nutzflaeche)
         if nutzflaeche_data:
-            data["nutzflaeche"] = nutzflaeche_data
+            data["gesamt"] = nutzflaeche_data
 
     categories_folder = output_folder / "categories"
     categories_folder.mkdir(exist_ok=True)

@@ -10,6 +10,7 @@ const state = {
     meta: null,
     summary: null,
     categoryData: null,
+    sparklineData: null,
     selectedYear: '2024',
     selectedCategory: 'personal',
     selectedUniversities: new Set(),
@@ -47,6 +48,7 @@ async function init() {
     try {
         log('Init start');
         await loadInitialData();
+        await loadCategoryData(state.selectedCategory);
         renderUniversityFilters();
         renderOverview();
         attachEventListeners();
@@ -82,12 +84,52 @@ async function loadCategoryData(category) {
         const res = await fetch(`data/categories/${category}.json`);
         state.categoryData = await res.json();
         log(`Category loaded`, Object.keys(state.categoryData));
+
+        extractSparklineData(category);
+
         hideLoading();
     } catch (error) {
         console.error('Fehler beim Laden der Kategorie:', error);
         hideLoading();
         throw error;
     }
+}
+
+function extractSparklineData(category) {
+    state.sparklineData = {};
+
+    const categoryMapping = {
+        'personal': 'koepfe',
+        'studierende': 'gesamt',
+        'neuzulassungen': 'gesamt',
+        'studien': 'gesamt',
+        'abschluesse': 'gesamt',
+        'mobilitaet': 'gesamt',
+        'infrastruktur': 'gesamt'
+    };
+
+    const dataKey = categoryMapping[category];
+    if (!state.categoryData || !state.categoryData[dataKey]) return;
+
+    let maxValue = 0;
+
+    Object.keys(state.meta.universities).forEach(code => {
+        const uniData = state.categoryData[dataKey][code];
+        if (!uniData) return;
+
+        const firstCategory = Object.keys(uniData)[0];
+        if (!firstCategory) return;
+
+        const yearData = uniData[firstCategory];
+        const values = extractYearValues(yearData);
+
+        state.sparklineData[code] = values;
+
+        maxValue = Math.max(maxValue, values.y2022, values.y2023, values.y2024);
+    });
+
+    state.sparklineData.maxValue = maxValue;
+    log(`Sparkline data extracted, max: ${maxValue}`);
 }
 
 // Render functions
@@ -145,7 +187,6 @@ function createUniversityCard(code) {
 
     const type = getUniversityType(code);
 
-    // Wähle Wert und Label basierend auf aktiver Kategorie
     const categoryConfig = {
         'personal': { key: 'personal_koepfe', label: 'Personal (Köpfe)' },
         'studierende': { key: 'studierende', label: 'Ordentliche Studierende' },
@@ -161,6 +202,23 @@ function createUniversityCard(code) {
     const label = config.label;
     const icon = uniTypeIcons[type];
 
+    let sparklineHTML = '';
+    if (state.sparklineData && state.sparklineData[code] && state.sparklineData.maxValue > 0) {
+        const values = state.sparklineData[code];
+        const max = state.sparklineData.maxValue;
+        const h2022 = (values.y2022 / max) * 100;
+        const h2023 = (values.y2023 / max) * 100;
+        const h2024 = (values.y2024 / max) * 100;
+
+        sparklineHTML = `
+            <div class="sparkline">
+                <div class="sparkline-bar" style="height: ${h2022}%;" title="2022: ${formatNumber(values.y2022)}"></div>
+                <div class="sparkline-bar" style="height: ${h2023}%;" title="2023: ${formatNumber(values.y2023)}"></div>
+                <div class="sparkline-bar" style="height: ${h2024}%;" title="2024: ${formatNumber(values.y2024)}"></div>
+            </div>
+        `;
+    }
+
     card.innerHTML = `
         <div class="university-card-header">
             <div class="university-name">${state.meta.universities[code]}</div>
@@ -170,6 +228,7 @@ function createUniversityCard(code) {
         </div>
         <div class="university-value">${formatNumber(value)}</div>
         <div class="university-label">${label}</div>
+        ${sparklineHTML}
     `;
 
     card.addEventListener('click', () => handleCardClick(code));
@@ -426,12 +485,14 @@ function attachEventListeners() {
             btn.classList.add('active');
             state.selectedCategory = btn.dataset.category;
             state.categoryData = null;
+            state.sparklineData = null;
 
             document.getElementById('detail-view').classList.remove('active');
             document.getElementById('overview-view').classList.add('active');
             updateBreadcrumb(['Übersicht']);
 
             log(`Category: ${state.selectedCategory}`);
+            await loadCategoryData(state.selectedCategory);
             renderOverview();
         });
     });
