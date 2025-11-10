@@ -602,7 +602,8 @@ Verbesserungen:
 - Wartbarkeit erhöht: Änderungen zentral möglich
 
 Dateien:
-- styles.css: 20 Zeilen geändert
+- styles.css: +49 Zeilen, -22 Zeilen (Netto: +27)
+- PROJECT-JOURNAL.md: +35 Zeilen
 
-Commit: ausstehend
-Status: CSS-Variablen konsistent
+Commit: 820deed
+Status: CSS-Variablen konsistent, 20 hardcoded Werte eliminiert
