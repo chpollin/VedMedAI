@@ -571,3 +571,38 @@ Dateien:
 
 Commit: dc9aff2
 Status: 6 von 6 geplanten Tasks umgesetzt
+
+## Session 15: CSS-Refactoring (2025-11-10)
+
+Aufgabe: CSS-Variablen konsistent verwenden, hardcoded Werte eliminieren
+
+Probleme behoben:
+- Inkonsistente Spacing-Namen: --spacing-* zu --space-* korrigiert
+  - aggregate-display: 4 Instanzen gefixt
+- Hardcoded rem-Werte durch Variablen ersetzt:
+  - 0.5rem → var(--space-sm) (6 Instanzen)
+  - 1rem → var(--space-lg) (1 Instanz)
+  - 1.5rem → var(--space-xl) (2 Instanzen)
+  - 2rem → var(--space-xxl) (2 Instanzen)
+- Hardcoded px-Werte durch Variablen ersetzt:
+  - 12px → var(--space-md) (2 Instanzen)
+  - 16px → var(--space-lg) (2 Instanzen)
+  - 400px → var(--filter-max-height) (1 Instanz)
+
+Neue CSS-Variablen:
+- --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05)
+- --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1)
+- --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15)
+- --filter-max-height: 400px
+
+Verbesserungen:
+- Konsistente Spacing-Verwendung im gesamten CSS
+- Zentrale Shadow-Definition für einheitliche Schatten
+- Magic Numbers dokumentiert als Variablen
+- Wartbarkeit erhöht: Änderungen zentral möglich
+
+Dateien:
+- styles.css: 20 Zeilen geändert
+
+Commit: ausstehend
+Status: CSS-Variablen konsistent
