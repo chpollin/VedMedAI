@@ -360,6 +360,42 @@ h1 {
     cursor: pointer;
 }
 
+.aggregate-display {
+    margin: var(--spacing-md) var(--spacing-md) 0;
+    padding: var(--spacing-lg);
+    background: var(--neutral-0);
+    border: 1px solid var(--neutral-200);
+    border-radius: var(--radius-card);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.aggregate-display .aggregate-label {
+    font-size: 14px;
+    color: var(--neutral-600);
+    font-weight: 500;
+}
+
+.aggregate-display .aggregate-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--neutral-900);
+    line-height: 1;
+}
+
+.aggregate-display .aggregate-unit {
+    font-size: 14px;
+    color: var(--neutral-600);
+    margin-left: var(--spacing-xs);
+}
+
+.aggregate-display .aggregate-count {
+    font-size: 14px;
+    color: var(--neutral-500);
+    margin-left: auto;
+}
+
 .university-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
