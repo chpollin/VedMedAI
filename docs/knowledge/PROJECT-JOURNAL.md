@@ -501,3 +501,73 @@ Status:
 - Incoming/Outgoing-Kategorien haben jetzt Zeitreihen-Labels
 - Sparklines sollten im Dashboard funktionieren
 - 2 von 12 neuen Kategorien mit Sparklines
+
+## Session 13: Bugfixes und Code-Qualität (2025-11-10)
+
+Aufgabe: 28 offene Tasks identifiziert und kritische Probleme behoben
+
+Kritische Bugfixes:
+- extract_summary(): 4 falsche Dateinamen korrigiert
+  - 2-A-7 (belegte Studien), 2-A-8 (outgoing), 2-A-9 (incoming), 2-B-1 (Doktorat)
+  - read_wissensbilanz_multiheader_file für outgoing/incoming verwendet
+- app.js: UN von special zu kunst verschoben
+- DATA.md: UV und UW dokumentiert (2 fehlende Universitäten)
+
+Code-Duplizierung reduziert:
+- UNIVERSITY_MAPPING: Zentrales Dictionary (22 Unis)
+  - read_name_based_file: 23 Zeilen entfernt
+  - read_infrastruktur_file: 23 Zeilen entfernt
+- find_university_header_row(): Gemeinsame Funktion
+  - read_excel_file: 8 Zeilen entfernt
+  - read_wissensbilanz_file: 6 Zeilen entfernt
+  - read_wissensbilanz_multiheader_file: 6 Zeilen entfernt
+
+UI-Verbesserungen:
+- app.js: categoryKeys von 7 auf 19 Kategorien erweitert
+- index.html: doktoratsstudierende Icon geändert (fa-book-bookmark)
+
+Dateien:
+- extract_to_json.py: +69 Zeilen, -84 Zeilen (Netto: -15)
+- app.js: +18 Zeilen
+- index.html: +1 Zeile
+- DATA.md: +2 Zeilen
+
+Commit: 12cab49
+Status: 8 von 28 Tasks behoben
+
+## Session 14: Dashboard-Features aktiviert (2025-11-10)
+
+Aufgabe: Funktionslose Features funktionsfähig machen
+
+Funktionale Features implementiert:
+- Aggregation-Buttons: Summe/Durchschnitt/Median
+  - calculateAggregate(): 3 Modi für gefilterte Universitäten
+  - aggregate-display: Prominent über Grid
+- Jahr-Selector: 2024/2023/2022/Alle
+  - getValueForYear(): Zentrale Funktion für jahresbasierte Werte
+  - Integration mit Sparkline-Daten (y2022, y2023, y2024)
+- Sortierung nach Veränderung: Differenz 2024-2023
+  - Abhängigkeit von Sparkline-Daten
+- Detail-View: Frauen/Männer/Gesamt Spalten
+  - Personal-Kategorie: Disaggregierte Zeitreihen
+  - Neue Spalte: Geschlecht
+- Export CSV/JSON: 19 Kategorien statt 2
+  - Dynamische Kategorie-Konfiguration
+  - Jahr im Dateinamen
+
+Code-Qualität:
+- extractYearValues(): Überschreiben verhindert (break bei erstem Match)
+- formatNumber(): Konsistente Rückgabewerte (0 statt "0")
+- renderAggregate(): Anzeige für Aggregations-Modi
+
+UI:
+- aggregate-display: CSS mit Design-Tokens
+- Detail-Tabelle: Geschlecht-Spalte
+
+Dateien:
+- app.js: +242 Zeilen, -39 Zeilen (Netto: +203)
+- index.html: +1 Zeile
+- styles.css: +36 Zeilen
+
+Commit: dc9aff2
+Status: 6 von 6 geplanten Tasks umgesetzt
