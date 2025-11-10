@@ -22,9 +22,9 @@ const state = {
 const uniTypes = {
     'voll': ['UA', 'UB', 'UC', 'UD', 'UE', 'UF'],
     'tech': ['UG', 'UH', 'UI'],
-    'kunst': ['UJ', 'UK', 'UL', 'UM', 'UO', 'UQ'],
+    'kunst': ['UJ', 'UK', 'UL', 'UM', 'UN', 'UO', 'UQ'],
     'med': ['US', 'UT', 'UU'],
-    'special': ['UN', 'UV', 'UW', 'UR']
+    'special': ['UV', 'UW', 'UR']
 };
 
 const uniTypeLabels = {
@@ -391,7 +391,19 @@ function sortUniversities(universities) {
         'studien': 'studien',
         'abschluesse': 'abschluesse',
         'mobilitaet': 'mobilitaet',
-        'infrastruktur': 'infrastruktur'
+        'infrastruktur': 'infrastruktur',
+        'berufungen': 'berufungen',
+        'frauenquote-kollegialorgane': 'frauenquote_kollegialorgane',
+        'gender-pay-gap': 'gender_pay_gap',
+        'professorinnen-aequivalente': 'professorinnen_aequivalente',
+        'eingerichtete-studien': 'eingerichtete_studien',
+        'besondere-zulassungsbedingungen': 'besondere_zulassungsbedingungen',
+        'belegte-ordentliche-studien': 'belegte_ordentliche_studien',
+        'outgoing-studierende': 'outgoing_studierende_wb',
+        'incoming-studierende': 'incoming_studierende',
+        'doktoratsstudierende': 'doktoratsstudierende',
+        'ausserordentliche-abschluesse': 'ausserordentliche_abschluesse',
+        'ordentliche-abschluesse': 'ordentliche_abschluesse_wb'
     };
 
     switch (state.sortMode) {

@@ -7,6 +7,31 @@ data_folder = Path("data")
 output_folder = Path("docs/data")
 output_folder.mkdir(parents=True, exist_ok=True)
 
+UNIVERSITY_MAPPING = {
+    "Universität Wien": "UA",
+    "Universität Graz": "UB",
+    "Universität Innsbruck": "UC",
+    "Universität Salzburg": "UD",
+    "Universität Klagenfurt": "UE",
+    "Universität Linz": "UF",
+    "Technische Universität Wien": "UG",
+    "Technische Universität Graz": "UH",
+    "Montanuniversität Leoben": "UI",
+    "Universität für Bodenkultur Wien": "UJ",
+    "Universität für künstlerische und industrielle Gestaltung Linz": "UK",
+    "Universität Mozarteum Salzburg": "UL",
+    "Universität für Musik und darstellende Kunst Wien": "UM",
+    "Universität für Musik und darstellende Kunst Graz": "UN",
+    "Akademie der bildenden Künste Wien": "UO",
+    "Universität für angewandte Kunst Wien": "UQ",
+    "Universität für Weiterbildung Krems": "UR",
+    "Medizinische Universität Wien": "US",
+    "Medizinische Universität Graz": "UT",
+    "Medizinische Universität Innsbruck": "UU",
+    "Veterinärmedizinische Universität Wien": "UV",
+    "Wirtschaftsuniversität Wien": "UW"
+}
+
 def extract_meta():
     """Extrahiert Metadaten: Universitäten-Codex, Dimensionen, Klassifikationen"""
     meta = {
@@ -102,17 +127,25 @@ def extract_university_code(value):
     return None
 
 
+def find_university_header_row(df_raw, max_rows=30):
+    """Findet Header-Zeile mit Universitäts-Daten
+
+    Sucht nach Zeile mit 'Universität' in Spalte 0 und 'Codex' oder 'Langtext' in Spalte 1
+    """
+    for i in range(min(max_rows, len(df_raw))):
+        cell0 = str(df_raw.iloc[i, 0]) if pd.notna(df_raw.iloc[i, 0]) else ""
+        cell1 = str(df_raw.iloc[i, 1]) if pd.notna(df_raw.iloc[i, 1]) else ""
+        if "Universität" in cell0 and ("Codex" in cell1 or "Langtext" in cell1):
+            return i
+    return None
+
+
 def read_excel_file(file_path):
     """Liest Excel-Datei und gibt Daten strukturiert zurück"""
     try:
         df_raw = pd.read_excel(file_path, sheet_name="Tab", header=None)
 
-        header_row = None
-        for i in range(min(25, len(df_raw))):
-            if pd.notna(df_raw.iloc[i, 0]) and "Universität" in str(df_raw.iloc[i, 0]):
-                if pd.notna(df_raw.iloc[i, 1]) and "Codex" in str(df_raw.iloc[i, 1]):
-                    header_row = i
-                    break
+        header_row = find_university_header_row(df_raw, max_rows=25)
 
         if header_row is None:
             return {}
@@ -207,38 +240,13 @@ def read_name_based_file(file_path, category_name="Gesamt"):
 
         df.columns = columns_clean
 
-        name_to_code = {
-            "Universität Wien": "UA",
-            "Universität Graz": "UB",
-            "Universität Innsbruck": "UC",
-            "Universität Salzburg": "UD",
-            "Universität Klagenfurt": "UE",
-            "Universität Linz": "UF",
-            "Technische Universität Wien": "UG",
-            "Technische Universität Graz": "UH",
-            "Montanuniversität Leoben": "UI",
-            "Universität für Bodenkultur Wien": "UJ",
-            "Universität für künstlerische und industrielle Gestaltung Linz": "UK",
-            "Universität Mozarteum Salzburg": "UL",
-            "Universität für Musik und darstellende Kunst Wien": "UM",
-            "Universität für Musik und darstellende Kunst Graz": "UN",
-            "Akademie der bildenden Künste Wien": "UO",
-            "Universität für angewandte Kunst Wien": "UQ",
-            "Universität für Weiterbildung Krems": "UR",
-            "Medizinische Universität Wien": "US",
-            "Medizinische Universität Graz": "UT",
-            "Medizinische Universität Innsbruck": "UU",
-            "Veterinärmedizinische Universität Wien": "UV",
-            "Wirtschaftsuniversität Wien": "UW"
-        }
-
         result = {}
 
         for idx, row in df.iterrows():
             uni_name = str(row.iloc[0]) if pd.notna(row.iloc[0]) else None
 
-            if uni_name and uni_name in name_to_code:
-                uni_code = name_to_code[uni_name]
+            if uni_name and uni_name in UNIVERSITY_MAPPING:
+                uni_code = UNIVERSITY_MAPPING[uni_name]
 
                 if uni_code not in result:
                     result[uni_code] = {}
@@ -302,13 +310,7 @@ def read_wissensbilanz_file(file_path):
     try:
         df_raw = pd.read_excel(file_path, sheet_name="Tab", header=None)
 
-        header_row = None
-        for i in range(min(30, len(df_raw))):
-            cell0 = str(df_raw.iloc[i, 0]) if pd.notna(df_raw.iloc[i, 0]) else ""
-            cell1 = str(df_raw.iloc[i, 1]) if pd.notna(df_raw.iloc[i, 1]) else ""
-            if "Universität" in cell0 and "Codex" in cell1:
-                header_row = i
-                break
+        header_row = find_university_header_row(df_raw)
 
         if header_row is None:
             return {}
@@ -346,13 +348,7 @@ def read_wissensbilanz_multiheader_file(file_path):
     try:
         df_raw = pd.read_excel(file_path, sheet_name="Tab", header=None)
 
-        header_row = None
-        for i in range(min(30, len(df_raw))):
-            cell0 = str(df_raw.iloc[i, 0]) if pd.notna(df_raw.iloc[i, 0]) else ""
-            cell1 = str(df_raw.iloc[i, 1]) if pd.notna(df_raw.iloc[i, 1]) else ""
-            if "Universität" in cell0 and ("Codex" in cell1 or "Langtext" in cell1):
-                header_row = i
-                break
+        header_row = find_university_header_row(df_raw)
 
         if header_row is None or header_row < 2:
             return {}
@@ -430,38 +426,13 @@ def read_infrastruktur_file(file_path):
 
         df = pd.read_excel(file_path, sheet_name="Tab", header=header_row)
 
-        name_to_code = {
-            "Universität Wien": "UA",
-            "Universität Graz": "UB",
-            "Universität Innsbruck": "UC",
-            "Universität Salzburg": "UD",
-            "Universität Klagenfurt": "UE",
-            "Universität Linz": "UF",
-            "Technische Universität Wien": "UG",
-            "Technische Universität Graz": "UH",
-            "Montanuniversität Leoben": "UI",
-            "Universität für Bodenkultur Wien": "UJ",
-            "Universität für künstlerische und industrielle Gestaltung Linz": "UK",
-            "Universität Mozarteum Salzburg": "UL",
-            "Universität für Musik und darstellende Kunst Wien": "UM",
-            "Universität für Musik und darstellende Kunst Graz": "UN",
-            "Akademie der bildenden Künste Wien": "UO",
-            "Universität für angewandte Kunst Wien": "UQ",
-            "Universität für Weiterbildung Krems": "UR",
-            "Medizinische Universität Wien": "US",
-            "Medizinische Universität Graz": "UT",
-            "Medizinische Universität Innsbruck": "UU",
-            "Veterinärmedizinische Universität Wien": "UV",
-            "Wirtschaftsuniversität Wien": "UW"
-        }
-
         result = {}
 
         for idx, row in df.iterrows():
             uni_name = str(row.iloc[0]) if pd.notna(row.iloc[0]) else None
 
-            if uni_name and uni_name in name_to_code:
-                uni_code = name_to_code[uni_name]
+            if uni_name and uni_name in UNIVERSITY_MAPPING:
+                uni_code = UNIVERSITY_MAPPING[uni_name]
 
                 if uni_code not in result:
                     result[uni_code] = {}
@@ -623,7 +594,7 @@ def extract_summary():
             if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
                 summary[uni_code]["besondere_zulassungsbedingungen"] = categories["Gesamt"]["Gesamt"]
 
-    belegte_studien = data_folder / "2-A-8 Anzahl belegte ordentliche Studien.xlsx"
+    belegte_studien = data_folder / "2-A-7 Anzahl belegte ordentliche Studien.xlsx"
     if belegte_studien.exists():
         belegte_studien_data = read_wissensbilanz_file(belegte_studien)
         for uni_code, categories in belegte_studien_data.items():
@@ -632,25 +603,25 @@ def extract_summary():
             if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
                 summary[uni_code]["belegte_ordentliche_studien"] = categories["Gesamt"]["Gesamt"]
 
-    outgoing = data_folder / "2-A-9 Ordentliche Studierende outgoing.xlsx"
+    outgoing = data_folder / "2-A-8 Ordentliche Studierende (outgoing).xlsx"
     if outgoing.exists():
-        outgoing_data = read_wissensbilanz_file(outgoing)
+        outgoing_data = read_wissensbilanz_multiheader_file(outgoing)
         for uni_code, categories in outgoing_data.items():
             if uni_code not in summary:
                 summary[uni_code] = {}
             if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
                 summary[uni_code]["outgoing_studierende_wb"] = categories["Gesamt"]["Gesamt"]
 
-    incoming = data_folder / "2-A-9 Ordentliche Studierende incoming.xlsx"
+    incoming = data_folder / "2-A-9 Ordentliche Studierende (incoming).xlsx"
     if incoming.exists():
-        incoming_data = read_wissensbilanz_file(incoming)
+        incoming_data = read_wissensbilanz_multiheader_file(incoming)
         for uni_code, categories in incoming_data.items():
             if uni_code not in summary:
                 summary[uni_code] = {}
             if "Gesamt" in categories and "Gesamt" in categories["Gesamt"]:
                 summary[uni_code]["incoming_studierende"] = categories["Gesamt"]["Gesamt"]
 
-    doktorat = data_folder / "2-B-1 Doktoratsstudierende mit Betreuungsverhältnis.xlsx"
+    doktorat = data_folder / "2-B-1 Doktoratsstudierende mit BV zur Universität.xlsx"
     if doktorat.exists():
         doktorat_data = read_wissensbilanz_file(doktorat)
         for uni_code, categories in doktorat_data.items():

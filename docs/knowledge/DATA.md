@@ -33,6 +33,8 @@
 | US | Medizinische Universität Wien |
 | UT | Medizinische Universität Graz |
 | UU | Medizinische Universität Innsbruck |
+| UV | Veterinärmedizinische Universität Wien |
+| UW | Wirtschaftsuniversität Wien |
 
 ## STANDARDDIMENSIONEN
 
