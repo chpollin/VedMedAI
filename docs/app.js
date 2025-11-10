@@ -22,9 +22,9 @@ const state = {
 const uniTypes = {
     'voll': ['UA', 'UB', 'UC', 'UD', 'UE', 'UF'],
     'tech': ['UG', 'UH', 'UI'],
-    'kunst': ['UJ', 'UK', 'UL', 'UM', 'UO', 'UQ'],
+    'kunst': ['UJ', 'UK', 'UL', 'UM', 'UN', 'UO', 'UQ'],
     'med': ['US', 'UT', 'UU'],
-    'special': ['UN', 'UV', 'UW', 'UR']
+    'special': ['UV', 'UW', 'UR']
 };
 
 const uniTypeLabels = {
@@ -179,12 +179,96 @@ function renderUniversityFilters() {
     });
 }
 
+function getValueForYear(code, categoryKey, year) {
+    if (year === 'all' || year === '2024') {
+        return state.summary[code]?.[categoryKey] || 0;
+    }
+
+    if (!state.sparklineData || !state.sparklineData[code]) {
+        return 0;
+    }
+
+    const yearKey = `y${year}`;
+    return state.sparklineData[code][yearKey] || 0;
+}
+
+function calculateAggregate(universities, categoryKey) {
+    const values = universities
+        .map(code => getValueForYear(code, categoryKey, state.selectedYear))
+        .filter(v => v > 0);
+
+    if (values.length === 0) return 0;
+
+    switch (state.aggregationMode) {
+        case 'sum':
+            return values.reduce((a, b) => a + b, 0);
+        case 'avg':
+            return values.reduce((a, b) => a + b, 0) / values.length;
+        case 'median':
+            const sorted = [...values].sort((a, b) => a - b);
+            const mid = Math.floor(sorted.length / 2);
+            return sorted.length % 2 === 0
+                ? (sorted[mid - 1] + sorted[mid]) / 2
+                : sorted[mid];
+        default:
+            return 0;
+    }
+}
+
+function renderAggregate(universities) {
+    const display = document.getElementById('aggregate-display');
+
+    const categoryConfig = {
+        'personal': { key: 'personal_koepfe', label: 'Personal (Köpfe)' },
+        'studierende': { key: 'studierende', label: 'Ordentliche Studierende' },
+        'neuzulassungen': { key: 'neuzulassungen', label: 'Neuzulassungen' },
+        'studien': { key: 'studien', label: 'Studien' },
+        'abschluesse': { key: 'abschluesse', label: 'Abschlüsse' },
+        'mobilitaet': { key: 'mobilitaet', label: 'Outgoing-Studierende' },
+        'infrastruktur': { key: 'infrastruktur', label: 'Nutzfläche m²' },
+        'berufungen': { key: 'berufungen', label: 'Berufungen gesamt' },
+        'frauenquote-kollegialorgane': { key: 'frauenquote_kollegialorgane', label: 'Frauenquote Kollegialorgane %' },
+        'gender-pay-gap': { key: 'gender_pay_gap', label: 'Gender Pay Gap %' },
+        'professorinnen-aequivalente': { key: 'professorinnen_aequivalente', label: 'Professorinnen-Äquivalente' },
+        'eingerichtete-studien': { key: 'eingerichtete_studien', label: 'Eingerichtete Studien' },
+        'besondere-zulassungsbedingungen': { key: 'besondere_zulassungsbedingungen', label: 'Besondere Zulassungsbedingungen' },
+        'belegte-ordentliche-studien': { key: 'belegte_ordentliche_studien', label: 'Belegte ordentliche Studien' },
+        'outgoing-studierende': { key: 'outgoing_studierende_wb', label: 'Outgoing-Studierende (WB)' },
+        'incoming-studierende': { key: 'incoming_studierende', label: 'Incoming-Studierende' },
+        'doktoratsstudierende': { key: 'doktoratsstudierende', label: 'Doktoratsstudierende mit BV' },
+        'ausserordentliche-abschluesse': { key: 'ausserordentliche_abschluesse', label: 'Außerordentliche Abschlüsse' },
+        'ordentliche-abschluesse': { key: 'ordentliche_abschluesse_wb', label: 'Ordentliche Abschlüsse (WB)' }
+    };
+
+    const config = categoryConfig[state.selectedCategory] || { key: null, label: 'N/A' };
+    if (!config.key) {
+        display.innerHTML = '';
+        return;
+    }
+
+    const aggregateValue = calculateAggregate(universities, config.key);
+    const modeLabel = {
+        'sum': 'Summe',
+        'avg': 'Durchschnitt',
+        'median': 'Median'
+    }[state.aggregationMode] || 'Aggregation';
+
+    display.innerHTML = `
+        <div class="aggregate-label">${modeLabel}:</div>
+        <div class="aggregate-value">${formatNumber(aggregateValue)}</div>
+        <div class="aggregate-unit">${config.label}</div>
+        <div class="aggregate-count">${universities.length} Universitäten</div>
+    `;
+}
+
 function renderOverview() {
     const grid = document.getElementById('university-grid');
     grid.innerHTML = '';
 
     const universities = getFilteredUniversities();
     const sortedUniversities = sortUniversities(universities);
+
+    renderAggregate(universities);
 
     sortedUniversities.forEach(code => {
         const card = createUniversityCard(code);
@@ -222,7 +306,7 @@ function createUniversityCard(code) {
     };
 
     const config = categoryConfig[state.selectedCategory] || { key: null, label: 'N/A' };
-    const value = config.key ? (state.summary[code]?.[config.key] || 0) : 0;
+    const value = config.key ? getValueForYear(code, config.key, state.selectedYear) : 0;
     const label = config.label;
     const icon = uniTypeIcons[type];
 
@@ -287,6 +371,7 @@ function renderDetailView(code) {
                 <thead>
                     <tr>
                         <th>Kategorie</th>
+                        <th>Geschlecht</th>
                         <th>2022</th>
                         <th>2023</th>
                         <th>2024</th>
@@ -297,20 +382,43 @@ function renderDetailView(code) {
         `;
 
         categories.forEach(category => {
-            const years = data[category];
-            const values = extractYearValues(years);
-            const change = values.y2024 - values.y2022;
-            const changePercent = values.y2022 ? ((change / values.y2022) * 100).toFixed(1) : 0;
+            const categoryData = data[category];
 
-            tableHTML += `
-                <tr>
-                    <td>${category}</td>
-                    <td>${formatNumber(values.y2022)}</td>
-                    <td>${formatNumber(values.y2023)}</td>
-                    <td>${formatNumber(values.y2024)}</td>
-                    <td>${change >= 0 ? '+' : ''}${formatNumber(change)} (${changePercent}%)</td>
-                </tr>
-            `;
+            if (categoryData.Frauen || categoryData.Männer || categoryData.Gesamt) {
+                ['Frauen', 'Männer', 'Gesamt'].forEach(gender => {
+                    if (categoryData[gender]) {
+                        const values = extractYearValues(categoryData[gender]);
+                        const change = values.y2024 - values.y2022;
+                        const changePercent = values.y2022 ? ((change / values.y2022) * 100).toFixed(1) : 0;
+
+                        tableHTML += `
+                            <tr>
+                                <td>${category}</td>
+                                <td>${gender}</td>
+                                <td>${formatNumber(values.y2022)}</td>
+                                <td>${formatNumber(values.y2023)}</td>
+                                <td>${formatNumber(values.y2024)}</td>
+                                <td>${change >= 0 ? '+' : ''}${formatNumber(change)} (${changePercent}%)</td>
+                            </tr>
+                        `;
+                    }
+                });
+            } else {
+                const values = extractYearValues(categoryData);
+                const change = values.y2024 - values.y2022;
+                const changePercent = values.y2022 ? ((change / values.y2022) * 100).toFixed(1) : 0;
+
+                tableHTML += `
+                    <tr>
+                        <td>${category}</td>
+                        <td>-</td>
+                        <td>${formatNumber(values.y2022)}</td>
+                        <td>${formatNumber(values.y2023)}</td>
+                        <td>${formatNumber(values.y2024)}</td>
+                        <td>${change >= 0 ? '+' : ''}${formatNumber(change)} (${changePercent}%)</td>
+                    </tr>
+                `;
+            }
         });
 
         tableHTML += '</tbody></table>';
@@ -364,11 +472,11 @@ function extractYearValues(years) {
     const values = { y2022: 0, y2023: 0, y2024: 0 };
 
     Object.entries(years).forEach(([key, value]) => {
-        if (key.includes('Studienjahr 2023/24') || key.includes('WS 2024') || (key.includes('2024') && !key.includes('2023/24'))) {
+        if (!values.y2024 && (key.includes('Studienjahr 2023/24') || key.includes('WS 2024') || (key.includes('2024') && !key.includes('2023/24')))) {
             values.y2024 = value;
-        } else if (key.includes('Studienjahr 2022/23') || key.includes('WS 2023') || (key.includes('2023') && !key.includes('2022/23') && !key.includes('2023/24'))) {
+        } else if (!values.y2023 && (key.includes('Studienjahr 2022/23') || key.includes('WS 2023') || (key.includes('2023') && !key.includes('2022/23') && !key.includes('2023/24')))) {
             values.y2023 = value;
-        } else if (key.includes('Studienjahr 2021/22') || key.includes('WS 2022') || (key.includes('2022') && !key.includes('2021/22') && !key.includes('2022/23'))) {
+        } else if (!values.y2022 && (key.includes('Studienjahr 2021/22') || key.includes('WS 2022') || (key.includes('2022') && !key.includes('2021/22') && !key.includes('2022/23')))) {
             values.y2022 = value;
         }
     });
@@ -391,7 +499,19 @@ function sortUniversities(universities) {
         'studien': 'studien',
         'abschluesse': 'abschluesse',
         'mobilitaet': 'mobilitaet',
-        'infrastruktur': 'infrastruktur'
+        'infrastruktur': 'infrastruktur',
+        'berufungen': 'berufungen',
+        'frauenquote-kollegialorgane': 'frauenquote_kollegialorgane',
+        'gender-pay-gap': 'gender_pay_gap',
+        'professorinnen-aequivalente': 'professorinnen_aequivalente',
+        'eingerichtete-studien': 'eingerichtete_studien',
+        'besondere-zulassungsbedingungen': 'besondere_zulassungsbedingungen',
+        'belegte-ordentliche-studien': 'belegte_ordentliche_studien',
+        'outgoing-studierende': 'outgoing_studierende_wb',
+        'incoming-studierende': 'incoming_studierende',
+        'doktoratsstudierende': 'doktoratsstudierende',
+        'ausserordentliche-abschluesse': 'ausserordentliche_abschluesse',
+        'ordentliche-abschluesse': 'ordentliche_abschluesse_wb'
     };
 
     switch (state.sortMode) {
@@ -407,7 +527,18 @@ function sortUniversities(universities) {
             });
             break;
         case 'change':
-            sorted.sort((a, b) => a.localeCompare(b));
+            sorted.sort((a, b) => {
+                const key = categoryKeys[state.selectedCategory];
+                if (!key || !state.sparklineData) return 0;
+
+                const valuesA = state.sparklineData[a] || {};
+                const valuesB = state.sparklineData[b] || {};
+
+                const changeA = (valuesA.y2024 || 0) - (valuesA.y2023 || 0);
+                const changeB = (valuesB.y2024 || 0) - (valuesB.y2023 || 0);
+
+                return changeB - changeA;
+            });
             break;
     }
 
@@ -422,7 +553,8 @@ function getUniversityType(code) {
 }
 
 function formatNumber(num) {
-    if (!num) return '0';
+    if (num === 0) return 0;
+    if (!num) return 'N/A';
     return Math.round(num).toLocaleString('de-AT');
 }
 
@@ -525,6 +657,16 @@ function attachEventListeners() {
         });
     });
 
+    // Year selector
+    document.querySelectorAll('.year-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.year-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            state.selectedYear = btn.dataset.year;
+            renderOverview();
+        });
+    });
+
     // Aggregation
     document.querySelectorAll('.agg-btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -555,43 +697,79 @@ function attachEventListeners() {
 
 function exportCSV() {
     const universities = getFilteredUniversities();
-    const categoryLabel = state.selectedCategory === 'personal' ? 'Personal (Köpfe)' : 'Ordentliche Studierende';
-    let csv = `Universität,Code,${categoryLabel}\n`;
+
+    const categoryConfig = {
+        'personal': { key: 'personal_koepfe', label: 'Personal (Köpfe)' },
+        'studierende': { key: 'studierende', label: 'Ordentliche Studierende' },
+        'neuzulassungen': { key: 'neuzulassungen', label: 'Neuzulassungen' },
+        'studien': { key: 'studien', label: 'Studien' },
+        'abschluesse': { key: 'abschluesse', label: 'Abschlüsse' },
+        'mobilitaet': { key: 'mobilitaet', label: 'Outgoing-Studierende' },
+        'infrastruktur': { key: 'infrastruktur', label: 'Nutzfläche m²' },
+        'berufungen': { key: 'berufungen', label: 'Berufungen gesamt' },
+        'frauenquote-kollegialorgane': { key: 'frauenquote_kollegialorgane', label: 'Frauenquote Kollegialorgane %' },
+        'gender-pay-gap': { key: 'gender_pay_gap', label: 'Gender Pay Gap %' },
+        'professorinnen-aequivalente': { key: 'professorinnen_aequivalente', label: 'Professorinnen-Äquivalente' },
+        'eingerichtete-studien': { key: 'eingerichtete_studien', label: 'Eingerichtete Studien' },
+        'besondere-zulassungsbedingungen': { key: 'besondere_zulassungsbedingungen', label: 'Besondere Zulassungsbedingungen' },
+        'belegte-ordentliche-studien': { key: 'belegte_ordentliche_studien', label: 'Belegte ordentliche Studien' },
+        'outgoing-studierende': { key: 'outgoing_studierende_wb', label: 'Outgoing-Studierende (WB)' },
+        'incoming-studierende': { key: 'incoming_studierende', label: 'Incoming-Studierende' },
+        'doktoratsstudierende': { key: 'doktoratsstudierende', label: 'Doktoratsstudierende mit BV' },
+        'ausserordentliche-abschluesse': { key: 'ausserordentliche_abschluesse', label: 'Außerordentliche Abschlüsse' },
+        'ordentliche-abschluesse': { key: 'ordentliche_abschluesse_wb', label: 'Ordentliche Abschlüsse (WB)' }
+    };
+
+    const config = categoryConfig[state.selectedCategory] || { key: null, label: 'N/A' };
+    let csv = `Universität,Code,${config.label}\n`;
 
     universities.forEach(code => {
         const name = state.meta.universities[code];
-        let value;
-        if (state.selectedCategory === 'personal') {
-            value = state.summary[code]?.personal_koepfe || 0;
-        } else if (state.selectedCategory === 'studierende') {
-            value = state.summary[code]?.studierende || 0;
-        } else {
-            value = 0;
-        }
+        const value = config.key ? getValueForYear(code, config.key, state.selectedYear) : 0;
         csv += `"${name}",${code},${value}\n`;
     });
 
-    downloadFile(csv, 'wissensbilanz.csv', 'text/csv;charset=utf-8;');
+    downloadFile(csv, `wissensbilanz-${state.selectedCategory}-${state.selectedYear}.csv`, 'text/csv;charset=utf-8;');
 }
 
 function exportJSON() {
     const universities = getFilteredUniversities();
+
+    const categoryConfig = {
+        'personal': { key: 'personal_koepfe', label: 'Personal (Köpfe)' },
+        'studierende': { key: 'studierende', label: 'Ordentliche Studierende' },
+        'neuzulassungen': { key: 'neuzulassungen', label: 'Neuzulassungen' },
+        'studien': { key: 'studien', label: 'Studien' },
+        'abschluesse': { key: 'abschluesse', label: 'Abschlüsse' },
+        'mobilitaet': { key: 'mobilitaet', label: 'Outgoing-Studierende' },
+        'infrastruktur': { key: 'infrastruktur', label: 'Nutzfläche m²' },
+        'berufungen': { key: 'berufungen', label: 'Berufungen gesamt' },
+        'frauenquote-kollegialorgane': { key: 'frauenquote_kollegialorgane', label: 'Frauenquote Kollegialorgane %' },
+        'gender-pay-gap': { key: 'gender_pay_gap', label: 'Gender Pay Gap %' },
+        'professorinnen-aequivalente': { key: 'professorinnen_aequivalente', label: 'Professorinnen-Äquivalente' },
+        'eingerichtete-studien': { key: 'eingerichtete_studien', label: 'Eingerichtete Studien' },
+        'besondere-zulassungsbedingungen': { key: 'besondere_zulassungsbedingungen', label: 'Besondere Zulassungsbedingungen' },
+        'belegte-ordentliche-studien': { key: 'belegte_ordentliche_studien', label: 'Belegte ordentliche Studien' },
+        'outgoing-studierende': { key: 'outgoing_studierende_wb', label: 'Outgoing-Studierende (WB)' },
+        'incoming-studierende': { key: 'incoming_studierende', label: 'Incoming-Studierende' },
+        'doktoratsstudierende': { key: 'doktoratsstudierende', label: 'Doktoratsstudierende mit BV' },
+        'ausserordentliche-abschluesse': { key: 'ausserordentliche_abschluesse', label: 'Außerordentliche Abschlüsse' },
+        'ordentliche-abschluesse': { key: 'ordentliche_abschluesse_wb', label: 'Ordentliche Abschlüsse (WB)' }
+    };
+
+    const config = categoryConfig[state.selectedCategory] || { key: null, label: 'N/A' };
     const data = {};
 
     universities.forEach(code => {
+        const value = config.key ? getValueForYear(code, config.key, state.selectedYear) : 0;
         data[code] = {
-            name: state.meta.universities[code]
+            name: state.meta.universities[code],
+            [config.key]: value
         };
-
-        if (state.selectedCategory === 'personal') {
-            data[code].personal_koepfe = state.summary[code]?.personal_koepfe || 0;
-        } else if (state.selectedCategory === 'studierende') {
-            data[code].studierende = state.summary[code]?.studierende || 0;
-        }
     });
 
     const json = JSON.stringify(data, null, 2);
-    downloadFile(json, 'wissensbilanz.json', 'application/json');
+    downloadFile(json, `wissensbilanz-${state.selectedCategory}-${state.selectedYear}.json`, 'application/json');
 }
 
 function downloadFile(content, filename, mimeType) {
